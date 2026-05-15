@@ -1,0 +1,35 @@
+name: Exportar CSVs BSB Park
+
+on:
+  schedule:
+    - cron: '0 10 * * *'   # Todo dia às 07:00 horário de Brasília (10:00 UTC)
+  workflow_dispatch:         # Permite rodar manualmente pelo GitHub
+
+jobs:
+  exportar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependências
+        run: pip install requests
+
+      - name: Exportar tabelas para CSV
+        env:
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: python exportar_csvs.py
+
+      - name: Commitar e enviar CSVs atualizados
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add csvs/
+          git diff --staged --quiet || git commit -m "CSVs atualizados — $(date +'%d/%m/%Y %H:%M')"
+          git push
