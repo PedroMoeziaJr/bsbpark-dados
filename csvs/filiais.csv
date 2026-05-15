@@ -1,0 +1,12 @@
+﻿id_filial,f_endereco,f_nome,f_geo,vagas,tabela_hora_1,tabela_demais_horas,mensalidade,vagas_duplas,abertura,fechamento,observacao,status,cidade,estado,criado_em,atualizado_em
+05_Rio_de_Janeiro,,Rio de Janeiro,0,0,0,0,0,0,,,,Ativo,Brasília,DF,2026-05-09T22:12:53.30177+00:00,2026-05-09T22:12:53.30177+00:00
+06_Imperatriz_MA,,Imperatriz,0,0,0,0,0,0,,,,Desativada,Brasília,DF,2026-05-09T22:12:53.30177+00:00,2026-05-09T22:12:53.30177+00:00
+07_Itumbiara_GO,,Itumbiara,0,0,0,0,0,0,,,,Desativada,Brasília,DF,2026-05-09T22:12:53.30177+00:00,2026-05-09T22:12:53.30177+00:00
+08_Ituiutaba_MG,,Ituiutaba,0,0,0,0,0,0,,,,Desativada,Brasília,DF,2026-05-09T22:12:53.30177+00:00,2026-05-09T22:12:53.30177+00:00
+09_Matriz,,Escritório,"-15.79940611439496, -47.88748876433388",0,0,0,0,0,,,,Ativo,Brasília,DF,2026-05-09T22:12:53.30177+00:00,2026-05-09T22:12:53.30177+00:00
+10_PF_Ped_,,Pedro Jr,"-15.799877637647086, -47.94111937238313",0,0,0,0,0,,,,Ativo,Brasília,DF,2026-05-09T22:12:53.30177+00:00,2026-05-09T22:12:53.30177+00:00
+11_PF_CEL_,,Coronel,"-15.797192892092486, -47.92635938471682",0,0,0,0,0,,,,Ativo,Brasília,DF,2026-05-09T22:12:53.30177+00:00,2026-05-09T22:12:53.30177+00:00
+01_SCS,"SCS Quadra 4, Bloco A — Setor Comercial Sul",Edifício Bradesco — Setor Comercial Sul,"-15.79940611439496, -47.88748876433388",112,10,8,650,0,7,19,,Ativo,Brasília,DF,2026-05-09T22:12:53.30177+00:00,2026-05-09T22:12:53.30177+00:00
+02_Taguatinga,"QC 5, Área Especial 1 — Taguatinga Centro",Bradesco Taguatinga Centro,"-15.83352117493164, -48.05503349992252",43,6,4,300,0,8,18,,Ativo,Brasília,DF,2026-05-09T22:12:53.30177+00:00,2026-05-09T22:12:53.30177+00:00
+03_Ed_Prime,"SBS Quadra 2, Bloco Q — Setor Bancário Sul",Edifício Prime Business — Setor Bancário Sul,"-15.800814834792018, -47.883970154212605",51,0,0,400_300,22,,,,Ativo,Brasília,DF,2026-05-09T22:12:53.30177+00:00,2026-05-09T22:12:53.30177+00:00
+04_504,"CLN 504 Norte, Bloco A — Asa Norte",Agência Bradesco — 504 Sul W3,"-15.804841088066611, -47.8968229011922",0,0,0,350,0,,,,Ativo,Brasília,DF,2026-05-09T22:12:53.30177+00:00,2026-05-09T22:12:53.30177+00:00
