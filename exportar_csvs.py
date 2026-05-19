@@ -52,9 +52,9 @@ def exportar_tabela(tabela):
 
 
 def formatar_valor(v):
-    """Converte float para string com vírgula decimal (padrão pt-BR)."""
+    """Converte float para string com vírgula decimal e 2 casas (padrão pt-BR)."""
     if isinstance(v, float):
-        return str(v).replace('.', ',')
+        return f'{v:.2f}'.replace('.', ',')
     return v
 
 
