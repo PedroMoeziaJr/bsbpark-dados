@@ -1,6 +1,6 @@
 ﻿id;filial_id;nome_plano;tipo_vaga;valor;ativo;criado_em
-1;01_SCS;Vaga Simples;Simples;650,0;True;2026-05-09T22:12:53.30177+00:00
-2;02_Taguatinga;Vaga Simples;Simples;300,0;True;2026-05-09T22:12:53.30177+00:00
-3;03_Ed_Prime;Vaga Simples;Simples;300,0;True;2026-05-09T22:12:53.30177+00:00
-4;03_Ed_Prime;Vaga Dupla;Dupla;400,0;True;2026-05-09T22:12:53.30177+00:00
-5;04_504;Vaga Simples;Simples;400,0;True;2026-05-09T22:12:53.30177+00:00
+1;01_SCS;Vaga Simples;Simples;650,00;True;2026-05-09T22:12:53.30177+00:00
+2;02_Taguatinga;Vaga Simples;Simples;300,00;True;2026-05-09T22:12:53.30177+00:00
+3;03_Ed_Prime;Vaga Simples;Simples;300,00;True;2026-05-09T22:12:53.30177+00:00
+4;03_Ed_Prime;Vaga Dupla;Dupla;400,00;True;2026-05-09T22:12:53.30177+00:00
+5;04_504;Vaga Simples;Simples;400,00;True;2026-05-09T22:12:53.30177+00:00
