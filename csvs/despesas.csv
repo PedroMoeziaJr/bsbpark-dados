@@ -1,729 +1,729 @@
-﻿cod_pagamento,data,filial_id,funcionario,valor,meio_de_pagamento,recorrencia,conta
-1,2025-04-30,09_Matriz,1/2 placas,120,Pix,Extra,Operacional
-2,2025-04-10,01_SCS,Agua,51,Pix,Extra,Operacional
-3,2025-01-24,01_SCS,Agua scs,51,Pix,Extra,Operacional
-4,2025-02-20,01_SCS,Agua scs,51,Pix,Extra,Operacional
-5,2025-03-18,01_SCS,Agua scs,51,Pix,Extra,Operacional
-6,2025-01-07,01_SCS,Ariane silva de oliveira ,595,Internet,Fixa,Vale Refeição
-7,2025-02-06,01_SCS,Ariane silva de oliveira ,700,Internet,Fixa,Vale Refeição
-8,2025-06-07,01_SCS,Ariane silva de oliveira ,665,Internet,Fixa,Vale Refeição
-9,2025-04-03,01_SCS,Ariane silva de oliveira ,770,Internet,Fixa,Vale Refeição
-10,2025-01-07,01_SCS,Ariane silva de oliveira ,129.2,Internet,Fixa,Vale Transporte
-11,2025-02-06,01_SCS,Ariane silva de oliveira ,152,Internet,Fixa,Vale Transporte
-12,2025-06-07,01_SCS,Ariane silva de oliveira ,144.4,Internet,Fixa,Vale Transporte
-13,2025-04-03,01_SCS,Ariane silva de oliveira ,167.2,Internet,Fixa,Vale Transporte
-14,2025-01-07,01_SCS,Ariane silva de oliveira ,1951.3,Internet,Fixa,Salário
-15,2025-02-06,01_SCS,Ariane silva de oliveira ,1933.34,Internet,Fixa,Salário
-16,2025-06-07,01_SCS,Ariane silva de oliveira ,1933.34,Internet,Fixa,Salário
-17,2025-04-03,01_SCS,Ariane silva de oliveira ,1885.55,Internet,Fixa,Salário
-18,2025-02-10,09_Matriz,Cartão de crédito,1099.9,Dda,Fixa,Bancária
-19,2025-01-10,09_Matriz,Cartão de crédito,1099.9,Dda,Fixa,Bancária
-20,2025-03-10,09_Matriz,Cartão de crédito,1099.9,Dda,Fixa,Bancária
-21,2025-04-10,09_Matriz,Cartão de crédito,1099.9,Dda,Fixa,Bancária
-22,2025-02-05,09_Matriz,Cartuchos impressora ,800,Pix,Extra,Operacional
-23,2025-01-17,10_PF_Ped_,Ceb,401.48,Boleto,Fixa,Energia
-24,2025-01-17,11_PF_CEL_,Ceb,388.96,Boleto,Fixa,Energia
-25,2025-02-18,11_PF_CEL_,Ceb,443.55,Boleto,Fixa,Energia
-26,2025-02-18,10_PF_Ped_,Ceb,507.31,Boleto,Fixa,Energia
-27,2025-03-18,11_PF_CEL_,Ceb,444.24,Boleto,Fixa,Energia
-28,2025-03-18,10_PF_Ped_,Ceb,532.36,Boleto,Fixa,Energia
-29,2025-04-17,10_PF_Ped_,Ceb,464.17,Boleto,Fixa,Energia
-30,2025-04-17,11_PF_CEL_,Ceb,419.52,Boleto,Fixa,Energia
-31,2025-03-31,09_Matriz,Cesta basica cct - 2 funcionarios,720,Internet,Extra,Recursos Humanos
-32,2025-01-10,11_PF_CEL_,Claro,85.74,Boleto,Fixa,Internet_Telefone
-33,2025-01-15,11_PF_CEL_,Claro,681.7,Boleto,Fixa,Internet_Telefone
-34,2025-01-15,11_PF_CEL_,Claro,47.74,Boleto,Fixa,Internet_Telefone
-35,2025-02-13,11_PF_CEL_,Claro,897.64,Boleto,Fixa,Internet_Telefone
-36,2025-03-14,11_PF_CEL_,Claro,914.74,Boleto,Fixa,Internet_Telefone
-37,2025-04-15,11_PF_CEL_,Claro,934.05,Boleto,Fixa,Internet_Telefone
-38,2025-01-24,01_SCS,Clebio scs,400,Boleto,Fixa,Operacional
-39,2025-02-25,01_SCS,Clebio scs,400,Boleto,Fixa,Operacional
-40,2025-03-25,01_SCS,Clebio scs,400,Boleto,Fixa,Operacional
-41,2025-03-25,02_Taguatinga,Clebio taguatinga,400,Pix,Fixa,Operacional
-42,2025-01-24,02_Taguatinga,Clebio taguatinga,400,Boleto,Fixa,Operacional
-43,2025-02-25,02_Taguatinga,Clebio taguatinga,400,Boleto,Fixa,Operacional
-44,2025-04-28,01_SCS,Clebio scs,400,Boleto,Fixa,Operacional
-45,2025-04-28,02_Taguatinga,Clebio taguatinga,400,Pix,Fixa,Operacional
-46,2025-01-03,11_PF_CEL_,Condominio las vegas,1722.24,Boleto,Fixa,Condomínio
-47,2025-02-05,11_PF_CEL_,Condominio las vegas,1790.2,Boleto,Fixa,Condomínio
-48,2025-03-05,11_PF_CEL_,Condominio las vegas,1792.2,Boleto,Fixa,Condomínio
-49,2025-04-03,11_PF_CEL_,Condominio las vegas,1969.3,Boleto,Fixa,Condomínio
-50,2025-01-10,03_Ed_Prime,Condominio prime,9171.84,Boleto,Fixa,Condomínio
-51,2025-02-10,03_Ed_Prime,Condominio prime,9171.84,Boleto,Fixa,Condomínio
-52,2025-03-10,03_Ed_Prime,Condominio prime,9171.84,Boleto,Fixa,Condomínio
-53,2025-04-02,03_Ed_Prime,Condominio prime ,12560.79,Boleto,Fixa,Condomínio
-54,2025-01-10,11_PF_CEL_,Condominio rivoli,2284.59,Boleto,Fixa,Condomínio
-55,2025-02-10,11_PF_CEL_,Condominio rivoli,2284.59,Boleto,Fixa,Condomínio
-56,2025-03-10,11_PF_CEL_,Condominio rivoli,2284.59,Boleto,Fixa,Condomínio
-57,2025-04-10,11_PF_CEL_,Condominio rivoli,2398.82,Boleto,Fixa,Condomínio
-58,2025-01-07,10_PF_Ped_,Condominio vera cruz,480,Boleto,Fixa,Condomínio
-59,2025-02-07,10_PF_Ped_,Condominio vera cruz,480,Boleto,Fixa,Condomínio
-60,2025-03-07,10_PF_Ped_,Condominio vera cruz,480,Boleto,Fixa,Condomínio
-61,2025-04-07,10_PF_Ped_,Condominio vera cruz,480,Boleto,Fixa,Condomínio
-62,2025-01-10,09_Matriz,Condominio verano,935,Boleto,Fixa,Condomínio
-63,2025-03-10,09_Matriz,Condominio verano,935,Boleto,Fixa,Condomínio
-64,2025-04-10,09_Matriz,Condominio verano,1000.62,Boleto,Fixa,Condomínio
-65,2025-02-10,09_Matriz,Condominio verano ,935,Boleto,Fixa,Condomínio
-66,2025-01-20,09_Matriz,Darf,578.71,Pix,Fixa,Tributo
-67,2025-02-20,09_Matriz,Darf,472.67,Boleto,Fixa,Tributo
-68,2025-03-20,09_Matriz,Darf,544.17,Boleto,Fixa,Tributo
-69,2025-04-17,09_Matriz,Darf,507.96,Boleto,Fixa,Tributo
-70,2025-02-05,10_PF_Ped_,Escola leonidas,1716.15,Boleto,Fixa,Pessoal
-71,2025-03-05,10_PF_Ped_,Escola leonidas,1716.15,Boleto,Fixa,Pessoal
-72,2025-04-03,10_PF_Ped_,Escola leonidas,1716.15,Boleto,Fixa,Pessoal
-73,2025-02-05,10_PF_Ped_,Escola valentina,1600.64,Boleto,Fixa,Pessoal
-74,2025-03-05,10_PF_Ped_,Escola valentina,1600.64,Boleto,Fixa,Pessoal
-75,2025-04-03,10_PF_Ped_,Escola valentina,1600.64,Boleto,Fixa,Pessoal
-76,2025-02-07,09_Matriz,Férias ariane,2314.4,Internet,Extra,Recursos Humanos
-77,2025-02-28,01_SCS,Férias jefferson,1822.55,Internet,Extra,Recursos Humanos
-78,2025-02-07,01_SCS,Férias jose,1948.14,Internet,Extra,Recursos Humanos
-79,2025-04-11,02_Taguatinga,Férias marcos,2492.92,Internet,Extra,Recursos Humanos
-80,2025-01-20,09_Matriz,Fgts,836.1,Pix,Fixa,Recursos Humanos
-81,2025-02-20,09_Matriz,Fgts,583.79,Pix,Fixa,Recursos Humanos
-82,2025-03-20,09_Matriz,Fgts,647.35,Pix,Fixa,Recursos Humanos
-83,2025-04-17,09_Matriz,Fgts,615.16,Pix,Fixa,Recursos Humanos
-84,2025-01-15,09_Matriz,Honorarios contabeis,2027.1,Boleto,Fixa,Contabil_Jurídico
-85,2025-02-13,09_Matriz,Honorarios contabeis,2027.1,Boleto,Fixa,Contabil_Jurídico
-165,2025-01-10,09_Matriz,Sindicato,97,Boleto,Fixa,Recursos Humanos
-86,2025-04-15,09_Matriz,Honorarios contabeis,2027.1,Boleto,Fixa,Contabil_Jurídico
-87,2025-03-14,09_Matriz,Honorários contabeis,2027.1,Boleto,Fixa,Contabil_Jurídico
-88,2025-02-21,09_Matriz,Honorarios dr matheus,1650,Pix,Fixa,Contabil_Jurídico
-89,2025-01-23,09_Matriz,Honorarios dr matheus ,1000,Pix,Fixa,Contabil_Jurídico
-90,2025-04-30,09_Matriz,Honorarios dr matheus (março e abril),3300,Pix,Fixa,Contabil_Jurídico
-91,2025-02-07,09_Matriz,Honorarios dr matheus retroativo,1300,Pix,Extra,Contabil_Jurídico
-92,2025-01-06,01_SCS,Inetrnet scs ,139,Boleto,Fixa,Internet_Telefone
-93,2025-02-05,01_SCS,Inetrnet scs ,139,Boleto,Fixa,Internet_Telefone
-94,2025-03-05,01_SCS,Inetrnet scs ,139,Boleto,Fixa,Internet_Telefone
-95,2025-01-10,10_PF_Ped_,Internet,109,Boleto,Fixa,Internet_Telefone
-96,2025-02-10,10_PF_Ped_,Internet,109,Boleto,Fixa,Internet_Telefone
-97,2025-03-10,10_PF_Ped_,Internet,109,Boleto,Fixa,Internet_Telefone
-98,2025-04-10,10_PF_Ped_,Internet,109,Boleto,Fixa,Internet_Telefone
-99,2025-01-03,10_PF_Ped_,Internet dezembro,112.13,Boleto,Fixa,Internet_Telefone
-100,2025-04-03,03_Ed_Prime,Internet sbs,139,Boleto,Fixa,Internet_Telefone
-101,2025-01-06,03_Ed_Prime,Internet sbs ,139,Boleto,Fixa,Internet_Telefone
-102,2025-02-05,03_Ed_Prime,Internet sbs ,139,Boleto,Fixa,Internet_Telefone
-103,2025-03-05,03_Ed_Prime,Internet sbs ,139,Boleto,Fixa,Internet_Telefone
-104,2025-04-03,01_SCS,Internet scs,139,Boleto,Fixa,Internet_Telefone
-105,2025-01-06,02_Taguatinga,Internet taguatinga,139,Boleto,Fixa,Internet_Telefone
-106,2025-02-05,02_Taguatinga,Internet taguatinga,139,Boleto,Fixa,Internet_Telefone
-107,2025-03-05,02_Taguatinga,Internet taguatinga,139,Boleto,Fixa,Internet_Telefone
-108,2025-04-03,02_Taguatinga,Internet taguatinga,139,Boleto,Fixa,Internet_Telefone
-109,2025-01-07,01_SCS,Jefferson lopes dos santos,595,Internet,Fixa,Vale Refeição
-110,2025-02-06,01_SCS,Jefferson lopes dos santos,700,Internet,Fixa,Vale Refeição
-111,2025-06-07,01_SCS,Jefferson lopes dos santos,665,Internet,Fixa,Vale Refeição
-112,2025-04-03,01_SCS,Jefferson lopes dos santos,770,Internet,Fixa,Vale Refeição
-113,2025-01-07,01_SCS,Jefferson lopes dos santos,187,Internet,Fixa,Vale Transporte
-114,2025-02-06,01_SCS,Jefferson lopes dos santos,220,Internet,Fixa,Vale Transporte
-115,2025-06-07,01_SCS,Jefferson lopes dos santos,209,Internet,Fixa,Vale Transporte
-116,2025-04-03,01_SCS,Jefferson lopes dos santos,242,Internet,Fixa,Vale Transporte
-117,2025-01-07,01_SCS,Jefferson lopes dos santos,1688.9,Internet,Fixa,Salário
-118,2025-02-06,01_SCS,Jefferson lopes dos santos,1688.9,Internet,Fixa,Salário
-119,2025-06-07,01_SCS,Jefferson lopes dos santos,1688.9,Internet,Fixa,Salário
-120,2025-04-03,01_SCS,Jefferson lopes dos santos,1688.9,Internet,Fixa,Salário
-121,2025-01-07,01_SCS,José ornilo rodrigues,700,Internet,Fixa,Vale Refeição
-122,2025-02-06,01_SCS,José ornilo rodrigues,700,Internet,Fixa,Vale Refeição
-123,2025-06-07,01_SCS,José ornilo rodrigues,665,Internet,Fixa,Vale Refeição
-124,2025-04-03,01_SCS,José ornilo rodrigues,770,Internet,Fixa,Vale Refeição
-125,2025-01-07,01_SCS,José ornilo rodrigues,400,Internet,Fixa,Vale Transporte
-126,2025-02-06,01_SCS,José ornilo rodrigues,400,Internet,Fixa,Vale Transporte
-127,2025-06-07,01_SCS,José ornilo rodrigues,380,Internet,Fixa,Vale Transporte
-128,2025-04-03,01_SCS,José ornilo rodrigues,440,Internet,Fixa,Vale Transporte
-129,2025-01-07,01_SCS,José ornilo rodrigues,1668.48,Internet,Fixa,Salário
-130,2025-02-06,01_SCS,José ornilo rodrigues,1579.75,Internet,Fixa,Salário
-131,2025-06-07,01_SCS,José ornilo rodrigues,1550.76,Internet,Fixa,Salário
-132,2025-04-03,01_SCS,José ornilo rodrigues,1550.76,Internet,Fixa,Salário
-133,2025-01-30,09_Matriz,Lampadas escritorio,70,Pix,Extra,Operacional
-134,2025-01-07,02_Taguatinga,Marcos vinicius dos santos costa,700,Internet,Fixa,Vale Refeição
-135,2025-02-06,02_Taguatinga,Marcos vinicius dos santos costa,700,Internet,Fixa,Vale Refeição
-136,2025-06-07,02_Taguatinga,Marcos vinicius dos santos costa,665,Internet,Fixa,Vale Refeição
-137,2025-04-03,02_Taguatinga,Marcos vinicius dos santos costa,770,Internet,Fixa,Vale Refeição
-138,2025-01-07,02_Taguatinga,Marcos vinicius dos santos costa,220,Internet,Fixa,Vale Transporte
-139,2025-02-06,02_Taguatinga,Marcos vinicius dos santos costa,220,Internet,Fixa,Vale Transporte
-140,2025-06-07,02_Taguatinga,Marcos vinicius dos santos costa,209,Internet,Fixa,Vale Transporte
-141,2025-04-03,02_Taguatinga,Marcos vinicius dos santos costa,242,Internet,Fixa,Vale Transporte
-142,2025-01-07,02_Taguatinga,Marcos vinicius dos santos costa,1889.22,Internet,Fixa,Salário
-143,2025-02-06,02_Taguatinga,Marcos vinicius dos santos costa,1893.49,Internet,Fixa,Salário
-144,2025-06-07,02_Taguatinga,Marcos vinicius dos santos costa,1943.81,Internet,Fixa,Salário
-145,2025-04-03,02_Taguatinga,Marcos vinicius dos santos costa,1893.49,Internet,Fixa,Salário
-146,2025-01-24,09_Matriz,Material de limpeza,55,Pix,Extra,Operacional
-147,2025-01-29,09_Matriz,Material de limpeza,8.99,Pix,Extra,Operacional
-148,2025-02-18,11_PF_CEL_,Oab,800,Boleto,Extra,Tributo
-149,2025-02-18,10_PF_Ped_,Oab,800,Boleto,Extra,Tributo
-150,2025-04-09,09_Matriz,Papelaria,15,Pix,Extra,Operacional
-151,2025-01-10,10_PF_Ped_,Plano de saude,3553.6,Boleto,Fixa,Pessoal
-152,2025-02-10,10_PF_Ped_,Plano de saude,3553.6,Boleto,Fixa,Pessoal
-153,2025-03-10,10_PF_Ped_,Plano de saude,3553.6,Boleto,Fixa,Pessoal
-154,2025-04-10,10_PF_Ped_,Plano de saude ,3553.6,Boleto,Fixa,Pessoal
-155,2025-01-06,09_Matriz,Produtos de limpeza ,56,Pix,Extra,Operacional
-156,2025-04-10,02_Taguatinga,Reebolso marcos ,26.9,Internet,Extra,Operacional
-157,2025-01-08,02_Taguatinga,Reembolso marcos jardineiro ,200,Pix,Extra,Operacional
-158,2025-01-03,09_Matriz,Seguro ,1111.78,Boleto,Extra,
-159,2025-02-04,09_Matriz,Seguro ,1111.78,Boleto,Extra,
-160,2025-03-05,09_Matriz,Seguro ,1111.78,Boleto,Extra,
-161,2025-01-20,09_Matriz,Simples nacional,2306.69,Pix,Fixa,Tributo
-162,2025-02-20,09_Matriz,Simples nacional,2382.17,Boleto,Fixa,Tributo
-163,2025-04-17,09_Matriz,Simples nacional,2776.9,Boleto,Fixa,Tributo
-164,2025-03-20,09_Matriz,Simples nacional ,2557.77,Boleto,Fixa,Tributo
-166,2025-02-10,09_Matriz,Sindicato,97,Boleto,Fixa,Recursos Humanos
-167,2025-03-10,09_Matriz,Sindicato,97,Boleto,Fixa,Recursos Humanos
-168,2025-04-10,09_Matriz,Sindicato,97,Boleto,Fixa,Recursos Humanos
-169,2025-01-10,11_PF_CEL_,Tim,109.99,Boleto,Fixa,Internet_Telefone
-170,2025-02-10,11_PF_CEL_,Tim,109.99,Boleto,Fixa,Internet_Telefone
-171,2025-03-10,11_PF_CEL_,Tim,109.99,Boleto,Fixa,Internet_Telefone
-172,2025-04-10,11_PF_CEL_,Tim,109.99,Boleto,Fixa,Internet_Telefone
-173,2025-02-28,11_PF_CEL_,Vada,740,Pix,Extra,Pessoal
-174,2025-03-31,11_PF_CEL_,Vada,740,Pix,Fixa,Pessoal
-175,2025-04-30,11_PF_CEL_,Vada,740,Pix,Fixa,Pessoal
-176,2025-01-24,11_PF_CEL_,Vada ,740,Pix,Fixa,Pessoal
-177,2025-01-10,01_SCS,Aluguel Bradesco,878.83,Boleto,Fixa,Operacional
-178,2025-02-10,01_SCS,Aluguel Bradesco,878.83,Boleto,Fixa,Operacional
-179,2025-03-10,01_SCS,Aluguel Bradesco,878.83,Boleto,Fixa,Operacional
-180,2025-04-10,01_SCS,Aluguel Bradesco,878.83,Boleto,Fixa,Operacional
-181,2025-01-10,04_504,Aluguel Bradesco,516.66,Boleto,Fixa,Operacional
-182,2025-02-10,04_504,Aluguel Bradesco,516.66,Boleto,Fixa,Operacional
-183,2025-03-10,04_504,Aluguel Bradesco,516.66,Boleto,Fixa,Operacional
-184,2025-04-10,04_504,Aluguel Bradesco,516.66,Boleto,Fixa,Operacional
-185,2025-01-10,05_Rio_de_Janeiro,Aluguel Bradesco - Barra do Piraí,1330.46,Boleto,Fixa,Operacional
-186,2025-02-10,05_Rio_de_Janeiro,Aluguel Bradesco - Barra do Piraí,1330.46,Boleto,Fixa,Operacional
-187,2025-03-10,05_Rio_de_Janeiro,Aluguel Bradesco - Barra do Piraí,1330.46,Boleto,Fixa,Operacional
-188,2025-04-10,05_Rio_de_Janeiro,Aluguel Bradesco - Barra do Piraí,1330.46,Boleto,Fixa,Operacional
-189,2025-01-10,02_Taguatinga,Aluguel Bradesco,886.98,Boleto,Fixa,Operacional
-190,2025-02-10,02_Taguatinga,Aluguel Bradesco,886.98,Boleto,Fixa,Operacional
-191,2025-03-10,02_Taguatinga,Aluguel Bradesco,886.98,Boleto,Fixa,Operacional
-192,2025-04-10,02_Taguatinga,Aluguel Bradesco,886.98,Boleto,Fixa,Operacional
-193,2025-01-10,05_Rio_de_Janeiro,Aluguel Bradesco - Volta Redonda,1330.46,Boleto,Fixa,Operacional
-194,2025-02-10,05_Rio_de_Janeiro,Aluguel Bradesco - Volta Redonda,1330.46,Boleto,Fixa,Operacional
-195,2025-03-10,05_Rio_de_Janeiro,Aluguel Bradesco - Volta Redonda,1330.46,Boleto,Fixa,Operacional
-196,2025-04-10,05_Rio_de_Janeiro,Aluguel Bradesco - Volta Redonda,1330.46,Boleto,Fixa,Operacional
-200,2025-11-14,02_Taguatinga,Reembolso Marcos - Agua ,193.0,Transferencia,Extra,Outro
-201,2025-11-14,11_PF_CEL_,Claro,962.41,Boleto,Fixa,Outro
-202,2025-11-14,09_Matriz,Honorarios contabeis,2027.1,Boleto,Fixa,Contabil_Jurídica
-205,2025-05-09,01_SCS,Aluguel Bradesco,878.83,Boleto,Fixa,Operacional
-206,2025-05-09,04_504,Aluguel Bradesco,516.66,Boleto,Fixa,Operacional
-207,2025-05-09,05_Rio_de_Janeiro,Aluguel Bradesco Barra ,1330.46,Boleto,Fixa,Operacional
-208,2025-05-09,02_Taguatinga,Aluguel Bradesco ,886.98,Boleto,Fixa,Operacional
-209,2025-05-09,05_Rio_de_Janeiro,Aluguel Bradesco  Volta,2106.58,Boleto,Fixa,Operacional
-210,2025-06-10,04_504,Aluguel Bradesco  ,1994.96,Boleto,Fixa,Operacional
-215,2025-10-10,05_Rio_de_Janeiro,Aluguel Bradesco Barra,1422.66,Boleto,Fixa,Operacional
-216,2025-09-04,05_Rio_de_Janeiro,Aluguel Bradesco Barra,1422.66,Boleto,Fixa,Operacional
-217,2025-08-08,05_Rio_de_Janeiro,Aluguel Bradesco Barra,1422.66,Boleto,Fixa,Operacional
-218,2025-07-10,05_Rio_de_Janeiro,Aluguel Bradesco Barra,1422.66,Boleto,Fixa,Operacional
-219,2025-06-10,05_Rio_de_Janeiro,Aluguel Bradesco Barra,1422.66,Boleto,Fixa,Operacional
-220,2025-07-10,04_504,Aluguel Bradesco,1994.96,Boleto,Fixa,Operacional
-221,2025-08-08,04_504,Aluguel Bradesco,1994.96,Boleto,Fixa,Operacional
-222,2025-09-04,04_504,Aluguel Bradesco,1994.96,Boleto,Fixa,Operacional
-223,2025-10-10,04_504,Aluguel Bradesco,1994.96,Boleto,Fixa,Operacional
-224,2025-06-10,01_SCS,Aluguel Bradesco,3526.47,Boleto,Fixa,Operacional
-225,2025-07-10,01_SCS,Aluguel Bradesco,3526.47,Boleto,Fixa,Operacional
-226,2025-08-08,01_SCS,Aluguel Bradesco,3526.47,Boleto,Fixa,Operacional
-227,2025-09-04,01_SCS,Aluguel Bradesco,3526.47,Boleto,Fixa,Operacional
-228,2025-10-10,01_SCS,Aluguel Bradesco,3526.47,Boleto,Fixa,Operacional
-229,2025-06-10,02_Taguatinga,Aluguel Bradesco,2285.84,Boleto,Fixa,Operacional
-230,2025-07-10,02_Taguatinga,Aluguel Bradesco,2285.84,Boleto,Fixa,Operacional
-231,2025-08-08,02_Taguatinga,Aluguel Bradesco,2285.84,Boleto,Fixa,Operacional
-232,2025-09-04,02_Taguatinga,Aluguel Bradesco,2285.84,Boleto,Fixa,Operacional
-233,2025-10-10,02_Taguatinga,Aluguel Bradesco,2285.84,Boleto,Fixa,Operacional
-234,2025-06-10,05_Rio_de_Janeiro,Aluguel Bradesco Volta,2504.14,Boleto,Fixa,Operacional
-235,2025-07-10,05_Rio_de_Janeiro,Aluguel Bradesco Volta,2504.14,Boleto,Fixa,Operacional
-236,2025-08-08,05_Rio_de_Janeiro,Aluguel Bradesco Volta,2504.14,Boleto,Fixa,Operacional
-237,2025-09-04,05_Rio_de_Janeiro,Aluguel Bradesco Volta,2504.14,Boleto,Fixa,Operacional
-238,2025-10-10,05_Rio_de_Janeiro,Aluguel Bradesco Volta,2504.14,Boleto,Fixa,Operacional
-239,2025-11-18,11_PF_CEL_,CEB,519.86,Boleto,Fixa,Energia
-240,2025-11-18,10_PF_Ped_,CEB,844.1,Boleto,Fixa,Energia
-241,2025-11-18,09_Matriz,BOBINA,319.98,Transferencia,Extra,Operacional
-242,2025-11-19,09_Matriz,FGTS,634.46,Pix,Fixa,Tributo
-243,2025-11-19,09_Matriz,DARF,659.67,Boleto,Fixa,Tributo
-244,2025-11-19,09_Matriz,SIMPLES NACIONAL,3456.5,Boleto,Fixa,Tributo
-245,2025-11-24,09_Matriz,HONORARIOS DR MATHEUS,1650.0,Pix,Fixa,Contabil_Jurídica
-246,2025-11-24,01_SCS,CLEBIO,400.0,Boleto,Fixa,Operacional
-247,2025-11-24,02_Taguatinga,CLEBIO,400.0,Boleto,Fixa,Operacional
-248,2025-05-05,11_PF_CEL_,Condominio las vegas,1969.3,Boleto,Fixa,Condomínio
-249,2025-05-05,01_SCS,Internet,139.0,Pix,Fixa,Internet_Telefone
-250,2025-05-05,02_Taguatinga,Internet,139.0,Pix,Fixa,Internet_Telefone
-251,2025-05-05,03_Ed_Prime,Internet,139.0,Pix,Fixa,Internet_Telefone
-252,2025-05-05,10_PF_Ped_,Escola leonidas,1716.15,Boleto,Fixa,Pessoal
-253,2025-05-05,10_PF_Ped_,Escola valentina,1600.64,Boleto,Fixa,Pessoal
-254,2025-05-05,09_Matriz,IPTU COND VERANO 1/10,569.13,Boleto,Extra,Tributo
-255,2025-05-05,09_Matriz,IPTU COND VERANO 2/10,542.95,Boleto,Extra,Tributo
-256,2025-05-05,09_Matriz,IPTU COND VERANO 3/10,528.94,Boleto,Extra,Tributo
-258,2025-05-06,03_Ed_Prime,Condominio prime ,12560.79,Boleto,Fixa,Condomínio
-259,2025-07-04,09_Matriz,Ariane Silva de Oliveira,1885.55,Internet,Fixa,Salário
-260,2025-07-04,01_SCS,Jefferson Lopes dos Santos,1688.9,Internet,Fixa,Salário
-261,2025-07-04,02_Taguatinga,Marcos Viniciues dos Santos Costa,1893.49,Internet,Fixa,Salário
-262,2025-07-04,01_SCS,Josè Ornildo Rodrigues,1550.76,Internet,Fixa,Salário
-263,2025-07-04,09_Matriz,Ariane Silva de Oliveira,167.2,Internet,Fixa,Vale_Transporte
-264,2025-07-04,01_SCS,Jefferson Lopes dos Santos,242.0,Internet,Fixa,Vale_Transporte
-265,2025-07-04,02_Taguatinga,Marcos Viniciues dos Santos Costa,242.0,Internet,Fixa,Vale_Transporte
-266,2025-07-04,01_SCS,Josè Ornildo Rodrigues,440.0,Internet,Fixa,Vale_Transporte
-267,2025-07-04,09_Matriz,Ariane Silva de Oliveira,770.0,Internet,Fixa,Vale_Alimentação
-268,2025-07-04,01_SCS,Jefferson Lopes dos Santos,770.0,Internet,Fixa,Vale_Alimentação
-269,2025-07-04,02_Taguatinga,Marcos Viniciues dos Santos Costa,770.0,Internet,Fixa,Vale_Alimentação
-270,2025-07-04,01_SCS,Josè Ornildo Rodrigues,770.0,Internet,Fixa,Vale_Alimentação
-271,2025-05-07,10_PF_Ped_,Condominio vera cruz,480.0,Boleto,Fixa,Condomínio
-272,2025-05-08,09_Matriz,Bobinas,393.3,Pix,Extra,Operacional
-273,2025-05-09,09_Matriz,Condominio verano ,1000.62,Boleto,Fixa,Condomínio
-274,2025-05-09,09_Matriz,Sindicato,145.5,Boleto,Fixa,Recursos Humanos
-275,2025-05-09,10_PF_Ped_,Internet,109.0,Boleto,Fixa,Internet_Telefone
-276,2025-05-09,11_PF_CEL_,Condominio rivoli,2398.82,Boleto,Fixa,Condomínio
-277,2025-05-09,10_PF_Ped_,Plano de saude ,4079.53,Boleto,Fixa,Pessoal
-278,2025-05-09,10_PF_Ped_,Tim,109.99,Pix,Fixa,Internet_Telefone
-279,2025-05-12,09_Matriz,Cartão de crédito,1099.9,DDA,Fixa,Bancária
-280,2025-05-12,03_Ed_Prime,IPTU PRIME - 10 UNIDADES,295.1,Boleto,Extra,Tributo
-281,2025-05-13,01_SCS,Agua,51.0,Pix,Extra,Operacional
-282,2025-05-13,03_Ed_Prime,IPTU PRIME - 10 UNIDADES,295.1,Boleto,Extra,Tributo
-283,2025-05-14,03_Ed_Prime,IPTU PRIME - 7 UNIDADES,206.57,Boleto,Extra,Tributo
-284,2025-05-14,09_Matriz,Iptu Vera Cruz,170.78,Boleto,Extra,Tributo
-285,2025-05-15,11_PF_CEL_,Claro,934.05,Boleto,Fixa,Internet_Telefone
-286,2025-05-15,09_Matriz,Honorarios contabeis,2027.1,Boleto,Fixa,Contabil_Jurídico
-287,2025-05-15,03_Ed_Prime,IPTU PRIME - 9 UNIDADES,265.59,Boleto,Extra,Tributo
-288,2025-05-16,03_Ed_Prime,IPTU PRIME - 15 UNIDADES,442.65,Boleto,Extra,Tributo
-289,2025-05-16,11_PF_CEL_,Iptu Rivoli,997.73,Boleto,Extra,Tributo
-290,2025-05-16,11_PF_CEL_,Ceb,461.22,Boleto,Fixa,Energia
-291,2025-05-16,10_PF_Ped_,Ceb,349.74,Boleto,Fixa,Energia
-292,2025-05-20,09_Matriz,ESCRITURA COND VERANO ,7570.62,Boleto,Extra,Tributo
-293,2025-05-20,09_Matriz,Simples nacional ,2698.12,Boleto,Fixa,Tributo
-294,2025-05-20,09_Matriz,Fgts,644.04,Pix,Fixa,Recursos Humanos
-295,2025-05-20,09_Matriz,DARF,670.45,Boleto,Fixa,Tributo
-296,2025-05-20,09_Matriz,Honorarios dr matheus ,1650.0,Pix,Extra,Contabil_Jurídico
-297,2025-05-26,02_Taguatinga,Clebio taguatinga,400.0,Boleto,Fixa,Operacional
-298,2025-05-26,01_SCS,Clebio scs,400.0,Boleto,Fixa,Operacional
-299,2025-05-30,11_PF_CEL_,Vada ,740.0,Pix,Fixa,Pessoal
-300,2025-05-30,09_Matriz,Tarifas,753.99,DDA,Extra,Bancária
-301,2025-06-02,03_Ed_Prime,INTALAÇÃO AR CONDICIONADO SBS,600.0,PIX,Extra,Operacional
-302,2025-06-03,09_Matriz,TFE 2019,155.36,Boleto,Extra,Operacional
-303,2025-06-05,11_PF_CEL_,Condominio las vegas,1969.3,Boleto,Fixa,Condomínio
-304,2025-06-05,02_Taguatinga,Internet,139.0,Boleto,Fixa,Internet_Telefone
-305,2025-06-05,01_SCS,Internet,139.0,Boleto,Fixa,Internet_Telefone
-306,2025-06-05,03_Ed_Prime,Internet,139.0,Boleto,Fixa,Internet_Telefone
-307,2025-06-05,10_PF_Ped_,Escola leonidas,1716.15,Boleto,Fixa,Pessoal
-308,2025-06-05,10_PF_Ped_,Escola valentina,1600.64,Boleto,Fixa,Pessoal
-309,2025-06-06,10_PF_Ped_,Condominio vera cruz,480.0,Boleto,Fixa,Condomínio
-310,2025-06-09,01_SCS,Agua,57.0,Pix,Extra,Operacional
-311,2025-06-10,09_Matriz,Cartão de crédito,99.9,DDA,Fixa,Bancária
-312,2025-06-10,03_Ed_Prime,Condominio prime ,9171.84,Boleto,Fixa,Condomínio
-313,2025-06-10,09_Matriz,Condominio verano ,995.0,Boleto,Fixa,Condomínio
-314,2025-06-10,09_Matriz,Sindicato,48.5,Boleto,Fixa,Recursos Humanos
-315,2025-06-10,10_PF_Ped_,Internet,109.0,Boleto,Fixa,Internet_Telefone
-316,2025-06-10,11_PF_CEL_,Condominio rivoli,2398.82,Boleto,Fixa,Condomínio
-317,2025-06-10,10_PF_Ped_,Plano de saude ,4079.53,Boleto,Fixa,Pessoal
-318,2025-06-10,10_PF_Ped_,Tim,109.99,Boleto,Fixa,Internet_Telefone
-319,2025-06-10,03_Ed_Prime,REEMBOLSO ARIANE 1/4 AR CONDICIONADO SBS,612.0,Internet,Extra,Operacional
-320,2025-06-11,02_Taguatinga,SERRALHEIRO - PORTÃO TAGUATINGA,250.0,Pix,Extra,Operacional
-321,2025-06-13,11_PF_CEL_,Claro,934.05,Boleto,Fixa,Internet_Telefone
-322,2025-06-16,03_Ed_Prime,IPTU PRIME - 10 UNIDADES,295.1,Boleto,Extra,Tributo
-323,2025-06-17,03_Ed_Prime,IPTU PRIME - 10 UNIDADES,295.1,Boleto,Extra,Tributo
-324,2025-06-18,03_Ed_Prime,IPTU PRIME - 7 UNIDADES,206.57,Boleto,Extra,Tributo
-325,2025-06-18,03_Ed_Prime,IPTU COND VERANO,170.78,Boleto,Extra,Tributo
-326,2025-06-20,03_Ed_Prime,IPTU PRIME - 9 UNIDADES,265.59,Boleto,Extra,Tributo
-327,2025-06-20,09_Matriz,Honorarios contabeis,2027.1,Pix,Fixa,Contabil_Jurídico
-328,2025-06-20,09_Matriz,Honorarios dr matheus ,1650.0,Pix,Extra,Contabil_Jurídico
-329,2025-06-20,09_Matriz,Fgts,587.07,Pix,Fixa,Recursos Humanos
-330,2025-06-20,09_Matriz,DARF,606.36,Pix,Fixa,Tributo
-331,2025-06-20,10_PF_Ped_,Ceb,441.65,Pix,Fixa,Energia
-332,2025-06-20,11_PF_CEL_,Ceb,415.44,Pix,Fixa,Energia
-333,2025-06-20,09_Matriz,Simples nacional ,2941.81,Pix,Fixa,Tributo
-334,2025-06-23,03_Ed_Prime,IPTU PRIME - 15 UNIDADES,442.65,Boleto,Extra,Tributo
-335,2025-06-23,11_PF_CEL_,Iptu Rivoli,997.73,Boleto,Extra,Tributo
-336,2025-06-25,01_SCS,Clebio scs,400.0,Boleto,Fixa,Operacional
-337,2025-06-25,02_Taguatinga,Clebio taguatinga,400.0,Boleto,Fixa,Operacional
-338,2025-06-27,09_Matriz,IPTU COND VERANO,537.16,Boleto,Extra,Tributo
-339,2025-06-27,11_PF_CEL_,Vada ,740.0,Pix,Fixa,Pessoal
-340,2025-06-27,09_Matriz,Tarifas,440.91,DDA,Extra,Bancária
-341,2025-07-04,09_Matriz,Ariane Silva de Oliveira,1885.55,Internet,Fixa,Salário
-342,2025-07-04,01_SCS,Jefferson Lopes dos Santos,1688.9,Internet,Fixa,Salário
-343,2025-07-04,02_Taguatinga,Marcos Viniciues dos Santos Costa,1944.17,Internet,Fixa,Salário
-344,2025-07-04,01_SCS,Josè Ornildo Rodrigues,1550.76,Internet,Fixa,Salário
-345,2025-07-04,09_Matriz,Ariane Silva de Oliveira,174.8,Internet,Fixa,Vale_Transporte
-346,2025-07-04,01_SCS,Jefferson Lopes dos Santos,253.0,Internet,Fixa,Vale_Transporte
-347,2025-07-04,02_Taguatinga,Marcos Viniciues dos Santos Costa,253.0,Internet,Fixa,Vale_Transporte
-348,2025-07-04,01_SCS,Josè Ornildo Rodrigues,460.0,Internet,Fixa,Vale_Transporte
-349,2025-07-04,09_Matriz,Ariane Silva de Oliveira,805.0,Internet,Fixa,Vale_Alimentação
-350,2025-07-04,01_SCS,Jefferson Lopes dos Santos,805.0,Internet,Fixa,Vale_Alimentação
-351,2025-07-04,02_Taguatinga,Marcos Viniciues dos Santos Costa,805.0,Internet,Fixa,Vale_Alimentação
-352,2025-07-04,01_SCS,Josè Ornildo Rodrigues,805.0,Internet,Fixa,Vale_Alimentação
-353,2025-07-04,11_PF_CEL_,Condominio las vegas,1928.7,Boleto,Fixa,Condomínio
-354,2025-07-04,02_Taguatinga,Internet,139.0,Boleto,Fixa,Internet_Telefone
-355,2025-07-04,01_SCS,Internet,139.0,Boleto,Fixa,Internet_Telefone
-356,2025-07-04,03_Ed_Prime,Internet,139.0,Boleto,Fixa,Internet_Telefone
-357,2025-07-04,10_PF_Ped_,Escola leonidas,1716.15,Boleto,Fixa,Pessoal
-358,2025-07-04,10_PF_Ped_,Escola valentina,1600.64,Boleto,Fixa,Pessoal
-359,2025-07-07,10_PF_Ped_,Condominio vera cruz,480.0,Boleto,Fixa,Condomínio
-360,2025-07-10,02_Taguatinga,Agua Reembolso,180.0,Internet,Extra,Operacional
-361,2025-07-10,01_SCS,Agua,57.0,Pix,Extra,Operacional
-362,2025-07-10,03_Ed_Prime,Condominio prime ,9171.84,Boleto,Fixa,Condomínio
-363,2025-07-10,09_Matriz,Condominio verano ,995.43,Boleto,Fixa,Condomínio
-364,2025-07-10,10_PF_Ped_,Internet,109.0,Boleto,Fixa,Internet_Telefone
-365,2025-07-10,09_Matriz,Sindicato,97.0,Boleto,Fixa,Recursos Humanos
-366,2025-07-10,11_PF_CEL_,Condominio rivoli,2398.82,Boleto,Fixa,Condomínio
-367,2025-07-10,10_PF_Ped_,Plano de saude ,4079.53,Boleto,Fixa,Pessoal
-368,2025-07-10,10_PF_Ped_,Tim,109.99,Boleto,Fixa,Internet_Telefone
-369,2025-07-10,03_Ed_Prime,Reembolso Ar Condicionado 2/4,612.0,Internte,Extra,Operacional
-370,2025-07-10,09_Matriz,Cartão de crédito,99.9,DDA,Extra,Bancária
-371,2025-07-14,03_Ed_Prime,IPTU PRIME - 10 UNIDADES,295.1,Boleto,Extra,Tributo
-372,2025-07-15,11_PF_CEL_,Claro,934.05,Boleto,Fixa,Internet_Telefone
-373,2025-07-15,09_Matriz,Honorarios contabeis,2027.1,Boleto,Fixa,Contabil_Jurídico
-374,2025-07-15,03_Ed_Prime,IPTU PRIME - 10 UNIDADES,295.1,Boleto,Extra,Tributo
-375,2025-07-16,09_Matriz,Iptu Vera Cruz,170.78,Boleto,Extra,Tributo
-376,2025-07-16,03_Ed_Prime,IPTU PRIME - 7 UNIDADES,206.57,Boleto,Extra,Tributo
-377,2025-07-17,03_Ed_Prime,IPTU PRIME - 9 UNIDADES,265.59,Boleto,Extra,Tributo
-378,2025-07-18,10_PF_Ped_,Ceb,373.73,Boleto,Fixa,Energia
-379,2025-07-18,11_PF_CEL_,Ceb,440.35,Boleto,Fixa,Energia
-380,2025-07-18,03_Ed_Prime,IPTU PRIME - 15 UNIDADES,442.65,Boleto,Extra,Tributo
-381,2025-07-18,11_PF_CEL_,Iptu Rivoli,997.73,Boleto,Extra,Tributo
-382,2025-07-18,09_Matriz,Fgts,591.06,Pix,Fixa,Recursos Humanos
-383,2025-07-18,09_Matriz,DARF,610.84,Pix,Fixa,Tributo
-384,2025-07-18,09_Matriz,Simples nacional ,3050.25,Pix,Fixa,Tributo
-385,2025-07-18,09_Matriz,Honorarios dr matheus ,1650.0,Pix,Extra,Contabil_Jurídico
-386,2025-07-24,01_SCS,Clebio scs,400.0,Boleto,Fixa,Operacional
-387,2025-07-24,02_Taguatinga,Clebio taguatinga,400.0,Boleto,Fixa,Operacional
-388,2025-07-24,11_PF_CEL_,Vada ,740.0,Pix,Fixa,Pessoal
-389,2025-07-24,09_Matriz,TFE 2025,59.6,Boleto,Extra,Operacional
-390,2025-07-24,09_Matriz,Iptu Verano,537.16,Boleto,Extra,Tributo
-391,2025-07-24,09_Matriz,Tarifas,668.68,DDA,Extra,Bancária
-392,2025-08-05,02_Taguatinga,Agua,204.0,Internet,Extra,Operacional
-393,2025-08-05,11_PF_CEL_,Condominio las vegas,1931.1,Boleto,Fixa,Condomínio
-394,2025-08-05,02_Taguatinga,Internet,139.0,Boleto,Fixa,Internet_Telefone
-395,2025-08-05,03_Ed_Prime,Internet,139.0,Boleto,Fixa,Internet_Telefone
-396,2025-08-05,01_SCS,Internet,139.0,Boleto,Fixa,Internet_Telefone
-397,2025-08-05,10_PF_Ped_,Escola leonidas,1716.15,Boleto,Fixa,Pessoal
-398,2025-08-05,10_PF_Ped_,Escola valentina,1600.64,Boleto,Fixa,Pessoal
-399,2025-08-06,09_Matriz,Ariane Silva de Oliveira,1885.55,Internet,Fixa,Salário
-400,2025-08-06,01_SCS,Jefferson Lopes dos Santos,1688.9,Internet,Fixa,Salário
-401,2025-08-06,02_Taguatinga,Marcos Viniciues dos Santos Costa,1947.13,Internet,Fixa,Salário
-402,2025-08-06,01_SCS,Josè Ornildo Rodrigues,1550.76,Internet,Fixa,Salário
-403,2025-08-06,09_Matriz,Ariane Silva de Oliveira,167.2,Internet,Fixa,Vale_Transporte
-404,2025-08-06,01_SCS,Jefferson Lopes dos Santos,242.0,Internet,Fixa,Vale_Transporte
-405,2025-08-06,02_Taguatinga,Marcos Viniciues dos Santos Costa,242.0,Internet,Fixa,Vale_Transporte
-406,2025-08-06,01_SCS,Josè Ornildo Rodrigues,440.0,Internet,Fixa,Vale_Transporte
-407,2025-08-06,09_Matriz,Ariane Silva de Oliveira,770.0,Internet,Fixa,Vale_Alimentação
-408,2025-08-06,01_SCS,Jefferson Lopes dos Santos,770.0,Internet,Fixa,Vale_Alimentação
-409,2025-08-06,02_Taguatinga,Marcos Viniciues dos Santos Costa,770.0,Internet,Fixa,Vale_Alimentação
-410,2025-08-06,01_SCS,Josè Ornildo Rodrigues,770.0,Internet,Fixa,Vale_Alimentação
-411,2025-08-07,10_PF_Ped_,Condominio vera cruz,480.0,Boleto,Fixa,Condomínio
-412,2025-08-08,03_Ed_Prime,Condominio prime ,9171.84,Boleto,Fixa,Condomínio
-413,2025-08-08,01_SCS,Agua,57.0,Pix,Extra,Operacional
-414,2025-08-08,11_PF_CEL_,Condominio rivoli,2398.82,Boleto,Fixa,Condomínio
-415,2025-08-08,10_PF_Ped_,Internet,109.0,Boleto,Fixa,Internet_Telefone
-416,2025-08-08,09_Matriz,Condominio verano ,995.43,Boleto,Fixa,Condomínio
-417,2025-08-08,09_Matriz,Sindicato,97.0,Boleto,Fixa,Recursos Humanos
-418,2025-08-08,10_PF_Ped_,Plano de saude ,4079.53,Boleto,Fixa,Pessoal
-419,2025-08-08,10_PF_Ped_,Tim,109.99,Boleto,Fixa,Internet_Telefone
-420,2025-08-08,03_Ed_Prime,Reembolos Ar condicionado 3/4,612.0,Internet,Extra,Operacional
-421,2025-08-11,09_Matriz,Cartão de crédito,99.9,DDA,Extra,Bancária
-422,2025-08-12,03_Ed_Prime,IPTU PRIME - 10 UNIDADES,309.9,Boleto,Extra,Tributo
-423,2025-08-12,03_Ed_Prime,IPTU PRIME - 10 UNIDADES,295.1,Boleto,Extra,Tributo
-424,2025-08-13,03_Ed_Prime,IPTU PRIME - 7 UNIDADES,206.57,Boleto,Extra,Tributo
-425,2025-08-13,09_Matriz,Iptu Vera Cruz,170.78,Boleto,Extra,Tributo
-426,2025-08-14,03_Ed_Prime,IPTU PRIME - 9 UNIDADES,265.59,Boleto,Extra,Tributo
-427,2025-08-15,09_Matriz,Honorarios contabeis,2027.1,Boleto,Fixa,Contabil_Jurídico
-428,2025-08-15,11_PF_CEL_,Claro,962.41,Boleto,Fixa,Internet_Telefone
-429,2025-08-15,03_Ed_Prime,IPTU PRIME - 15 UNIDADES,442.65,Boleto,Extra,Tributo
-430,2025-08-15,11_PF_CEL_,Iptu Rivoli,997.73,Boleto,Extra,Tributo
-431,2025-08-18,11_PF_CEL_,Ceb,505.2,Boleto,Fixa,Energia
-432,2025-08-18,10_PF_Ped_,Ceb,491.56,Boleto,Fixa,Energia
-433,2025-08-20,09_Matriz,Fgts,591.32,Pix,Fixa,Recursos Humanos
-434,2025-08-20,09_Matriz,DARF ,611.13,Boleto,Fixa,Tributo
-435,2025-08-20,09_Matriz,Simples nacional ,2764.9,Boleto,Fixa,Tributo
-436,2025-08-22,09_Matriz,Honorarios dr matheus ,1650.0,Pix,Extra,Contabil_Jurídico
-437,2025-08-25,01_SCS,Clebio scs,400.0,Boleto,Fixa,Operacional
-438,2025-08-25,02_Taguatinga,Clebio taguatinga,400.0,Boleto,Fixa,Operacional
-439,2025-08-26,09_Matriz,CERTIFICADO DIGITAL MATRIZ E FILIAL - REEMBOLSO PEDRO ,400.0,Internet,Extra,Operacional
-440,2025-08-29,02_Taguatinga,REEMBOLSO MARCOS - AGUA TAGUATINGA,12.0,Internet,Extra,Operacional
-441,2025-08-29,09_Matriz,IPTU COND VERANO ,537.16,Boleto,Extra,Tributo
-442,2025-08-29,11_PF_CEL_,Vada ,740.0,Pix,Fixa,Pessoal
-443,2025-08-29,01_SCS,Agua,57.0,Pix,Extra,Operacional
-444,2025-08-29,09_Matriz,Tarifas,448.97,DDA,Extra,Bancária
-445,2025-09-02,11_PF_CEL_,Condominio las vegas,1931.1,Boleto,Fixa,Condomínio
-446,2025-09-02,01_SCS,Internet,139.0,Boleto,Fixa,Internet_Telefone
-447,2025-09-02,03_Ed_Prime,Internet,139.0,Boleto,Fixa,Internet_Telefone
-448,2025-09-02,02_Taguatinga,Internet,139.0,Boleto,Fixa,Internet_Telefone
-449,2025-09-02,10_PF_Ped_,Escola leonidas,1716.15,Boleto,Fixa,Pessoal
-450,2025-09-02,10_PF_Ped_,Escola valentina,1600.64,Boleto,Fixa,Pessoal
-451,2025-09-02,11_PF_CEL_,Condominio rivoli,2398.82,Boleto,Fixa,Condomínio
-452,2025-09-03,09_Matriz,Sindicato,97.0,Boleto,Fixa,Recursos Humanos
-453,2025-09-03,10_PF_Ped_,Condominio vera cruz,480.0,Boleto,Fixa,Condomínio
-454,2025-09-03,03_Ed_Prime,Condominio prime ,9171.84,Boleto,Fixa,Condomínio
-455,2025-09-03,03_Ed_Prime,REEMBOLSO ARIANE 4/4 AR CONDICIONADO SBS,612.0,Internet,Extra,Operacional
-456,2025-09-04,10_PF_Ped_,Internet,109.0,Boleto,Fixa,Internet_Telefone
-457,2025-09-04,09_Matriz,Condominio verano ,995.43,Boleto,Fixa,Condomínio
-458,2025-06-04,10_PF_Ped_,Plano de saude ,4079.53,Boleto,Fixa,Pessoal
-459,2025-06-04,10_PF_Ped_,Tim,119.99,Boleto,Fixa,Internet_Telefone
-460,2025-09-04,09_Matriz,FÉRIAS ARIANE,742.78,Internet,Extra,Recursos Humanos
-461,2025-09-05,09_Matriz,Ariane Silva de Oliveira,1885.55,Internet,Fixa,Salário
-462,2025-09-05,01_SCS,Jefferson Lopes dos Santos,1688.9,Internet,Fixa,Salário
-463,2025-09-05,02_Taguatinga,Marcos Viniciues dos Santos Costa,1943.81,Internet,Fixa,Salário
-464,2025-09-05,01_SCS,Josè Ornildo Rodrigues,1550.76,Internet,Fixa,Salário
-465,2025-09-05,09_Matriz,Ariane Silva de Oliveira,98.8,Internet,Fixa,Vale_Transporte
-466,2025-09-05,01_SCS,Jefferson Lopes dos Santos,231.0,Internet,Fixa,Vale_Transporte
-467,2025-09-05,02_Taguatinga,Marcos Viniciues dos Santos Costa,231.0,Internet,Fixa,Vale_Transporte
-468,2025-09-05,01_SCS,Josè Ornildo Rodrigues,420.0,Internet,Fixa,Vale_Transporte
-469,2025-09-05,09_Matriz,Ariane Silva de Oliveira,455.0,Internet,Fixa,Vale_Alimentação
-470,2025-09-05,01_SCS,Jefferson Lopes dos Santos,735.0,Internet,Fixa,Vale_Alimentação
-471,2025-09-05,02_Taguatinga,Marcos Viniciues dos Santos Costa,735.0,Internet,Fixa,Vale_Alimentação
-472,2025-09-05,01_SCS,Josè Ornildo Rodrigues,735.0,Internet,Fixa,Vale_Alimentação
-473,2025-09-05,09_Matriz,Iptu Vera Cruz,170.78,Boleto,Extra,Tributo
-474,2025-09-05,03_Ed_Prime,IPTU PRIME - 51 UNIDADES,1505.01,Boleto,Extra,Tributo
-475,2025-09-05,11_PF_CEL_,Iptu Rivoli,997.73,Boleto,Extra,Tributo
-476,2025-09-08,09_Matriz,Honorarios contabeis,2027.1,Boleto,Fixa,Contabil_Jurídico
-477,2025-09-08,11_PF_CEL_,Claro,962.41,Boleto,Fixa,Internet_Telefone
-478,2025-09-08,11_PF_CEL_,Ceb,568.2,Boleto,Fixa,Energia
-479,2025-09-08,09_Matriz,Fgts,591.02,Pix,Fixa,Recursos Humanos
-480,2025-09-08,09_Matriz,DARF,610.8,Boleto,Fixa,Tributo
-481,2025-09-08,09_Matriz,Simples nacional ,3177.18,Boleto,Fixa,Tributo
-482,2025-09-09,02_Taguatinga,REEMBOLSO MARCOS - AGUA TAGUATINGA 4/7,380.0,Internet,Extra,Operacional
-483,2025-09-10,09_Matriz,Cartão de crédito,99.31,DDA,Fixa,Bancária
-484,2025-09-24,01_SCS,Agua,57.0,Pix,Extra,Operacional
-485,2025-09-24,01_SCS,REEMBOLSO JEFFERSON PC,300.0,Internet,Extra,Recursos Humanos
-486,2025-09-24,09_Matriz,Honorarios dr matheus ,1650.0,Pix,Extra,Contabil_Jurídico
-487,2025-09-24,01_SCS,Clebio scs,400.0,Boleto,Fixa,Operacional
-488,2025-09-24,02_Taguatinga,Clebio taguatinga,400.0,Boleto,Fixa,Operacional
-489,2025-09-25,01_SCS,REEMBOSLO PEDRO - CADEIRA GUARITA,292.0,Internet,Extra,Operacional
-490,2025-09-26,10_PF_Ped_,Ceb,822.77,Boleto,Fixa,Energia
-491,2025-09-29,01_SCS,Material de limpeza,77.41,Internet,Extra,Operacional
-492,2025-09-30,09_Matriz,IPTU COND VERANO,537.16,Boleto,Extra,Tributo
-493,2025-09-30,11_PF_CEL_,Vada ,740.0,Pix,Fixa,Pessoal
-494,2025-09-30,09_Matriz,Tarifas,695.29,DDA,Extra,Bancária
-495,2025-10-03,01_SCS,Clebio pc guarita,300.0,Pix,Extra,Operacional
-496,2025-10-03,09_Matriz,SEGURO BRADESCO,1162.21,Boleto,Extra,Operacional
-497,2025-10-03,01_SCS,Internet,139.0,Boleto,Fixa,Internet_Telefone
-498,2025-10-03,03_Ed_Prime,Internet,139.0,Boleto,Fixa,Internet_Telefone
-499,2025-10-03,02_Taguatinga,Internet,139.0,Boleto,Fixa,Internet_Telefone
-500,2025-10-03,11_PF_CEL_,Condominio las vegas,1931.1,Boleto,Fixa,Condomínio
-501,2025-10-03,10_PF_Ped_,Escola valentina,1600.64,Boleto,Fixa,Pessoal
-502,2025-10-03,10_PF_Ped_,Escola leonidas,1716.15,Boleto,Fixa,Pessoal
-503,2025-10-06,09_Matriz,Ariane Silva de Oliveira,1318.34,Internet,Fixa,Salário
-504,2025-10-06,01_SCS,Jefferson Lopes dos Santos,1786.79,Internet,Fixa,Salário
-505,2025-10-06,02_Taguatinga,Marcos Viniciues dos Santos Costa,2105.4,Internet,Fixa,Salário
-506,2025-10-06,01_SCS,Josè Ornildo Rodrigues,1706.19,Internet,Fixa,Salário
-507,2025-10-06,09_Matriz,Ariane Silva de Oliveira,174.8,Internet,Fixa,Vale_Transporte
-508,2025-10-06,01_SCS,Jefferson Lopes dos Santos,253.0,Internet,Fixa,Vale_Transporte
-509,2025-10-06,02_Taguatinga,Marcos Viniciues dos Santos Costa,253.0,Internet,Fixa,Vale_Transporte
-510,2025-10-06,01_SCS,Josè Ornildo Rodrigues,460.0,Internet,Fixa,Vale_Transporte
-511,2025-10-06,09_Matriz,Ariane Silva de Oliveira,920.0,Internet,Fixa,Vale_Alimentação
-512,2025-10-06,01_SCS,Jefferson Lopes dos Santos,920.0,Internet,Fixa,Vale_Alimentação
-513,2025-10-06,02_Taguatinga,Marcos Viniciues dos Santos Costa,920.0,Internet,Fixa,Vale_Alimentação
-514,2025-10-06,01_SCS,Josè Ornildo Rodrigues,920.0,Internet,Fixa,Vale_Alimentação
-515,2025-10-06,01_SCS,REAJUSTE DE VT JOSE,100.0,Internet,Extra,Recursos Humanos
-516,2025-10-06,02_Taguatinga,REEMBOLSO PEDRO - PRODUTOS DE LIMPEZA TAGUA,109.6,Internet,Extra,Operacional
-517,2025-10-07,10_PF_Ped_,Condominio vera cruz,480.0,Boleto,Fixa,Condomínio
-518,2025-10-10,11_PF_CEL_,Condominio rivoli,2398.82,Boleto,Fixa,Condomínio
-519,2025-10-10,09_Matriz,Sindicato,109.0,Boleto,Fixa,Recursos Humanos
-520,2025-10-10,03_Ed_Prime,Condominio prime ,9171.84,Boleto,Fixa,Condomínio
-521,2025-10-10,10_PF_Ped_,Internet,109.0,Boleto,Fixa,Internet_Telefone
-522,2025-10-10,09_Matriz,Condominio verano ,1001.61,Boleto,Fixa,Condomínio
-523,2025-10-10,10_PF_Ped_,Plano de saude ,4079.53,Boleto,Fixa,Pessoal
-524,2025-10-10,10_PF_Ped_,Tim,119.99,Boleto,Fixa,Internet_Telefone
-525,2025-10-10,09_Matriz,Cartão de crédito,46.0,DDA,Extra,Bancária
-526,2025-10-15,11_PF_CEL_,Claro,962.41,Boleto,Fixa,Internet_Telefone
-527,2025-10-15,09_Matriz,Honorarios contabeis,2027.1,Boleto,Fixa,Contabil_Jurídico
-528,2025-10-15,03_Ed_Prime,IPTU PRIME - 51 UNIDADES,1536.14,Boleto,Extra,Tributo
-529,2025-10-15,09_Matriz,Iptu Vera Cruz,170.82,Boleto,Extra,Tributo
-530,2025-10-15,11_PF_CEL_,Iptu Rivoli,997.77,Boleto,Extra,Tributo
-531,2025-10-16,02_Taguatinga,REEMBOLSO MARCOS - BOBINA,11.0,Internet,Extra,Operacional
-532,2025-10-17,01_SCS,Agua,57.0,Pix,Extra,Operacional
-533,2025-10-17,10_PF_Ped_,Ceb,722.68,Boleto,Fixa,Energia
-534,2025-10-17,11_PF_CEL_,Ceb,492.16,Boleto,Fixa,Energia
-535,2025-10-17,02_Taguatinga,REEMBOLSO MARCOS AGUA - 6/7 ,360.0,Internet,Extra,Operacional
-536,2025-10-20,09_Matriz,Simples nacional ,2774.61,Boleto,Fixa,Tributo
-537,2025-10-20,09_Matriz,Fgts,649.59,Pix,Fixa,Recursos Humanos
-538,2025-10-20,09_Matriz,DARF,741.7,Boleto,Fixa,Tributo
-539,2025-10-23,09_Matriz,Honorarios dr matheus ,1650.0,Pix,Extra,Contabil_Jurídico
-540,2025-10-23,01_SCS,ADIANTAMENTO DE SALARIO - JEFFERSON,200.0,Internet,Extra,Recursos Humanos
-541,2025-10-24,01_SCS,Clebio scs,400.0,Boleto,Fixa,Operacional
-542,2025-10-24,02_Taguatinga,Clebio taguatinga,400.0,Boleto,Fixa,Operacional
-543,2025-10-29,09_Matriz,IPTU VERANO,537.16,Boleto,Extra,Tributo
-544,2025-10-29,11_PF_CEL_,Vada ,740.0,Pix,Fixa,Pessoal
-545,2025-10-29,09_Matriz,Tarifas,464.08,DDA,Extra,Bancária
-546,2025-11-24,02_Taguatinga,REEMBOLSO MARCOS - MATERIAL DE PITURA,15.0,Transferencia,Extra,Outro
-547,2025-11-27,09_Matriz,IPTU CONDOMINIO VERANO ,537.16,Boleto,Extra,Condomínio
-548,2025-11-27,11_PF_CEL_,VADA,740.0,Pix,Extra,Outro
-549,2025-11-27,01_SCS,1/2 13º SALARIO - JEFFERSON,800.0,Transferencia,Extra,Salário
-550,2025-11-27,02_Taguatinga,1/2 13º SALARIO - MARCOS,1046.74,Transferencia,Extra,Salário
-551,2025-11-27,01_SCS,1/2 13º SALARIO - JOSE,810.74,Transferencia,Extra,Salário
-552,2025-11-27,09_Matriz,1/2 13º SALARIO - ARIANE,939.52,Transferencia,Extra,Salário
-553,2025-11-10,09_Matriz,ANUIDADE CARTÃO DE CRÉDITO,46.0,Dda,Extra,Outro
-554,2025-11-28,09_Matriz,TARIFAS,708.83,Dda,Extra,Outro
-555,2025-12-01,02_Taguatinga,AGUA ,13.0,Transferencia,Extra,Outro
-556,2025-12-01,02_Taguatinga,PINTURA ,400.0,Transferencia,Extra,Outro
-557,2025-12-03,09_Matriz,SEGURO,1162.19,Boleto,Extra,Operacional
-558,2025-12-05,01_SCS,AGUA ,57.0,Pix,Extra,Outro
-559,2025-12-05,11_PF_CEL_,CONDOMINIO LAS VEGAS,1931.1,Boleto,Fixa,Condomínio
-560,2025-12-05,02_Taguatinga,INTERNET,139.0,Boleto,Fixa,Internet_Telefone
-561,2025-12-05,03_Ed_Prime,INTERNET,139.0,Boleto,Fixa,Internet_Telefone
-562,2025-12-05,01_SCS,INTERNET,139.0,Boleto,Fixa,Internet_Telefone
-563,2025-12-05,10_PF_Ped_,ESCOLA LEONIDAS,1716.15,Boleto,Fixa,Outro
-564,2025-12-05,10_PF_Ped_,ESCOLA VALENTINA,1600.64,Boleto,Fixa,Outro
-565,2025-12-05,10_PF_Ped_,CONDOMINIO VERA CRUZ,510.0,Boleto,Fixa,Condomínio
-566,2025-12-05,01_SCS,JEFFERSON ,2746.17,Transferencia,Fixa,Salário
-567,2025-12-05,01_SCS,JOSÉ,3059.08,Transferencia,Fixa,Salário
-568,2025-12-05,02_Taguatinga,MARCOS ,3038.83,Transferencia,Fixa,Salário
-569,2025-12-05,09_Matriz,ARIANE,2912.05,Transferencia,Fixa,Salário
-570,2025-12-08,02_Taguatinga,VT E VR SUBSTITUTO TAGUATINGA,255.0,Pix,Extra,Salário
-257,2025-05-05,09_Matriz,PLACAS ,150.0,Pix,Extra,Operacional
-571,2025-12-09,11_PF_CEL_,CONDOMINIO RIVOLI,2398.82,Boleto,Fixa,Condomínio
-572,2025-12-09,03_Ed_Prime,CONDOMINIO PRIME,9171.84,Boleto,Fixa,Condomínio
-573,2025-12-09,05_Rio_de_Janeiro,ALUGUEL BP,1422.66,Boleto,Fixa,Outro
-574,2025-12-09,01_SCS,ALUGUEL BSB,3526.47,Boleto,Fixa,Outro
-575,2025-12-09,02_Taguatinga,ALUGUEL BRADESCO,2285.84,Boleto,Fixa,Outro
-576,2025-12-09,05_Rio_de_Janeiro,ALUGUEL VR,2504.14,Boleto,Fixa,Outro
-577,2025-12-09,04_504,ALUGUEL ,1994.97,Boleto,Fixa,Outro
-578,2025-12-10,09_Matriz,CONDOMINIO VERANO,995.43,Boleto,Fixa,Condomínio
-579,2025-12-10,10_PF_Ped_,TIM,119.99,Boleto,Fixa,Internet_Telefone
-580,2025-12-10,10_PF_Ped_,PLANO DE SAUDE,4079.53,Boleto,Fixa,Outro
-581,2025-12-10,01_SCS,SINDICATO,109.0,Boleto,Fixa,Outro
-582,2025-12-15,02_Taguatinga,VT E VR SUBSTITUTO,255.0,Transferencia,Extra,Vale Transporte
-583,2025-12-15,11_PF_CEL_,CLARO,962.41,Boleto,Fixa,Internet_Telefone
-584,2025-12-15,09_Matriz,HONORARIOS CONTABEIS,2027.1,Boleto,Fixa,Contabil_Jurídica
-585,2025-12-15,09_Matriz,CARTUCHO,120.0,Pix,Extra,Operacional
-586,2025-12-18,10_PF_Ped_,CEB,875.59,Boleto,Fixa,Energia
-587,2025-12-18,11_PF_CEL_,CEB,552.22,Boleto,Fixa,Energia
-588,2025-12-18,09_Matriz,FGTS,921.19,Pix,Fixa,Tributo
-589,2025-12-18,09_Matriz,DARF,658.54,Boleto,Fixa,Tributo
-590,2025-12-18,09_Matriz,SIMPLES NACIONAL,3497.38,Boleto,Fixa,Tributo
-591,2025-12-18,09_Matriz,DARF 13º SALARIO,556.37,Boleto,Extra,Tributo
-592,2025-12-18,01_SCS,2ª PARCELA  13º SALARIO JEFFERSON,678.77,Transferencia,Extra,Salário
-593,2025-12-18,01_SCS,2ª PARCELA  13º SALARIO JOSÉ,687.58,Transferencia,Extra,Salário
-594,2025-12-18,02_Taguatinga,2ª PARCELA  13º SALARIO MARCOS,881.09,Transferencia,Extra,Salário
-595,2025-12-18,09_Matriz,2ª PARCELA  13º SALARIO ARIANE,793.17,Transferencia,Extra,Salário
-596,2025-12-22,11_PF_CEL_,VADA,740.0,Pix,Extra,Outro
-597,2025-12-22,09_Matriz,IPTU COND VERANO,537.16,Boleto,Extra,Tributo
-598,2025-12-22,02_Taguatinga,VT E VR SUBSTITUO ,204.0,Pix,Extra,Vale Transporte
-599,2025-12-22,02_Taguatinga,CLEBIO,400.0,Boleto,Fixa,Operacional
-600,2025-12-22,01_SCS,CLEBIO,400.0,Boleto,Fixa,Operacional
-601,2025-12-22,09_Matriz,HONORARIOS DR MATHEUS ,1650.0,Pix,Fixa,Contabil_Jurídica
-602,2025-12-22,09_Matriz,SEGURO,1612.19,Boleto,Extra,Outro
-603,2026-01-05,01_SCS,INTERNET,139.0,Boleto,Fixa,Internet_Telefone
-604,2026-01-05,02_Taguatinga,INTERNET,139.0,Boleto,Fixa,Internet_Telefone
-605,2026-01-05,11_PF_CEL_,CONDOMINIO LAS VEGAS,1794.6,Boleto,Fixa,Condomínio
-606,2026-01-05,03_Ed_Prime,INTERNET,139.0,Boleto,Fixa,Internet_Telefone
-607,2026-01-05,10_PF_Ped_,ESCOLA,4403.0,Transferencia,Fixa,Outro
-608,2026-01-07,01_SCS,SALARIO JEFFERSON,2899.17,Transferencia,Fixa,Salário
-609,2026-01-07,01_SCS,SALARIO JOSÉ,3010.97,Transferencia,Fixa,Salário
-610,2026-01-07,02_Taguatinga,SALARIO MARCOS,496.77,Transferencia,Fixa,Salário
-611,2026-01-07,02_Taguatinga,SALARIO ANDRE,1607.22,Transferencia,Fixa,Salário
-612,2026-01-07,09_Matriz,SALARIO ARIANE,3007.25,Transferencia,Fixa,Salário
-613,2026-01-07,10_PF_Ped_,CONDOMINIO VERA CRUZ,510.0,Boleto,Fixa,Condomínio
-614,2026-01-07,11_PF_CEL_,CONDOMINIO RIVOLI,2398.82,Boleto,Fixa,Condomínio
-615,2026-01-07,03_Ed_Prime,CONDOMINIO PRIME,9171.84,Boleto,Fixa,Condomínio
-616,2026-01-07,09_Matriz,CONDOMINIO VERANO,995.43,Boleto,Fixa,Condomínio
-617,2026-01-07,10_PF_Ped_,PLANO DE SAUDE,4079.53,Boleto,Fixa,Outro
-618,2026-01-07,01_SCS,SINDICATO,100.0,Boleto,Extra,Outro
-619,2026-01-07,10_PF_Ped_,TIM,119.99,Boleto,Fixa,Outro
-620,2026-01-12,10_PF_Ped_,INTERNET,119.9,Boleto,Fixa,Internet_Telefone
-621,2026-01-12,01_SCS,AGUA,57.0,Pix,Extra,Outro
-622,2026-01-12,01_SCS,AGUA,2027.0,Pix,Extra,Outro
-623,2026-01-12,09_Matriz,HONORARIOS CONTABEIS,2027.1,Boleto,Fixa,Contabil_Jurídica
-624,2026-01-12,11_PF_CEL_,CLARO,962.41,Boleto,Fixa,Internet_Telefone
-625,2026-01-15,11_PF_CEL_,CEB,515.18,Boleto,Fixa,Energia
-626,2026-01-15,10_PF_Ped_,CEB,950.52,Boleto,Fixa,Energia
-627,2026-01-15,02_Taguatinga,DIFERENÇA SALARIAL MARCOS,584.12,Transferencia,Fixa,Salário
-628,2026-01-20,09_Matriz,FGTS,827.67,Pix,Fixa,Tributo
-629,2026-01-20,09_Matriz,DARF,428.66,Boleto,Fixa,Tributo
-630,2026-01-20,09_Matriz,SIMPLES NACIONAL,3202.15,Boleto,Fixa,Tributo
-631,2026-01-23,01_SCS,CLEBIO,400.0,Boleto,Fixa,Operacional
-632,2026-01-23,02_Taguatinga,CLEBIO,400.0,Boleto,Fixa,Operacional
-633,2026-01-29,11_PF_CEL_,OAB,830.0,Boleto,Extra,Outro
-634,2026-01-29,10_PF_Ped_,OAB,830.0,Boleto,Extra,Outro
-635,2026-01-29,01_SCS,FERIAS,1917.14,Transferencia,Extra,Outro
-636,2026-02-03,09_Matriz,SEGURO,1162.19,Boleto,Extra,Outro
-637,2026-02-05,10_PF_Ped_,ESCOLA LEONIDAS ,1819.0,Boleto,Fixa,Outro
-638,2026-02-05,10_PF_Ped_,ESCOLA VALENTINA,2081.96,Boleto,Fixa,Outro
-639,2026-02-05,01_SCS,AGUA ,57.0,Pix,Extra,Outro
-640,2026-02-05,01_SCS,INTERNET,139.0,Boleto,Fixa,Internet_Telefone
-641,2026-02-05,02_Taguatinga,INTERNET,139.0,Boleto,Fixa,Internet_Telefone
-642,2026-02-05,03_Ed_Prime,INTERNET,139.0,Boleto,Fixa,Internet_Telefone
-643,2026-02-05,11_PF_CEL_,CONDOMINIO LAS VEGAS,1794.6,Boleto,Fixa,Condomínio
-644,2026-02-06,02_Taguatinga,BEBEDOURO,287.91,Pix,Extra,Outro
-645,2026-02-06,02_Taguatinga,EXAME ,50.0,Transferencia,Extra,Outro
-646,2026-02-06,09_Matriz,ARIANE,2818.4,Transferencia,Fixa,Salário
-648,2026-02-06,01_SCS,JEFFERSON,2574.36,Transferencia,Fixa,Salário
-649,2026-02-06,01_SCS,JOSÉ,2784.96,Transferencia,Fixa,Salário
-650,2026-02-06,02_Taguatinga,ANDRE - SUBSTITUTO,2458.18,Transferencia,Fixa,Salário
-651,2026-02-06,10_PF_Ped_,CONDOMINIO VERA CRUZ,510.0,Boleto,Fixa,Condomínio
-652,2026-02-10,04_504,ALUGUEL,1994.97,Boleto,Fixa,Outro
-653,2026-02-10,05_Rio_de_Janeiro,ALUGUEL,1422.66,Boleto,Fixa,Outro
-654,2026-02-10,01_SCS,ALUGUEL,3526.47,Boleto,Fixa,Outro
-655,2026-02-10,02_Taguatinga,ALUGUEL,2285.84,Boleto,Fixa,Outro
-656,2026-02-10,05_Rio_de_Janeiro,ALUGUEL,2504.14,Boleto,Fixa,Outro
-657,2026-02-10,11_PF_CEL_,CONDOMINIO RIVOLI,2816.45,Boleto,Fixa,Condomínio
-659,2026-02-10,03_Ed_Prime,CONDOMINIO PRIME,9171.84,Boleto,Fixa,Condomínio
-660,2026-02-10,09_Matriz,CONDOMINIO VERANO,1142.14,Boleto,Fixa,Condomínio
-661,2026-02-10,10_PF_Ped_,PPLANO DE SAUDE,4079.53,Boleto,Fixa,Outro
-662,2026-02-10,01_SCS,SINDICATO,109.0,Boleto,Fixa,Outro
-663,2026-02-10,10_PF_Ped_,TIM,119.99,Boleto,Fixa,Internet_Telefone
-664,2026-02-10,10_PF_Ped_,INTERNET,119.9,Boleto,Fixa,Internet_Telefone
-665,2026-02-10,01_SCS,FERIAS JOSE ,2150.54,Transferencia,Extra,Operacional
-666,2026-02-13,02_Taguatinga,AGUA,13.0,Transferencia,Extra,Operacional
-667,2026-02-13,09_Matriz,HONORARIOS CONTABEIS,2164.74,Boleto,Fixa,Contabil_Jurídica
-668,2026-02-13,11_PF_CEL_,CLARO,970.41,Boleto,Fixa,Internet_Telefone
-669,2026-02-19,10_PF_Ped_,CEB,791.57,Boleto,Fixa,Energia
-670,2026-02-19,11_PF_CEL_,CEB,448.26,Boleto,Fixa,Energia
-671,2026-02-20,09_Matriz,SIMPLES NACIONAL,3201.26,Boleto,Fixa,Tributo
-672,2026-02-20,09_Matriz,FGTS,472.85,Pix,Fixa,Tributo
-673,2026-02-20,09_Matriz,DARF,502.23,Boleto,Fixa,Tributo
-674,2026-02-20,02_Taguatinga,CLEBIO ,400.0,Boleto,Fixa,Operacional
-675,2026-02-20,01_SCS,CLEBIO ,400.0,Boleto,Fixa,Operacional
-676,2026-02-20,11_PF_CEL_,VADA,740.0,Pix,Extra,Outro
-677,2026-03-02,01_SCS,CHAVEIRO,45.0,Pix,Extra,Outro
-678,2026-03-02,02_Taguatinga,MATO TAGUATINGA,300.0,Transferencia,Extra,Outro
-679,2026-03-02,09_Matriz,SEGURO,1162.19,Boleto,Fixa,Outro
-680,2026-03-05,01_SCS,INTERNET,139.0,Boleto,Fixa,Internet_Telefone
-681,2026-03-05,02_Taguatinga,INTERNET,139.0,Boleto,Fixa,Internet_Telefone
-682,2026-03-05,11_PF_CEL_,CONDOMINIO LAS VEGAS,1794.6,Boleto,Fixa,Condomínio
-683,2026-03-05,10_PF_Ped_,ESCOLA LEONIDAS,1819.0,Boleto,Fixa,Outro
-684,2026-03-05,10_PF_Ped_,ESCOLA VALENTINA,2081.96,Boleto,Fixa,Outro
-685,2026-03-05,03_Ed_Prime,INTERNET,139.0,Boleto,Fixa,Internet_Telefone
-686,2026-03-06,02_Taguatinga,FERIAS MARCOS,2495.73,Transferencia,Extra,Outro
-687,2026-03-06,01_SCS,AGUA,57.0,Pix,Extra,Outro
-688,2026-03-06,09_Matriz,SALARIO ARIANE,2961.2,Transferencia,Fixa,Salário
-689,2026-03-06,01_SCS,SALARIO JEFFERSON,2850.67,Transferencia,Fixa,Salário
-690,2026-03-06,02_Taguatinga,SALARIO MARCOS,2885.28,Transferencia,Fixa,Salário
-691,2026-03-06,01_SCS,SALARIO JOSÉ,2342.11,Transferencia,Fixa,Salário
-692,2026-03-06,10_PF_Ped_,CONDOMINIO VERA CRUZ,510.0,Boleto,Fixa,Condomínio
-693,2026-03-12,04_504,ALUGUEL BRADESCO,1994.96,Boleto,Fixa,Outro
-694,2026-03-12,05_Rio_de_Janeiro,ALUGUEL BRADESCO,1422.66,Boleto,Fixa,Outro
-695,2026-03-12,01_SCS,ALUGUEL BRADESCO,3526.47,Boleto,Fixa,Outro
-696,2026-03-12,02_Taguatinga,ALUGUEL BRADESCO,2285.84,Boleto,Fixa,Outro
-697,2026-03-12,05_Rio_de_Janeiro,ALUGUEL BRADESCO,2504.14,Boleto,Fixa,Outro
-698,2026-03-12,03_Ed_Prime,CONDOMINIO PRIME,9171.84,Boleto,Fixa,Condomínio
-699,2026-03-12,01_SCS,SINDICATO,54.5,Boleto,Fixa,Outro
-700,2026-03-10,10_PF_Ped_,INTERNET,119.9,Boleto,Fixa,Internet_Telefone
-701,2026-03-10,10_PF_Ped_,PLANO DE SAUDE,4079.53,Boleto,Fixa,Outro
-703,2026-03-10,11_PF_CEL_,CONDOMINIO RIVOLI,2398.82,Boleto,Fixa,Condomínio
-704,2026-03-10,09_Matriz,CONDOMINIO VERANO,1142.14,Boleto,Fixa,Condomínio
-705,2026-03-10,10_PF_Ped_,TIM,124.99,Pix,Fixa,Condomínio
-706,2026-03-13,11_PF_CEL_,CLARO,970.41,Boleto,Fixa,Internet_Telefone
-707,2026-03-13,09_Matriz,HONORARIOS CONTABEIS,2164.74,Boleto,Fixa,Outro
-708,2026-03-18,11_PF_CEL_,CEB,492.79,Boleto,Fixa,Energia
-709,2026-03-18,10_PF_Ped_,CEB,556.45,Boleto,Fixa,Energia
-710,2026-03-20,09_Matriz,SIMPLES NACIONAL,2810.94,Boleto,Fixa,Tributo
-711,2026-03-20,09_Matriz,FGTS,2810.94,Boleto,Fixa,Tributo
-712,2026-03-20,09_Matriz,FGTS,642.08,Pix,Fixa,Tributo
-713,2026-03-20,09_Matriz,DARF,533.22,Boleto,Fixa,Tributo
-714,2026-03-27,02_Taguatinga,VENENO,155.0,Pix,Extra,Outro
-715,2026-03-27,02_Taguatinga,CLEBIO,400.0,Boleto,Extra,Operacional
-716,2026-03-27,01_SCS,CLEBIO,400.0,Boleto,Extra,Operacional
-717,2026-03-27,11_PF_CEL_,VADA,400.0,Boleto,Extra,Operacional
-718,2026-03-27,11_PF_CEL_,VADA,740.0,Pix,Extra,Outro
-719,2026-03-30,01_SCS,CESTA JEFFERSON,370.0,Transferencia,Extra,Operacional
-720,2026-03-30,01_SCS,CESTA JOSÉ,370.0,Transferencia,Extra,Operacional
-721,2026-03-30,01_SCS,AGUA,57.0,Pix,Extra,Operacional
-722,2026-04-02,11_PF_CEL_,CONDOMINIO LAS VEGAS,1794.6,Boleto,Fixa,Condomínio
-723,2026-04-02,02_Taguatinga,INTERNET,139.0,Boleto,Fixa,Internet_Telefone
-724,2026-04-02,01_SCS,INTERNET,139.0,Boleto,Fixa,Internet_Telefone
-725,2026-04-02,03_Ed_Prime,INTERNET,139.0,Boleto,Fixa,Internet_Telefone
-726,2026-04-02,10_PF_Ped_,ESCOLA LEONIDAS,1819.0,Boleto,Fixa,Internet_Telefone
-727,2026-04-02,10_PF_Ped_,ESCOLA VALENTINA,2081.96,Boleto,Fixa,Outro
-728,2026-04-07,02_Taguatinga,AGUA ,13.0,Transferencia,Extra,Operacional
-729,2026-04-07,09_Matriz,FERIAS ARIANE,1544.25,Transferencia,Extra,Operacional
-730,2026-04-07,10_PF_Ped_,CONDOMINIO VERA CRUZ,510.0,Boleto,Extra,Condomínio
-731,2026-04-10,11_PF_CEL_,CONDOMINIO RIVOLI,2398.82,Boleto,Extra,Condomínio
-732,2026-04-10,09_Matriz,CONDOMINIO VERANO,1305.82,Boleto,Fixa,Condomínio
-733,2026-04-10,03_Ed_Prime,CONDOMINIO PRIME,9447.75,Boleto,Fixa,Condomínio
-734,2026-04-15,11_PF_CEL_,CLARO,970.41,Boleto,Fixa,Internet_Telefone
-735,2026-04-15,09_Matriz,HONORARIOS CONTABEIS,2164.74,Boleto,Fixa,Contabil_Jurídica
-736,2026-04-17,10_PF_Ped_,CEB,459.66,Boleto,Extra,Energia
-737,2026-04-17,11_PF_CEL_,CEB,416.35,Boleto,Extra,Energia
-738,2026-04-17,09_Matriz,SIMPLES NACIONAL,3918.33,Boleto,Fixa,Tributo
-739,2026-04-17,09_Matriz,DARF,712.19,Boleto,Fixa,Tributo
-740,2026-04-17,09_Matriz,FGTS,681.1,Pix,Fixa,Tributo
+﻿cod_pagamento;data;filial_id;funcionario;valor;meio_de_pagamento;recorrencia;conta
+1;2025-04-30;09_Matriz;1/2 placas;120;Pix;Extra;Operacional
+2;2025-04-10;01_SCS;Agua;51;Pix;Extra;Operacional
+3;2025-01-24;01_SCS;Agua scs;51;Pix;Extra;Operacional
+4;2025-02-20;01_SCS;Agua scs;51;Pix;Extra;Operacional
+5;2025-03-18;01_SCS;Agua scs;51;Pix;Extra;Operacional
+6;2025-01-07;01_SCS;Ariane silva de oliveira ;595;Internet;Fixa;Vale Refeição
+7;2025-02-06;01_SCS;Ariane silva de oliveira ;700;Internet;Fixa;Vale Refeição
+8;2025-06-07;01_SCS;Ariane silva de oliveira ;665;Internet;Fixa;Vale Refeição
+9;2025-04-03;01_SCS;Ariane silva de oliveira ;770;Internet;Fixa;Vale Refeição
+10;2025-01-07;01_SCS;Ariane silva de oliveira ;129,2;Internet;Fixa;Vale Transporte
+11;2025-02-06;01_SCS;Ariane silva de oliveira ;152;Internet;Fixa;Vale Transporte
+12;2025-06-07;01_SCS;Ariane silva de oliveira ;144,4;Internet;Fixa;Vale Transporte
+13;2025-04-03;01_SCS;Ariane silva de oliveira ;167,2;Internet;Fixa;Vale Transporte
+14;2025-01-07;01_SCS;Ariane silva de oliveira ;1951,3;Internet;Fixa;Salário
+15;2025-02-06;01_SCS;Ariane silva de oliveira ;1933,34;Internet;Fixa;Salário
+16;2025-06-07;01_SCS;Ariane silva de oliveira ;1933,34;Internet;Fixa;Salário
+17;2025-04-03;01_SCS;Ariane silva de oliveira ;1885,55;Internet;Fixa;Salário
+18;2025-02-10;09_Matriz;Cartão de crédito;1099,9;Dda;Fixa;Bancária
+19;2025-01-10;09_Matriz;Cartão de crédito;1099,9;Dda;Fixa;Bancária
+20;2025-03-10;09_Matriz;Cartão de crédito;1099,9;Dda;Fixa;Bancária
+21;2025-04-10;09_Matriz;Cartão de crédito;1099,9;Dda;Fixa;Bancária
+22;2025-02-05;09_Matriz;Cartuchos impressora ;800;Pix;Extra;Operacional
+23;2025-01-17;10_PF_Ped_;Ceb;401,48;Boleto;Fixa;Energia
+24;2025-01-17;11_PF_CEL_;Ceb;388,96;Boleto;Fixa;Energia
+25;2025-02-18;11_PF_CEL_;Ceb;443,55;Boleto;Fixa;Energia
+26;2025-02-18;10_PF_Ped_;Ceb;507,31;Boleto;Fixa;Energia
+27;2025-03-18;11_PF_CEL_;Ceb;444,24;Boleto;Fixa;Energia
+28;2025-03-18;10_PF_Ped_;Ceb;532,36;Boleto;Fixa;Energia
+29;2025-04-17;10_PF_Ped_;Ceb;464,17;Boleto;Fixa;Energia
+30;2025-04-17;11_PF_CEL_;Ceb;419,52;Boleto;Fixa;Energia
+31;2025-03-31;09_Matriz;Cesta basica cct - 2 funcionarios;720;Internet;Extra;Recursos Humanos
+32;2025-01-10;11_PF_CEL_;Claro;85,74;Boleto;Fixa;Internet_Telefone
+33;2025-01-15;11_PF_CEL_;Claro;681,7;Boleto;Fixa;Internet_Telefone
+34;2025-01-15;11_PF_CEL_;Claro;47,74;Boleto;Fixa;Internet_Telefone
+35;2025-02-13;11_PF_CEL_;Claro;897,64;Boleto;Fixa;Internet_Telefone
+36;2025-03-14;11_PF_CEL_;Claro;914,74;Boleto;Fixa;Internet_Telefone
+37;2025-04-15;11_PF_CEL_;Claro;934,05;Boleto;Fixa;Internet_Telefone
+38;2025-01-24;01_SCS;Clebio scs;400;Boleto;Fixa;Operacional
+39;2025-02-25;01_SCS;Clebio scs;400;Boleto;Fixa;Operacional
+40;2025-03-25;01_SCS;Clebio scs;400;Boleto;Fixa;Operacional
+41;2025-03-25;02_Taguatinga;Clebio taguatinga;400;Pix;Fixa;Operacional
+42;2025-01-24;02_Taguatinga;Clebio taguatinga;400;Boleto;Fixa;Operacional
+43;2025-02-25;02_Taguatinga;Clebio taguatinga;400;Boleto;Fixa;Operacional
+44;2025-04-28;01_SCS;Clebio scs;400;Boleto;Fixa;Operacional
+45;2025-04-28;02_Taguatinga;Clebio taguatinga;400;Pix;Fixa;Operacional
+46;2025-01-03;11_PF_CEL_;Condominio las vegas;1722,24;Boleto;Fixa;Condomínio
+47;2025-02-05;11_PF_CEL_;Condominio las vegas;1790,2;Boleto;Fixa;Condomínio
+48;2025-03-05;11_PF_CEL_;Condominio las vegas;1792,2;Boleto;Fixa;Condomínio
+49;2025-04-03;11_PF_CEL_;Condominio las vegas;1969,3;Boleto;Fixa;Condomínio
+50;2025-01-10;03_Ed_Prime;Condominio prime;9171,84;Boleto;Fixa;Condomínio
+51;2025-02-10;03_Ed_Prime;Condominio prime;9171,84;Boleto;Fixa;Condomínio
+52;2025-03-10;03_Ed_Prime;Condominio prime;9171,84;Boleto;Fixa;Condomínio
+53;2025-04-02;03_Ed_Prime;Condominio prime ;12560,79;Boleto;Fixa;Condomínio
+54;2025-01-10;11_PF_CEL_;Condominio rivoli;2284,59;Boleto;Fixa;Condomínio
+55;2025-02-10;11_PF_CEL_;Condominio rivoli;2284,59;Boleto;Fixa;Condomínio
+56;2025-03-10;11_PF_CEL_;Condominio rivoli;2284,59;Boleto;Fixa;Condomínio
+57;2025-04-10;11_PF_CEL_;Condominio rivoli;2398,82;Boleto;Fixa;Condomínio
+58;2025-01-07;10_PF_Ped_;Condominio vera cruz;480;Boleto;Fixa;Condomínio
+59;2025-02-07;10_PF_Ped_;Condominio vera cruz;480;Boleto;Fixa;Condomínio
+60;2025-03-07;10_PF_Ped_;Condominio vera cruz;480;Boleto;Fixa;Condomínio
+61;2025-04-07;10_PF_Ped_;Condominio vera cruz;480;Boleto;Fixa;Condomínio
+62;2025-01-10;09_Matriz;Condominio verano;935;Boleto;Fixa;Condomínio
+63;2025-03-10;09_Matriz;Condominio verano;935;Boleto;Fixa;Condomínio
+64;2025-04-10;09_Matriz;Condominio verano;1000,62;Boleto;Fixa;Condomínio
+65;2025-02-10;09_Matriz;Condominio verano ;935;Boleto;Fixa;Condomínio
+66;2025-01-20;09_Matriz;Darf;578,71;Pix;Fixa;Tributo
+67;2025-02-20;09_Matriz;Darf;472,67;Boleto;Fixa;Tributo
+68;2025-03-20;09_Matriz;Darf;544,17;Boleto;Fixa;Tributo
+69;2025-04-17;09_Matriz;Darf;507,96;Boleto;Fixa;Tributo
+70;2025-02-05;10_PF_Ped_;Escola leonidas;1716,15;Boleto;Fixa;Pessoal
+71;2025-03-05;10_PF_Ped_;Escola leonidas;1716,15;Boleto;Fixa;Pessoal
+72;2025-04-03;10_PF_Ped_;Escola leonidas;1716,15;Boleto;Fixa;Pessoal
+73;2025-02-05;10_PF_Ped_;Escola valentina;1600,64;Boleto;Fixa;Pessoal
+74;2025-03-05;10_PF_Ped_;Escola valentina;1600,64;Boleto;Fixa;Pessoal
+75;2025-04-03;10_PF_Ped_;Escola valentina;1600,64;Boleto;Fixa;Pessoal
+76;2025-02-07;09_Matriz;Férias ariane;2314,4;Internet;Extra;Recursos Humanos
+77;2025-02-28;01_SCS;Férias jefferson;1822,55;Internet;Extra;Recursos Humanos
+78;2025-02-07;01_SCS;Férias jose;1948,14;Internet;Extra;Recursos Humanos
+79;2025-04-11;02_Taguatinga;Férias marcos;2492,92;Internet;Extra;Recursos Humanos
+80;2025-01-20;09_Matriz;Fgts;836,1;Pix;Fixa;Recursos Humanos
+81;2025-02-20;09_Matriz;Fgts;583,79;Pix;Fixa;Recursos Humanos
+82;2025-03-20;09_Matriz;Fgts;647,35;Pix;Fixa;Recursos Humanos
+83;2025-04-17;09_Matriz;Fgts;615,16;Pix;Fixa;Recursos Humanos
+84;2025-01-15;09_Matriz;Honorarios contabeis;2027,1;Boleto;Fixa;Contabil_Jurídico
+85;2025-02-13;09_Matriz;Honorarios contabeis;2027,1;Boleto;Fixa;Contabil_Jurídico
+165;2025-01-10;09_Matriz;Sindicato;97;Boleto;Fixa;Recursos Humanos
+86;2025-04-15;09_Matriz;Honorarios contabeis;2027,1;Boleto;Fixa;Contabil_Jurídico
+87;2025-03-14;09_Matriz;Honorários contabeis;2027,1;Boleto;Fixa;Contabil_Jurídico
+88;2025-02-21;09_Matriz;Honorarios dr matheus;1650;Pix;Fixa;Contabil_Jurídico
+89;2025-01-23;09_Matriz;Honorarios dr matheus ;1000;Pix;Fixa;Contabil_Jurídico
+90;2025-04-30;09_Matriz;Honorarios dr matheus (março e abril);3300;Pix;Fixa;Contabil_Jurídico
+91;2025-02-07;09_Matriz;Honorarios dr matheus retroativo;1300;Pix;Extra;Contabil_Jurídico
+92;2025-01-06;01_SCS;Inetrnet scs ;139;Boleto;Fixa;Internet_Telefone
+93;2025-02-05;01_SCS;Inetrnet scs ;139;Boleto;Fixa;Internet_Telefone
+94;2025-03-05;01_SCS;Inetrnet scs ;139;Boleto;Fixa;Internet_Telefone
+95;2025-01-10;10_PF_Ped_;Internet;109;Boleto;Fixa;Internet_Telefone
+96;2025-02-10;10_PF_Ped_;Internet;109;Boleto;Fixa;Internet_Telefone
+97;2025-03-10;10_PF_Ped_;Internet;109;Boleto;Fixa;Internet_Telefone
+98;2025-04-10;10_PF_Ped_;Internet;109;Boleto;Fixa;Internet_Telefone
+99;2025-01-03;10_PF_Ped_;Internet dezembro;112,13;Boleto;Fixa;Internet_Telefone
+100;2025-04-03;03_Ed_Prime;Internet sbs;139;Boleto;Fixa;Internet_Telefone
+101;2025-01-06;03_Ed_Prime;Internet sbs ;139;Boleto;Fixa;Internet_Telefone
+102;2025-02-05;03_Ed_Prime;Internet sbs ;139;Boleto;Fixa;Internet_Telefone
+103;2025-03-05;03_Ed_Prime;Internet sbs ;139;Boleto;Fixa;Internet_Telefone
+104;2025-04-03;01_SCS;Internet scs;139;Boleto;Fixa;Internet_Telefone
+105;2025-01-06;02_Taguatinga;Internet taguatinga;139;Boleto;Fixa;Internet_Telefone
+106;2025-02-05;02_Taguatinga;Internet taguatinga;139;Boleto;Fixa;Internet_Telefone
+107;2025-03-05;02_Taguatinga;Internet taguatinga;139;Boleto;Fixa;Internet_Telefone
+108;2025-04-03;02_Taguatinga;Internet taguatinga;139;Boleto;Fixa;Internet_Telefone
+109;2025-01-07;01_SCS;Jefferson lopes dos santos;595;Internet;Fixa;Vale Refeição
+110;2025-02-06;01_SCS;Jefferson lopes dos santos;700;Internet;Fixa;Vale Refeição
+111;2025-06-07;01_SCS;Jefferson lopes dos santos;665;Internet;Fixa;Vale Refeição
+112;2025-04-03;01_SCS;Jefferson lopes dos santos;770;Internet;Fixa;Vale Refeição
+113;2025-01-07;01_SCS;Jefferson lopes dos santos;187;Internet;Fixa;Vale Transporte
+114;2025-02-06;01_SCS;Jefferson lopes dos santos;220;Internet;Fixa;Vale Transporte
+115;2025-06-07;01_SCS;Jefferson lopes dos santos;209;Internet;Fixa;Vale Transporte
+116;2025-04-03;01_SCS;Jefferson lopes dos santos;242;Internet;Fixa;Vale Transporte
+117;2025-01-07;01_SCS;Jefferson lopes dos santos;1688,9;Internet;Fixa;Salário
+118;2025-02-06;01_SCS;Jefferson lopes dos santos;1688,9;Internet;Fixa;Salário
+119;2025-06-07;01_SCS;Jefferson lopes dos santos;1688,9;Internet;Fixa;Salário
+120;2025-04-03;01_SCS;Jefferson lopes dos santos;1688,9;Internet;Fixa;Salário
+121;2025-01-07;01_SCS;José ornilo rodrigues;700;Internet;Fixa;Vale Refeição
+122;2025-02-06;01_SCS;José ornilo rodrigues;700;Internet;Fixa;Vale Refeição
+123;2025-06-07;01_SCS;José ornilo rodrigues;665;Internet;Fixa;Vale Refeição
+124;2025-04-03;01_SCS;José ornilo rodrigues;770;Internet;Fixa;Vale Refeição
+125;2025-01-07;01_SCS;José ornilo rodrigues;400;Internet;Fixa;Vale Transporte
+126;2025-02-06;01_SCS;José ornilo rodrigues;400;Internet;Fixa;Vale Transporte
+127;2025-06-07;01_SCS;José ornilo rodrigues;380;Internet;Fixa;Vale Transporte
+128;2025-04-03;01_SCS;José ornilo rodrigues;440;Internet;Fixa;Vale Transporte
+129;2025-01-07;01_SCS;José ornilo rodrigues;1668,48;Internet;Fixa;Salário
+130;2025-02-06;01_SCS;José ornilo rodrigues;1579,75;Internet;Fixa;Salário
+131;2025-06-07;01_SCS;José ornilo rodrigues;1550,76;Internet;Fixa;Salário
+132;2025-04-03;01_SCS;José ornilo rodrigues;1550,76;Internet;Fixa;Salário
+133;2025-01-30;09_Matriz;Lampadas escritorio;70;Pix;Extra;Operacional
+134;2025-01-07;02_Taguatinga;Marcos vinicius dos santos costa;700;Internet;Fixa;Vale Refeição
+135;2025-02-06;02_Taguatinga;Marcos vinicius dos santos costa;700;Internet;Fixa;Vale Refeição
+136;2025-06-07;02_Taguatinga;Marcos vinicius dos santos costa;665;Internet;Fixa;Vale Refeição
+137;2025-04-03;02_Taguatinga;Marcos vinicius dos santos costa;770;Internet;Fixa;Vale Refeição
+138;2025-01-07;02_Taguatinga;Marcos vinicius dos santos costa;220;Internet;Fixa;Vale Transporte
+139;2025-02-06;02_Taguatinga;Marcos vinicius dos santos costa;220;Internet;Fixa;Vale Transporte
+140;2025-06-07;02_Taguatinga;Marcos vinicius dos santos costa;209;Internet;Fixa;Vale Transporte
+141;2025-04-03;02_Taguatinga;Marcos vinicius dos santos costa;242;Internet;Fixa;Vale Transporte
+142;2025-01-07;02_Taguatinga;Marcos vinicius dos santos costa;1889,22;Internet;Fixa;Salário
+143;2025-02-06;02_Taguatinga;Marcos vinicius dos santos costa;1893,49;Internet;Fixa;Salário
+144;2025-06-07;02_Taguatinga;Marcos vinicius dos santos costa;1943,81;Internet;Fixa;Salário
+145;2025-04-03;02_Taguatinga;Marcos vinicius dos santos costa;1893,49;Internet;Fixa;Salário
+146;2025-01-24;09_Matriz;Material de limpeza;55;Pix;Extra;Operacional
+147;2025-01-29;09_Matriz;Material de limpeza;8,99;Pix;Extra;Operacional
+148;2025-02-18;11_PF_CEL_;Oab;800;Boleto;Extra;Tributo
+149;2025-02-18;10_PF_Ped_;Oab;800;Boleto;Extra;Tributo
+150;2025-04-09;09_Matriz;Papelaria;15;Pix;Extra;Operacional
+151;2025-01-10;10_PF_Ped_;Plano de saude;3553,6;Boleto;Fixa;Pessoal
+152;2025-02-10;10_PF_Ped_;Plano de saude;3553,6;Boleto;Fixa;Pessoal
+153;2025-03-10;10_PF_Ped_;Plano de saude;3553,6;Boleto;Fixa;Pessoal
+154;2025-04-10;10_PF_Ped_;Plano de saude ;3553,6;Boleto;Fixa;Pessoal
+155;2025-01-06;09_Matriz;Produtos de limpeza ;56;Pix;Extra;Operacional
+156;2025-04-10;02_Taguatinga;Reebolso marcos ;26,9;Internet;Extra;Operacional
+157;2025-01-08;02_Taguatinga;Reembolso marcos jardineiro ;200;Pix;Extra;Operacional
+158;2025-01-03;09_Matriz;Seguro ;1111,78;Boleto;Extra;
+159;2025-02-04;09_Matriz;Seguro ;1111,78;Boleto;Extra;
+160;2025-03-05;09_Matriz;Seguro ;1111,78;Boleto;Extra;
+161;2025-01-20;09_Matriz;Simples nacional;2306,69;Pix;Fixa;Tributo
+162;2025-02-20;09_Matriz;Simples nacional;2382,17;Boleto;Fixa;Tributo
+163;2025-04-17;09_Matriz;Simples nacional;2776,9;Boleto;Fixa;Tributo
+164;2025-03-20;09_Matriz;Simples nacional ;2557,77;Boleto;Fixa;Tributo
+166;2025-02-10;09_Matriz;Sindicato;97;Boleto;Fixa;Recursos Humanos
+167;2025-03-10;09_Matriz;Sindicato;97;Boleto;Fixa;Recursos Humanos
+168;2025-04-10;09_Matriz;Sindicato;97;Boleto;Fixa;Recursos Humanos
+169;2025-01-10;11_PF_CEL_;Tim;109,99;Boleto;Fixa;Internet_Telefone
+170;2025-02-10;11_PF_CEL_;Tim;109,99;Boleto;Fixa;Internet_Telefone
+171;2025-03-10;11_PF_CEL_;Tim;109,99;Boleto;Fixa;Internet_Telefone
+172;2025-04-10;11_PF_CEL_;Tim;109,99;Boleto;Fixa;Internet_Telefone
+173;2025-02-28;11_PF_CEL_;Vada;740;Pix;Extra;Pessoal
+174;2025-03-31;11_PF_CEL_;Vada;740;Pix;Fixa;Pessoal
+175;2025-04-30;11_PF_CEL_;Vada;740;Pix;Fixa;Pessoal
+176;2025-01-24;11_PF_CEL_;Vada ;740;Pix;Fixa;Pessoal
+177;2025-01-10;01_SCS;Aluguel Bradesco;878,83;Boleto;Fixa;Operacional
+178;2025-02-10;01_SCS;Aluguel Bradesco;878,83;Boleto;Fixa;Operacional
+179;2025-03-10;01_SCS;Aluguel Bradesco;878,83;Boleto;Fixa;Operacional
+180;2025-04-10;01_SCS;Aluguel Bradesco;878,83;Boleto;Fixa;Operacional
+181;2025-01-10;04_504;Aluguel Bradesco;516,66;Boleto;Fixa;Operacional
+182;2025-02-10;04_504;Aluguel Bradesco;516,66;Boleto;Fixa;Operacional
+183;2025-03-10;04_504;Aluguel Bradesco;516,66;Boleto;Fixa;Operacional
+184;2025-04-10;04_504;Aluguel Bradesco;516,66;Boleto;Fixa;Operacional
+185;2025-01-10;05_Rio_de_Janeiro;Aluguel Bradesco - Barra do Piraí;1330,46;Boleto;Fixa;Operacional
+186;2025-02-10;05_Rio_de_Janeiro;Aluguel Bradesco - Barra do Piraí;1330,46;Boleto;Fixa;Operacional
+187;2025-03-10;05_Rio_de_Janeiro;Aluguel Bradesco - Barra do Piraí;1330,46;Boleto;Fixa;Operacional
+188;2025-04-10;05_Rio_de_Janeiro;Aluguel Bradesco - Barra do Piraí;1330,46;Boleto;Fixa;Operacional
+189;2025-01-10;02_Taguatinga;Aluguel Bradesco;886,98;Boleto;Fixa;Operacional
+190;2025-02-10;02_Taguatinga;Aluguel Bradesco;886,98;Boleto;Fixa;Operacional
+191;2025-03-10;02_Taguatinga;Aluguel Bradesco;886,98;Boleto;Fixa;Operacional
+192;2025-04-10;02_Taguatinga;Aluguel Bradesco;886,98;Boleto;Fixa;Operacional
+193;2025-01-10;05_Rio_de_Janeiro;Aluguel Bradesco - Volta Redonda;1330,46;Boleto;Fixa;Operacional
+194;2025-02-10;05_Rio_de_Janeiro;Aluguel Bradesco - Volta Redonda;1330,46;Boleto;Fixa;Operacional
+195;2025-03-10;05_Rio_de_Janeiro;Aluguel Bradesco - Volta Redonda;1330,46;Boleto;Fixa;Operacional
+196;2025-04-10;05_Rio_de_Janeiro;Aluguel Bradesco - Volta Redonda;1330,46;Boleto;Fixa;Operacional
+200;2025-11-14;02_Taguatinga;Reembolso Marcos - Agua ;193,0;Transferencia;Extra;Outro
+201;2025-11-14;11_PF_CEL_;Claro;962,41;Boleto;Fixa;Outro
+202;2025-11-14;09_Matriz;Honorarios contabeis;2027,1;Boleto;Fixa;Contabil_Jurídica
+205;2025-05-09;01_SCS;Aluguel Bradesco;878,83;Boleto;Fixa;Operacional
+206;2025-05-09;04_504;Aluguel Bradesco;516,66;Boleto;Fixa;Operacional
+207;2025-05-09;05_Rio_de_Janeiro;Aluguel Bradesco Barra ;1330,46;Boleto;Fixa;Operacional
+208;2025-05-09;02_Taguatinga;Aluguel Bradesco ;886,98;Boleto;Fixa;Operacional
+209;2025-05-09;05_Rio_de_Janeiro;Aluguel Bradesco  Volta;2106,58;Boleto;Fixa;Operacional
+210;2025-06-10;04_504;Aluguel Bradesco  ;1994,96;Boleto;Fixa;Operacional
+215;2025-10-10;05_Rio_de_Janeiro;Aluguel Bradesco Barra;1422,66;Boleto;Fixa;Operacional
+216;2025-09-04;05_Rio_de_Janeiro;Aluguel Bradesco Barra;1422,66;Boleto;Fixa;Operacional
+217;2025-08-08;05_Rio_de_Janeiro;Aluguel Bradesco Barra;1422,66;Boleto;Fixa;Operacional
+218;2025-07-10;05_Rio_de_Janeiro;Aluguel Bradesco Barra;1422,66;Boleto;Fixa;Operacional
+219;2025-06-10;05_Rio_de_Janeiro;Aluguel Bradesco Barra;1422,66;Boleto;Fixa;Operacional
+220;2025-07-10;04_504;Aluguel Bradesco;1994,96;Boleto;Fixa;Operacional
+221;2025-08-08;04_504;Aluguel Bradesco;1994,96;Boleto;Fixa;Operacional
+222;2025-09-04;04_504;Aluguel Bradesco;1994,96;Boleto;Fixa;Operacional
+223;2025-10-10;04_504;Aluguel Bradesco;1994,96;Boleto;Fixa;Operacional
+224;2025-06-10;01_SCS;Aluguel Bradesco;3526,47;Boleto;Fixa;Operacional
+225;2025-07-10;01_SCS;Aluguel Bradesco;3526,47;Boleto;Fixa;Operacional
+226;2025-08-08;01_SCS;Aluguel Bradesco;3526,47;Boleto;Fixa;Operacional
+227;2025-09-04;01_SCS;Aluguel Bradesco;3526,47;Boleto;Fixa;Operacional
+228;2025-10-10;01_SCS;Aluguel Bradesco;3526,47;Boleto;Fixa;Operacional
+229;2025-06-10;02_Taguatinga;Aluguel Bradesco;2285,84;Boleto;Fixa;Operacional
+230;2025-07-10;02_Taguatinga;Aluguel Bradesco;2285,84;Boleto;Fixa;Operacional
+231;2025-08-08;02_Taguatinga;Aluguel Bradesco;2285,84;Boleto;Fixa;Operacional
+232;2025-09-04;02_Taguatinga;Aluguel Bradesco;2285,84;Boleto;Fixa;Operacional
+233;2025-10-10;02_Taguatinga;Aluguel Bradesco;2285,84;Boleto;Fixa;Operacional
+234;2025-06-10;05_Rio_de_Janeiro;Aluguel Bradesco Volta;2504,14;Boleto;Fixa;Operacional
+235;2025-07-10;05_Rio_de_Janeiro;Aluguel Bradesco Volta;2504,14;Boleto;Fixa;Operacional
+236;2025-08-08;05_Rio_de_Janeiro;Aluguel Bradesco Volta;2504,14;Boleto;Fixa;Operacional
+237;2025-09-04;05_Rio_de_Janeiro;Aluguel Bradesco Volta;2504,14;Boleto;Fixa;Operacional
+238;2025-10-10;05_Rio_de_Janeiro;Aluguel Bradesco Volta;2504,14;Boleto;Fixa;Operacional
+239;2025-11-18;11_PF_CEL_;CEB;519,86;Boleto;Fixa;Energia
+240;2025-11-18;10_PF_Ped_;CEB;844,1;Boleto;Fixa;Energia
+241;2025-11-18;09_Matriz;BOBINA;319,98;Transferencia;Extra;Operacional
+242;2025-11-19;09_Matriz;FGTS;634,46;Pix;Fixa;Tributo
+243;2025-11-19;09_Matriz;DARF;659,67;Boleto;Fixa;Tributo
+244;2025-11-19;09_Matriz;SIMPLES NACIONAL;3456,5;Boleto;Fixa;Tributo
+245;2025-11-24;09_Matriz;HONORARIOS DR MATHEUS;1650,0;Pix;Fixa;Contabil_Jurídica
+246;2025-11-24;01_SCS;CLEBIO;400,0;Boleto;Fixa;Operacional
+247;2025-11-24;02_Taguatinga;CLEBIO;400,0;Boleto;Fixa;Operacional
+248;2025-05-05;11_PF_CEL_;Condominio las vegas;1969,3;Boleto;Fixa;Condomínio
+249;2025-05-05;01_SCS;Internet;139,0;Pix;Fixa;Internet_Telefone
+250;2025-05-05;02_Taguatinga;Internet;139,0;Pix;Fixa;Internet_Telefone
+251;2025-05-05;03_Ed_Prime;Internet;139,0;Pix;Fixa;Internet_Telefone
+252;2025-05-05;10_PF_Ped_;Escola leonidas;1716,15;Boleto;Fixa;Pessoal
+253;2025-05-05;10_PF_Ped_;Escola valentina;1600,64;Boleto;Fixa;Pessoal
+254;2025-05-05;09_Matriz;IPTU COND VERANO 1/10;569,13;Boleto;Extra;Tributo
+255;2025-05-05;09_Matriz;IPTU COND VERANO 2/10;542,95;Boleto;Extra;Tributo
+256;2025-05-05;09_Matriz;IPTU COND VERANO 3/10;528,94;Boleto;Extra;Tributo
+258;2025-05-06;03_Ed_Prime;Condominio prime ;12560,79;Boleto;Fixa;Condomínio
+259;2025-07-04;09_Matriz;Ariane Silva de Oliveira;1885,55;Internet;Fixa;Salário
+260;2025-07-04;01_SCS;Jefferson Lopes dos Santos;1688,9;Internet;Fixa;Salário
+261;2025-07-04;02_Taguatinga;Marcos Viniciues dos Santos Costa;1893,49;Internet;Fixa;Salário
+262;2025-07-04;01_SCS;Josè Ornildo Rodrigues;1550,76;Internet;Fixa;Salário
+263;2025-07-04;09_Matriz;Ariane Silva de Oliveira;167,2;Internet;Fixa;Vale_Transporte
+264;2025-07-04;01_SCS;Jefferson Lopes dos Santos;242,0;Internet;Fixa;Vale_Transporte
+265;2025-07-04;02_Taguatinga;Marcos Viniciues dos Santos Costa;242,0;Internet;Fixa;Vale_Transporte
+266;2025-07-04;01_SCS;Josè Ornildo Rodrigues;440,0;Internet;Fixa;Vale_Transporte
+267;2025-07-04;09_Matriz;Ariane Silva de Oliveira;770,0;Internet;Fixa;Vale_Alimentação
+268;2025-07-04;01_SCS;Jefferson Lopes dos Santos;770,0;Internet;Fixa;Vale_Alimentação
+269;2025-07-04;02_Taguatinga;Marcos Viniciues dos Santos Costa;770,0;Internet;Fixa;Vale_Alimentação
+270;2025-07-04;01_SCS;Josè Ornildo Rodrigues;770,0;Internet;Fixa;Vale_Alimentação
+271;2025-05-07;10_PF_Ped_;Condominio vera cruz;480,0;Boleto;Fixa;Condomínio
+272;2025-05-08;09_Matriz;Bobinas;393,3;Pix;Extra;Operacional
+273;2025-05-09;09_Matriz;Condominio verano ;1000,62;Boleto;Fixa;Condomínio
+274;2025-05-09;09_Matriz;Sindicato;145,5;Boleto;Fixa;Recursos Humanos
+275;2025-05-09;10_PF_Ped_;Internet;109,0;Boleto;Fixa;Internet_Telefone
+276;2025-05-09;11_PF_CEL_;Condominio rivoli;2398,82;Boleto;Fixa;Condomínio
+277;2025-05-09;10_PF_Ped_;Plano de saude ;4079,53;Boleto;Fixa;Pessoal
+278;2025-05-09;10_PF_Ped_;Tim;109,99;Pix;Fixa;Internet_Telefone
+279;2025-05-12;09_Matriz;Cartão de crédito;1099,9;DDA;Fixa;Bancária
+280;2025-05-12;03_Ed_Prime;IPTU PRIME - 10 UNIDADES;295,1;Boleto;Extra;Tributo
+281;2025-05-13;01_SCS;Agua;51,0;Pix;Extra;Operacional
+282;2025-05-13;03_Ed_Prime;IPTU PRIME - 10 UNIDADES;295,1;Boleto;Extra;Tributo
+283;2025-05-14;03_Ed_Prime;IPTU PRIME - 7 UNIDADES;206,57;Boleto;Extra;Tributo
+284;2025-05-14;09_Matriz;Iptu Vera Cruz;170,78;Boleto;Extra;Tributo
+285;2025-05-15;11_PF_CEL_;Claro;934,05;Boleto;Fixa;Internet_Telefone
+286;2025-05-15;09_Matriz;Honorarios contabeis;2027,1;Boleto;Fixa;Contabil_Jurídico
+287;2025-05-15;03_Ed_Prime;IPTU PRIME - 9 UNIDADES;265,59;Boleto;Extra;Tributo
+288;2025-05-16;03_Ed_Prime;IPTU PRIME - 15 UNIDADES;442,65;Boleto;Extra;Tributo
+289;2025-05-16;11_PF_CEL_;Iptu Rivoli;997,73;Boleto;Extra;Tributo
+290;2025-05-16;11_PF_CEL_;Ceb;461,22;Boleto;Fixa;Energia
+291;2025-05-16;10_PF_Ped_;Ceb;349,74;Boleto;Fixa;Energia
+292;2025-05-20;09_Matriz;ESCRITURA COND VERANO ;7570,62;Boleto;Extra;Tributo
+293;2025-05-20;09_Matriz;Simples nacional ;2698,12;Boleto;Fixa;Tributo
+294;2025-05-20;09_Matriz;Fgts;644,04;Pix;Fixa;Recursos Humanos
+295;2025-05-20;09_Matriz;DARF;670,45;Boleto;Fixa;Tributo
+296;2025-05-20;09_Matriz;Honorarios dr matheus ;1650,0;Pix;Extra;Contabil_Jurídico
+297;2025-05-26;02_Taguatinga;Clebio taguatinga;400,0;Boleto;Fixa;Operacional
+298;2025-05-26;01_SCS;Clebio scs;400,0;Boleto;Fixa;Operacional
+299;2025-05-30;11_PF_CEL_;Vada ;740,0;Pix;Fixa;Pessoal
+300;2025-05-30;09_Matriz;Tarifas;753,99;DDA;Extra;Bancária
+301;2025-06-02;03_Ed_Prime;INTALAÇÃO AR CONDICIONADO SBS;600,0;PIX;Extra;Operacional
+302;2025-06-03;09_Matriz;TFE 2019;155,36;Boleto;Extra;Operacional
+303;2025-06-05;11_PF_CEL_;Condominio las vegas;1969,3;Boleto;Fixa;Condomínio
+304;2025-06-05;02_Taguatinga;Internet;139,0;Boleto;Fixa;Internet_Telefone
+305;2025-06-05;01_SCS;Internet;139,0;Boleto;Fixa;Internet_Telefone
+306;2025-06-05;03_Ed_Prime;Internet;139,0;Boleto;Fixa;Internet_Telefone
+307;2025-06-05;10_PF_Ped_;Escola leonidas;1716,15;Boleto;Fixa;Pessoal
+308;2025-06-05;10_PF_Ped_;Escola valentina;1600,64;Boleto;Fixa;Pessoal
+309;2025-06-06;10_PF_Ped_;Condominio vera cruz;480,0;Boleto;Fixa;Condomínio
+310;2025-06-09;01_SCS;Agua;57,0;Pix;Extra;Operacional
+311;2025-06-10;09_Matriz;Cartão de crédito;99,9;DDA;Fixa;Bancária
+312;2025-06-10;03_Ed_Prime;Condominio prime ;9171,84;Boleto;Fixa;Condomínio
+313;2025-06-10;09_Matriz;Condominio verano ;995,0;Boleto;Fixa;Condomínio
+314;2025-06-10;09_Matriz;Sindicato;48,5;Boleto;Fixa;Recursos Humanos
+315;2025-06-10;10_PF_Ped_;Internet;109,0;Boleto;Fixa;Internet_Telefone
+316;2025-06-10;11_PF_CEL_;Condominio rivoli;2398,82;Boleto;Fixa;Condomínio
+317;2025-06-10;10_PF_Ped_;Plano de saude ;4079,53;Boleto;Fixa;Pessoal
+318;2025-06-10;10_PF_Ped_;Tim;109,99;Boleto;Fixa;Internet_Telefone
+319;2025-06-10;03_Ed_Prime;REEMBOLSO ARIANE 1/4 AR CONDICIONADO SBS;612,0;Internet;Extra;Operacional
+320;2025-06-11;02_Taguatinga;SERRALHEIRO - PORTÃO TAGUATINGA;250,0;Pix;Extra;Operacional
+321;2025-06-13;11_PF_CEL_;Claro;934,05;Boleto;Fixa;Internet_Telefone
+322;2025-06-16;03_Ed_Prime;IPTU PRIME - 10 UNIDADES;295,1;Boleto;Extra;Tributo
+323;2025-06-17;03_Ed_Prime;IPTU PRIME - 10 UNIDADES;295,1;Boleto;Extra;Tributo
+324;2025-06-18;03_Ed_Prime;IPTU PRIME - 7 UNIDADES;206,57;Boleto;Extra;Tributo
+325;2025-06-18;03_Ed_Prime;IPTU COND VERANO;170,78;Boleto;Extra;Tributo
+326;2025-06-20;03_Ed_Prime;IPTU PRIME - 9 UNIDADES;265,59;Boleto;Extra;Tributo
+327;2025-06-20;09_Matriz;Honorarios contabeis;2027,1;Pix;Fixa;Contabil_Jurídico
+328;2025-06-20;09_Matriz;Honorarios dr matheus ;1650,0;Pix;Extra;Contabil_Jurídico
+329;2025-06-20;09_Matriz;Fgts;587,07;Pix;Fixa;Recursos Humanos
+330;2025-06-20;09_Matriz;DARF;606,36;Pix;Fixa;Tributo
+331;2025-06-20;10_PF_Ped_;Ceb;441,65;Pix;Fixa;Energia
+332;2025-06-20;11_PF_CEL_;Ceb;415,44;Pix;Fixa;Energia
+333;2025-06-20;09_Matriz;Simples nacional ;2941,81;Pix;Fixa;Tributo
+334;2025-06-23;03_Ed_Prime;IPTU PRIME - 15 UNIDADES;442,65;Boleto;Extra;Tributo
+335;2025-06-23;11_PF_CEL_;Iptu Rivoli;997,73;Boleto;Extra;Tributo
+336;2025-06-25;01_SCS;Clebio scs;400,0;Boleto;Fixa;Operacional
+337;2025-06-25;02_Taguatinga;Clebio taguatinga;400,0;Boleto;Fixa;Operacional
+338;2025-06-27;09_Matriz;IPTU COND VERANO;537,16;Boleto;Extra;Tributo
+339;2025-06-27;11_PF_CEL_;Vada ;740,0;Pix;Fixa;Pessoal
+340;2025-06-27;09_Matriz;Tarifas;440,91;DDA;Extra;Bancária
+341;2025-07-04;09_Matriz;Ariane Silva de Oliveira;1885,55;Internet;Fixa;Salário
+342;2025-07-04;01_SCS;Jefferson Lopes dos Santos;1688,9;Internet;Fixa;Salário
+343;2025-07-04;02_Taguatinga;Marcos Viniciues dos Santos Costa;1944,17;Internet;Fixa;Salário
+344;2025-07-04;01_SCS;Josè Ornildo Rodrigues;1550,76;Internet;Fixa;Salário
+345;2025-07-04;09_Matriz;Ariane Silva de Oliveira;174,8;Internet;Fixa;Vale_Transporte
+346;2025-07-04;01_SCS;Jefferson Lopes dos Santos;253,0;Internet;Fixa;Vale_Transporte
+347;2025-07-04;02_Taguatinga;Marcos Viniciues dos Santos Costa;253,0;Internet;Fixa;Vale_Transporte
+348;2025-07-04;01_SCS;Josè Ornildo Rodrigues;460,0;Internet;Fixa;Vale_Transporte
+349;2025-07-04;09_Matriz;Ariane Silva de Oliveira;805,0;Internet;Fixa;Vale_Alimentação
+350;2025-07-04;01_SCS;Jefferson Lopes dos Santos;805,0;Internet;Fixa;Vale_Alimentação
+351;2025-07-04;02_Taguatinga;Marcos Viniciues dos Santos Costa;805,0;Internet;Fixa;Vale_Alimentação
+352;2025-07-04;01_SCS;Josè Ornildo Rodrigues;805,0;Internet;Fixa;Vale_Alimentação
+353;2025-07-04;11_PF_CEL_;Condominio las vegas;1928,7;Boleto;Fixa;Condomínio
+354;2025-07-04;02_Taguatinga;Internet;139,0;Boleto;Fixa;Internet_Telefone
+355;2025-07-04;01_SCS;Internet;139,0;Boleto;Fixa;Internet_Telefone
+356;2025-07-04;03_Ed_Prime;Internet;139,0;Boleto;Fixa;Internet_Telefone
+357;2025-07-04;10_PF_Ped_;Escola leonidas;1716,15;Boleto;Fixa;Pessoal
+358;2025-07-04;10_PF_Ped_;Escola valentina;1600,64;Boleto;Fixa;Pessoal
+359;2025-07-07;10_PF_Ped_;Condominio vera cruz;480,0;Boleto;Fixa;Condomínio
+360;2025-07-10;02_Taguatinga;Agua Reembolso;180,0;Internet;Extra;Operacional
+361;2025-07-10;01_SCS;Agua;57,0;Pix;Extra;Operacional
+362;2025-07-10;03_Ed_Prime;Condominio prime ;9171,84;Boleto;Fixa;Condomínio
+363;2025-07-10;09_Matriz;Condominio verano ;995,43;Boleto;Fixa;Condomínio
+364;2025-07-10;10_PF_Ped_;Internet;109,0;Boleto;Fixa;Internet_Telefone
+365;2025-07-10;09_Matriz;Sindicato;97,0;Boleto;Fixa;Recursos Humanos
+366;2025-07-10;11_PF_CEL_;Condominio rivoli;2398,82;Boleto;Fixa;Condomínio
+367;2025-07-10;10_PF_Ped_;Plano de saude ;4079,53;Boleto;Fixa;Pessoal
+368;2025-07-10;10_PF_Ped_;Tim;109,99;Boleto;Fixa;Internet_Telefone
+369;2025-07-10;03_Ed_Prime;Reembolso Ar Condicionado 2/4;612,0;Internte;Extra;Operacional
+370;2025-07-10;09_Matriz;Cartão de crédito;99,9;DDA;Extra;Bancária
+371;2025-07-14;03_Ed_Prime;IPTU PRIME - 10 UNIDADES;295,1;Boleto;Extra;Tributo
+372;2025-07-15;11_PF_CEL_;Claro;934,05;Boleto;Fixa;Internet_Telefone
+373;2025-07-15;09_Matriz;Honorarios contabeis;2027,1;Boleto;Fixa;Contabil_Jurídico
+374;2025-07-15;03_Ed_Prime;IPTU PRIME - 10 UNIDADES;295,1;Boleto;Extra;Tributo
+375;2025-07-16;09_Matriz;Iptu Vera Cruz;170,78;Boleto;Extra;Tributo
+376;2025-07-16;03_Ed_Prime;IPTU PRIME - 7 UNIDADES;206,57;Boleto;Extra;Tributo
+377;2025-07-17;03_Ed_Prime;IPTU PRIME - 9 UNIDADES;265,59;Boleto;Extra;Tributo
+378;2025-07-18;10_PF_Ped_;Ceb;373,73;Boleto;Fixa;Energia
+379;2025-07-18;11_PF_CEL_;Ceb;440,35;Boleto;Fixa;Energia
+380;2025-07-18;03_Ed_Prime;IPTU PRIME - 15 UNIDADES;442,65;Boleto;Extra;Tributo
+381;2025-07-18;11_PF_CEL_;Iptu Rivoli;997,73;Boleto;Extra;Tributo
+382;2025-07-18;09_Matriz;Fgts;591,06;Pix;Fixa;Recursos Humanos
+383;2025-07-18;09_Matriz;DARF;610,84;Pix;Fixa;Tributo
+384;2025-07-18;09_Matriz;Simples nacional ;3050,25;Pix;Fixa;Tributo
+385;2025-07-18;09_Matriz;Honorarios dr matheus ;1650,0;Pix;Extra;Contabil_Jurídico
+386;2025-07-24;01_SCS;Clebio scs;400,0;Boleto;Fixa;Operacional
+387;2025-07-24;02_Taguatinga;Clebio taguatinga;400,0;Boleto;Fixa;Operacional
+388;2025-07-24;11_PF_CEL_;Vada ;740,0;Pix;Fixa;Pessoal
+389;2025-07-24;09_Matriz;TFE 2025;59,6;Boleto;Extra;Operacional
+390;2025-07-24;09_Matriz;Iptu Verano;537,16;Boleto;Extra;Tributo
+391;2025-07-24;09_Matriz;Tarifas;668,68;DDA;Extra;Bancária
+392;2025-08-05;02_Taguatinga;Agua;204,0;Internet;Extra;Operacional
+393;2025-08-05;11_PF_CEL_;Condominio las vegas;1931,1;Boleto;Fixa;Condomínio
+394;2025-08-05;02_Taguatinga;Internet;139,0;Boleto;Fixa;Internet_Telefone
+395;2025-08-05;03_Ed_Prime;Internet;139,0;Boleto;Fixa;Internet_Telefone
+396;2025-08-05;01_SCS;Internet;139,0;Boleto;Fixa;Internet_Telefone
+397;2025-08-05;10_PF_Ped_;Escola leonidas;1716,15;Boleto;Fixa;Pessoal
+398;2025-08-05;10_PF_Ped_;Escola valentina;1600,64;Boleto;Fixa;Pessoal
+399;2025-08-06;09_Matriz;Ariane Silva de Oliveira;1885,55;Internet;Fixa;Salário
+400;2025-08-06;01_SCS;Jefferson Lopes dos Santos;1688,9;Internet;Fixa;Salário
+401;2025-08-06;02_Taguatinga;Marcos Viniciues dos Santos Costa;1947,13;Internet;Fixa;Salário
+402;2025-08-06;01_SCS;Josè Ornildo Rodrigues;1550,76;Internet;Fixa;Salário
+403;2025-08-06;09_Matriz;Ariane Silva de Oliveira;167,2;Internet;Fixa;Vale_Transporte
+404;2025-08-06;01_SCS;Jefferson Lopes dos Santos;242,0;Internet;Fixa;Vale_Transporte
+405;2025-08-06;02_Taguatinga;Marcos Viniciues dos Santos Costa;242,0;Internet;Fixa;Vale_Transporte
+406;2025-08-06;01_SCS;Josè Ornildo Rodrigues;440,0;Internet;Fixa;Vale_Transporte
+407;2025-08-06;09_Matriz;Ariane Silva de Oliveira;770,0;Internet;Fixa;Vale_Alimentação
+408;2025-08-06;01_SCS;Jefferson Lopes dos Santos;770,0;Internet;Fixa;Vale_Alimentação
+409;2025-08-06;02_Taguatinga;Marcos Viniciues dos Santos Costa;770,0;Internet;Fixa;Vale_Alimentação
+410;2025-08-06;01_SCS;Josè Ornildo Rodrigues;770,0;Internet;Fixa;Vale_Alimentação
+411;2025-08-07;10_PF_Ped_;Condominio vera cruz;480,0;Boleto;Fixa;Condomínio
+412;2025-08-08;03_Ed_Prime;Condominio prime ;9171,84;Boleto;Fixa;Condomínio
+413;2025-08-08;01_SCS;Agua;57,0;Pix;Extra;Operacional
+414;2025-08-08;11_PF_CEL_;Condominio rivoli;2398,82;Boleto;Fixa;Condomínio
+415;2025-08-08;10_PF_Ped_;Internet;109,0;Boleto;Fixa;Internet_Telefone
+416;2025-08-08;09_Matriz;Condominio verano ;995,43;Boleto;Fixa;Condomínio
+417;2025-08-08;09_Matriz;Sindicato;97,0;Boleto;Fixa;Recursos Humanos
+418;2025-08-08;10_PF_Ped_;Plano de saude ;4079,53;Boleto;Fixa;Pessoal
+419;2025-08-08;10_PF_Ped_;Tim;109,99;Boleto;Fixa;Internet_Telefone
+420;2025-08-08;03_Ed_Prime;Reembolos Ar condicionado 3/4;612,0;Internet;Extra;Operacional
+421;2025-08-11;09_Matriz;Cartão de crédito;99,9;DDA;Extra;Bancária
+422;2025-08-12;03_Ed_Prime;IPTU PRIME - 10 UNIDADES;309,9;Boleto;Extra;Tributo
+423;2025-08-12;03_Ed_Prime;IPTU PRIME - 10 UNIDADES;295,1;Boleto;Extra;Tributo
+424;2025-08-13;03_Ed_Prime;IPTU PRIME - 7 UNIDADES;206,57;Boleto;Extra;Tributo
+425;2025-08-13;09_Matriz;Iptu Vera Cruz;170,78;Boleto;Extra;Tributo
+426;2025-08-14;03_Ed_Prime;IPTU PRIME - 9 UNIDADES;265,59;Boleto;Extra;Tributo
+427;2025-08-15;09_Matriz;Honorarios contabeis;2027,1;Boleto;Fixa;Contabil_Jurídico
+428;2025-08-15;11_PF_CEL_;Claro;962,41;Boleto;Fixa;Internet_Telefone
+429;2025-08-15;03_Ed_Prime;IPTU PRIME - 15 UNIDADES;442,65;Boleto;Extra;Tributo
+430;2025-08-15;11_PF_CEL_;Iptu Rivoli;997,73;Boleto;Extra;Tributo
+431;2025-08-18;11_PF_CEL_;Ceb;505,2;Boleto;Fixa;Energia
+432;2025-08-18;10_PF_Ped_;Ceb;491,56;Boleto;Fixa;Energia
+433;2025-08-20;09_Matriz;Fgts;591,32;Pix;Fixa;Recursos Humanos
+434;2025-08-20;09_Matriz;DARF ;611,13;Boleto;Fixa;Tributo
+435;2025-08-20;09_Matriz;Simples nacional ;2764,9;Boleto;Fixa;Tributo
+436;2025-08-22;09_Matriz;Honorarios dr matheus ;1650,0;Pix;Extra;Contabil_Jurídico
+437;2025-08-25;01_SCS;Clebio scs;400,0;Boleto;Fixa;Operacional
+438;2025-08-25;02_Taguatinga;Clebio taguatinga;400,0;Boleto;Fixa;Operacional
+439;2025-08-26;09_Matriz;CERTIFICADO DIGITAL MATRIZ E FILIAL - REEMBOLSO PEDRO ;400,0;Internet;Extra;Operacional
+440;2025-08-29;02_Taguatinga;REEMBOLSO MARCOS - AGUA TAGUATINGA;12,0;Internet;Extra;Operacional
+441;2025-08-29;09_Matriz;IPTU COND VERANO ;537,16;Boleto;Extra;Tributo
+442;2025-08-29;11_PF_CEL_;Vada ;740,0;Pix;Fixa;Pessoal
+443;2025-08-29;01_SCS;Agua;57,0;Pix;Extra;Operacional
+444;2025-08-29;09_Matriz;Tarifas;448,97;DDA;Extra;Bancária
+445;2025-09-02;11_PF_CEL_;Condominio las vegas;1931,1;Boleto;Fixa;Condomínio
+446;2025-09-02;01_SCS;Internet;139,0;Boleto;Fixa;Internet_Telefone
+447;2025-09-02;03_Ed_Prime;Internet;139,0;Boleto;Fixa;Internet_Telefone
+448;2025-09-02;02_Taguatinga;Internet;139,0;Boleto;Fixa;Internet_Telefone
+449;2025-09-02;10_PF_Ped_;Escola leonidas;1716,15;Boleto;Fixa;Pessoal
+450;2025-09-02;10_PF_Ped_;Escola valentina;1600,64;Boleto;Fixa;Pessoal
+451;2025-09-02;11_PF_CEL_;Condominio rivoli;2398,82;Boleto;Fixa;Condomínio
+452;2025-09-03;09_Matriz;Sindicato;97,0;Boleto;Fixa;Recursos Humanos
+453;2025-09-03;10_PF_Ped_;Condominio vera cruz;480,0;Boleto;Fixa;Condomínio
+454;2025-09-03;03_Ed_Prime;Condominio prime ;9171,84;Boleto;Fixa;Condomínio
+455;2025-09-03;03_Ed_Prime;REEMBOLSO ARIANE 4/4 AR CONDICIONADO SBS;612,0;Internet;Extra;Operacional
+456;2025-09-04;10_PF_Ped_;Internet;109,0;Boleto;Fixa;Internet_Telefone
+457;2025-09-04;09_Matriz;Condominio verano ;995,43;Boleto;Fixa;Condomínio
+458;2025-06-04;10_PF_Ped_;Plano de saude ;4079,53;Boleto;Fixa;Pessoal
+459;2025-06-04;10_PF_Ped_;Tim;119,99;Boleto;Fixa;Internet_Telefone
+460;2025-09-04;09_Matriz;FÉRIAS ARIANE;742,78;Internet;Extra;Recursos Humanos
+461;2025-09-05;09_Matriz;Ariane Silva de Oliveira;1885,55;Internet;Fixa;Salário
+462;2025-09-05;01_SCS;Jefferson Lopes dos Santos;1688,9;Internet;Fixa;Salário
+463;2025-09-05;02_Taguatinga;Marcos Viniciues dos Santos Costa;1943,81;Internet;Fixa;Salário
+464;2025-09-05;01_SCS;Josè Ornildo Rodrigues;1550,76;Internet;Fixa;Salário
+465;2025-09-05;09_Matriz;Ariane Silva de Oliveira;98,8;Internet;Fixa;Vale_Transporte
+466;2025-09-05;01_SCS;Jefferson Lopes dos Santos;231,0;Internet;Fixa;Vale_Transporte
+467;2025-09-05;02_Taguatinga;Marcos Viniciues dos Santos Costa;231,0;Internet;Fixa;Vale_Transporte
+468;2025-09-05;01_SCS;Josè Ornildo Rodrigues;420,0;Internet;Fixa;Vale_Transporte
+469;2025-09-05;09_Matriz;Ariane Silva de Oliveira;455,0;Internet;Fixa;Vale_Alimentação
+470;2025-09-05;01_SCS;Jefferson Lopes dos Santos;735,0;Internet;Fixa;Vale_Alimentação
+471;2025-09-05;02_Taguatinga;Marcos Viniciues dos Santos Costa;735,0;Internet;Fixa;Vale_Alimentação
+472;2025-09-05;01_SCS;Josè Ornildo Rodrigues;735,0;Internet;Fixa;Vale_Alimentação
+473;2025-09-05;09_Matriz;Iptu Vera Cruz;170,78;Boleto;Extra;Tributo
+474;2025-09-05;03_Ed_Prime;IPTU PRIME - 51 UNIDADES;1505,01;Boleto;Extra;Tributo
+475;2025-09-05;11_PF_CEL_;Iptu Rivoli;997,73;Boleto;Extra;Tributo
+476;2025-09-08;09_Matriz;Honorarios contabeis;2027,1;Boleto;Fixa;Contabil_Jurídico
+477;2025-09-08;11_PF_CEL_;Claro;962,41;Boleto;Fixa;Internet_Telefone
+478;2025-09-08;11_PF_CEL_;Ceb;568,2;Boleto;Fixa;Energia
+479;2025-09-08;09_Matriz;Fgts;591,02;Pix;Fixa;Recursos Humanos
+480;2025-09-08;09_Matriz;DARF;610,8;Boleto;Fixa;Tributo
+481;2025-09-08;09_Matriz;Simples nacional ;3177,18;Boleto;Fixa;Tributo
+482;2025-09-09;02_Taguatinga;REEMBOLSO MARCOS - AGUA TAGUATINGA 4/7;380,0;Internet;Extra;Operacional
+483;2025-09-10;09_Matriz;Cartão de crédito;99,31;DDA;Fixa;Bancária
+484;2025-09-24;01_SCS;Agua;57,0;Pix;Extra;Operacional
+485;2025-09-24;01_SCS;REEMBOLSO JEFFERSON PC;300,0;Internet;Extra;Recursos Humanos
+486;2025-09-24;09_Matriz;Honorarios dr matheus ;1650,0;Pix;Extra;Contabil_Jurídico
+487;2025-09-24;01_SCS;Clebio scs;400,0;Boleto;Fixa;Operacional
+488;2025-09-24;02_Taguatinga;Clebio taguatinga;400,0;Boleto;Fixa;Operacional
+489;2025-09-25;01_SCS;REEMBOSLO PEDRO - CADEIRA GUARITA;292,0;Internet;Extra;Operacional
+490;2025-09-26;10_PF_Ped_;Ceb;822,77;Boleto;Fixa;Energia
+491;2025-09-29;01_SCS;Material de limpeza;77,41;Internet;Extra;Operacional
+492;2025-09-30;09_Matriz;IPTU COND VERANO;537,16;Boleto;Extra;Tributo
+493;2025-09-30;11_PF_CEL_;Vada ;740,0;Pix;Fixa;Pessoal
+494;2025-09-30;09_Matriz;Tarifas;695,29;DDA;Extra;Bancária
+495;2025-10-03;01_SCS;Clebio pc guarita;300,0;Pix;Extra;Operacional
+496;2025-10-03;09_Matriz;SEGURO BRADESCO;1162,21;Boleto;Extra;Operacional
+497;2025-10-03;01_SCS;Internet;139,0;Boleto;Fixa;Internet_Telefone
+498;2025-10-03;03_Ed_Prime;Internet;139,0;Boleto;Fixa;Internet_Telefone
+499;2025-10-03;02_Taguatinga;Internet;139,0;Boleto;Fixa;Internet_Telefone
+500;2025-10-03;11_PF_CEL_;Condominio las vegas;1931,1;Boleto;Fixa;Condomínio
+501;2025-10-03;10_PF_Ped_;Escola valentina;1600,64;Boleto;Fixa;Pessoal
+502;2025-10-03;10_PF_Ped_;Escola leonidas;1716,15;Boleto;Fixa;Pessoal
+503;2025-10-06;09_Matriz;Ariane Silva de Oliveira;1318,34;Internet;Fixa;Salário
+504;2025-10-06;01_SCS;Jefferson Lopes dos Santos;1786,79;Internet;Fixa;Salário
+505;2025-10-06;02_Taguatinga;Marcos Viniciues dos Santos Costa;2105,4;Internet;Fixa;Salário
+506;2025-10-06;01_SCS;Josè Ornildo Rodrigues;1706,19;Internet;Fixa;Salário
+507;2025-10-06;09_Matriz;Ariane Silva de Oliveira;174,8;Internet;Fixa;Vale_Transporte
+508;2025-10-06;01_SCS;Jefferson Lopes dos Santos;253,0;Internet;Fixa;Vale_Transporte
+509;2025-10-06;02_Taguatinga;Marcos Viniciues dos Santos Costa;253,0;Internet;Fixa;Vale_Transporte
+510;2025-10-06;01_SCS;Josè Ornildo Rodrigues;460,0;Internet;Fixa;Vale_Transporte
+511;2025-10-06;09_Matriz;Ariane Silva de Oliveira;920,0;Internet;Fixa;Vale_Alimentação
+512;2025-10-06;01_SCS;Jefferson Lopes dos Santos;920,0;Internet;Fixa;Vale_Alimentação
+513;2025-10-06;02_Taguatinga;Marcos Viniciues dos Santos Costa;920,0;Internet;Fixa;Vale_Alimentação
+514;2025-10-06;01_SCS;Josè Ornildo Rodrigues;920,0;Internet;Fixa;Vale_Alimentação
+515;2025-10-06;01_SCS;REAJUSTE DE VT JOSE;100,0;Internet;Extra;Recursos Humanos
+516;2025-10-06;02_Taguatinga;REEMBOLSO PEDRO - PRODUTOS DE LIMPEZA TAGUA;109,6;Internet;Extra;Operacional
+517;2025-10-07;10_PF_Ped_;Condominio vera cruz;480,0;Boleto;Fixa;Condomínio
+518;2025-10-10;11_PF_CEL_;Condominio rivoli;2398,82;Boleto;Fixa;Condomínio
+519;2025-10-10;09_Matriz;Sindicato;109,0;Boleto;Fixa;Recursos Humanos
+520;2025-10-10;03_Ed_Prime;Condominio prime ;9171,84;Boleto;Fixa;Condomínio
+521;2025-10-10;10_PF_Ped_;Internet;109,0;Boleto;Fixa;Internet_Telefone
+522;2025-10-10;09_Matriz;Condominio verano ;1001,61;Boleto;Fixa;Condomínio
+523;2025-10-10;10_PF_Ped_;Plano de saude ;4079,53;Boleto;Fixa;Pessoal
+524;2025-10-10;10_PF_Ped_;Tim;119,99;Boleto;Fixa;Internet_Telefone
+525;2025-10-10;09_Matriz;Cartão de crédito;46,0;DDA;Extra;Bancária
+526;2025-10-15;11_PF_CEL_;Claro;962,41;Boleto;Fixa;Internet_Telefone
+527;2025-10-15;09_Matriz;Honorarios contabeis;2027,1;Boleto;Fixa;Contabil_Jurídico
+528;2025-10-15;03_Ed_Prime;IPTU PRIME - 51 UNIDADES;1536,14;Boleto;Extra;Tributo
+529;2025-10-15;09_Matriz;Iptu Vera Cruz;170,82;Boleto;Extra;Tributo
+530;2025-10-15;11_PF_CEL_;Iptu Rivoli;997,77;Boleto;Extra;Tributo
+531;2025-10-16;02_Taguatinga;REEMBOLSO MARCOS - BOBINA;11,0;Internet;Extra;Operacional
+532;2025-10-17;01_SCS;Agua;57,0;Pix;Extra;Operacional
+533;2025-10-17;10_PF_Ped_;Ceb;722,68;Boleto;Fixa;Energia
+534;2025-10-17;11_PF_CEL_;Ceb;492,16;Boleto;Fixa;Energia
+535;2025-10-17;02_Taguatinga;REEMBOLSO MARCOS AGUA - 6/7 ;360,0;Internet;Extra;Operacional
+536;2025-10-20;09_Matriz;Simples nacional ;2774,61;Boleto;Fixa;Tributo
+537;2025-10-20;09_Matriz;Fgts;649,59;Pix;Fixa;Recursos Humanos
+538;2025-10-20;09_Matriz;DARF;741,7;Boleto;Fixa;Tributo
+539;2025-10-23;09_Matriz;Honorarios dr matheus ;1650,0;Pix;Extra;Contabil_Jurídico
+540;2025-10-23;01_SCS;ADIANTAMENTO DE SALARIO - JEFFERSON;200,0;Internet;Extra;Recursos Humanos
+541;2025-10-24;01_SCS;Clebio scs;400,0;Boleto;Fixa;Operacional
+542;2025-10-24;02_Taguatinga;Clebio taguatinga;400,0;Boleto;Fixa;Operacional
+543;2025-10-29;09_Matriz;IPTU VERANO;537,16;Boleto;Extra;Tributo
+544;2025-10-29;11_PF_CEL_;Vada ;740,0;Pix;Fixa;Pessoal
+545;2025-10-29;09_Matriz;Tarifas;464,08;DDA;Extra;Bancária
+546;2025-11-24;02_Taguatinga;REEMBOLSO MARCOS - MATERIAL DE PITURA;15,0;Transferencia;Extra;Outro
+547;2025-11-27;09_Matriz;IPTU CONDOMINIO VERANO ;537,16;Boleto;Extra;Condomínio
+548;2025-11-27;11_PF_CEL_;VADA;740,0;Pix;Extra;Outro
+549;2025-11-27;01_SCS;1/2 13º SALARIO - JEFFERSON;800,0;Transferencia;Extra;Salário
+550;2025-11-27;02_Taguatinga;1/2 13º SALARIO - MARCOS;1046,74;Transferencia;Extra;Salário
+551;2025-11-27;01_SCS;1/2 13º SALARIO - JOSE;810,74;Transferencia;Extra;Salário
+552;2025-11-27;09_Matriz;1/2 13º SALARIO - ARIANE;939,52;Transferencia;Extra;Salário
+553;2025-11-10;09_Matriz;ANUIDADE CARTÃO DE CRÉDITO;46,0;Dda;Extra;Outro
+554;2025-11-28;09_Matriz;TARIFAS;708,83;Dda;Extra;Outro
+555;2025-12-01;02_Taguatinga;AGUA ;13,0;Transferencia;Extra;Outro
+556;2025-12-01;02_Taguatinga;PINTURA ;400,0;Transferencia;Extra;Outro
+557;2025-12-03;09_Matriz;SEGURO;1162,19;Boleto;Extra;Operacional
+558;2025-12-05;01_SCS;AGUA ;57,0;Pix;Extra;Outro
+559;2025-12-05;11_PF_CEL_;CONDOMINIO LAS VEGAS;1931,1;Boleto;Fixa;Condomínio
+560;2025-12-05;02_Taguatinga;INTERNET;139,0;Boleto;Fixa;Internet_Telefone
+561;2025-12-05;03_Ed_Prime;INTERNET;139,0;Boleto;Fixa;Internet_Telefone
+562;2025-12-05;01_SCS;INTERNET;139,0;Boleto;Fixa;Internet_Telefone
+563;2025-12-05;10_PF_Ped_;ESCOLA LEONIDAS;1716,15;Boleto;Fixa;Outro
+564;2025-12-05;10_PF_Ped_;ESCOLA VALENTINA;1600,64;Boleto;Fixa;Outro
+565;2025-12-05;10_PF_Ped_;CONDOMINIO VERA CRUZ;510,0;Boleto;Fixa;Condomínio
+566;2025-12-05;01_SCS;JEFFERSON ;2746,17;Transferencia;Fixa;Salário
+567;2025-12-05;01_SCS;JOSÉ;3059,08;Transferencia;Fixa;Salário
+568;2025-12-05;02_Taguatinga;MARCOS ;3038,83;Transferencia;Fixa;Salário
+569;2025-12-05;09_Matriz;ARIANE;2912,05;Transferencia;Fixa;Salário
+570;2025-12-08;02_Taguatinga;VT E VR SUBSTITUTO TAGUATINGA;255,0;Pix;Extra;Salário
+257;2025-05-05;09_Matriz;PLACAS ;150,0;Pix;Extra;Operacional
+571;2025-12-09;11_PF_CEL_;CONDOMINIO RIVOLI;2398,82;Boleto;Fixa;Condomínio
+572;2025-12-09;03_Ed_Prime;CONDOMINIO PRIME;9171,84;Boleto;Fixa;Condomínio
+573;2025-12-09;05_Rio_de_Janeiro;ALUGUEL BP;1422,66;Boleto;Fixa;Outro
+574;2025-12-09;01_SCS;ALUGUEL BSB;3526,47;Boleto;Fixa;Outro
+575;2025-12-09;02_Taguatinga;ALUGUEL BRADESCO;2285,84;Boleto;Fixa;Outro
+576;2025-12-09;05_Rio_de_Janeiro;ALUGUEL VR;2504,14;Boleto;Fixa;Outro
+577;2025-12-09;04_504;ALUGUEL ;1994,97;Boleto;Fixa;Outro
+578;2025-12-10;09_Matriz;CONDOMINIO VERANO;995,43;Boleto;Fixa;Condomínio
+579;2025-12-10;10_PF_Ped_;TIM;119,99;Boleto;Fixa;Internet_Telefone
+580;2025-12-10;10_PF_Ped_;PLANO DE SAUDE;4079,53;Boleto;Fixa;Outro
+581;2025-12-10;01_SCS;SINDICATO;109,0;Boleto;Fixa;Outro
+582;2025-12-15;02_Taguatinga;VT E VR SUBSTITUTO;255,0;Transferencia;Extra;Vale Transporte
+583;2025-12-15;11_PF_CEL_;CLARO;962,41;Boleto;Fixa;Internet_Telefone
+584;2025-12-15;09_Matriz;HONORARIOS CONTABEIS;2027,1;Boleto;Fixa;Contabil_Jurídica
+585;2025-12-15;09_Matriz;CARTUCHO;120,0;Pix;Extra;Operacional
+586;2025-12-18;10_PF_Ped_;CEB;875,59;Boleto;Fixa;Energia
+587;2025-12-18;11_PF_CEL_;CEB;552,22;Boleto;Fixa;Energia
+588;2025-12-18;09_Matriz;FGTS;921,19;Pix;Fixa;Tributo
+589;2025-12-18;09_Matriz;DARF;658,54;Boleto;Fixa;Tributo
+590;2025-12-18;09_Matriz;SIMPLES NACIONAL;3497,38;Boleto;Fixa;Tributo
+591;2025-12-18;09_Matriz;DARF 13º SALARIO;556,37;Boleto;Extra;Tributo
+592;2025-12-18;01_SCS;2ª PARCELA  13º SALARIO JEFFERSON;678,77;Transferencia;Extra;Salário
+593;2025-12-18;01_SCS;2ª PARCELA  13º SALARIO JOSÉ;687,58;Transferencia;Extra;Salário
+594;2025-12-18;02_Taguatinga;2ª PARCELA  13º SALARIO MARCOS;881,09;Transferencia;Extra;Salário
+595;2025-12-18;09_Matriz;2ª PARCELA  13º SALARIO ARIANE;793,17;Transferencia;Extra;Salário
+596;2025-12-22;11_PF_CEL_;VADA;740,0;Pix;Extra;Outro
+597;2025-12-22;09_Matriz;IPTU COND VERANO;537,16;Boleto;Extra;Tributo
+598;2025-12-22;02_Taguatinga;VT E VR SUBSTITUO ;204,0;Pix;Extra;Vale Transporte
+599;2025-12-22;02_Taguatinga;CLEBIO;400,0;Boleto;Fixa;Operacional
+600;2025-12-22;01_SCS;CLEBIO;400,0;Boleto;Fixa;Operacional
+601;2025-12-22;09_Matriz;HONORARIOS DR MATHEUS ;1650,0;Pix;Fixa;Contabil_Jurídica
+602;2025-12-22;09_Matriz;SEGURO;1612,19;Boleto;Extra;Outro
+603;2026-01-05;01_SCS;INTERNET;139,0;Boleto;Fixa;Internet_Telefone
+604;2026-01-05;02_Taguatinga;INTERNET;139,0;Boleto;Fixa;Internet_Telefone
+605;2026-01-05;11_PF_CEL_;CONDOMINIO LAS VEGAS;1794,6;Boleto;Fixa;Condomínio
+606;2026-01-05;03_Ed_Prime;INTERNET;139,0;Boleto;Fixa;Internet_Telefone
+607;2026-01-05;10_PF_Ped_;ESCOLA;4403,0;Transferencia;Fixa;Outro
+608;2026-01-07;01_SCS;SALARIO JEFFERSON;2899,17;Transferencia;Fixa;Salário
+609;2026-01-07;01_SCS;SALARIO JOSÉ;3010,97;Transferencia;Fixa;Salário
+610;2026-01-07;02_Taguatinga;SALARIO MARCOS;496,77;Transferencia;Fixa;Salário
+611;2026-01-07;02_Taguatinga;SALARIO ANDRE;1607,22;Transferencia;Fixa;Salário
+612;2026-01-07;09_Matriz;SALARIO ARIANE;3007,25;Transferencia;Fixa;Salário
+613;2026-01-07;10_PF_Ped_;CONDOMINIO VERA CRUZ;510,0;Boleto;Fixa;Condomínio
+614;2026-01-07;11_PF_CEL_;CONDOMINIO RIVOLI;2398,82;Boleto;Fixa;Condomínio
+615;2026-01-07;03_Ed_Prime;CONDOMINIO PRIME;9171,84;Boleto;Fixa;Condomínio
+616;2026-01-07;09_Matriz;CONDOMINIO VERANO;995,43;Boleto;Fixa;Condomínio
+617;2026-01-07;10_PF_Ped_;PLANO DE SAUDE;4079,53;Boleto;Fixa;Outro
+618;2026-01-07;01_SCS;SINDICATO;100,0;Boleto;Extra;Outro
+619;2026-01-07;10_PF_Ped_;TIM;119,99;Boleto;Fixa;Outro
+620;2026-01-12;10_PF_Ped_;INTERNET;119,9;Boleto;Fixa;Internet_Telefone
+621;2026-01-12;01_SCS;AGUA;57,0;Pix;Extra;Outro
+622;2026-01-12;01_SCS;AGUA;2027,0;Pix;Extra;Outro
+623;2026-01-12;09_Matriz;HONORARIOS CONTABEIS;2027,1;Boleto;Fixa;Contabil_Jurídica
+624;2026-01-12;11_PF_CEL_;CLARO;962,41;Boleto;Fixa;Internet_Telefone
+625;2026-01-15;11_PF_CEL_;CEB;515,18;Boleto;Fixa;Energia
+626;2026-01-15;10_PF_Ped_;CEB;950,52;Boleto;Fixa;Energia
+627;2026-01-15;02_Taguatinga;DIFERENÇA SALARIAL MARCOS;584,12;Transferencia;Fixa;Salário
+628;2026-01-20;09_Matriz;FGTS;827,67;Pix;Fixa;Tributo
+629;2026-01-20;09_Matriz;DARF;428,66;Boleto;Fixa;Tributo
+630;2026-01-20;09_Matriz;SIMPLES NACIONAL;3202,15;Boleto;Fixa;Tributo
+631;2026-01-23;01_SCS;CLEBIO;400,0;Boleto;Fixa;Operacional
+632;2026-01-23;02_Taguatinga;CLEBIO;400,0;Boleto;Fixa;Operacional
+633;2026-01-29;11_PF_CEL_;OAB;830,0;Boleto;Extra;Outro
+634;2026-01-29;10_PF_Ped_;OAB;830,0;Boleto;Extra;Outro
+635;2026-01-29;01_SCS;FERIAS;1917,14;Transferencia;Extra;Outro
+636;2026-02-03;09_Matriz;SEGURO;1162,19;Boleto;Extra;Outro
+637;2026-02-05;10_PF_Ped_;ESCOLA LEONIDAS ;1819,0;Boleto;Fixa;Outro
+638;2026-02-05;10_PF_Ped_;ESCOLA VALENTINA;2081,96;Boleto;Fixa;Outro
+639;2026-02-05;01_SCS;AGUA ;57,0;Pix;Extra;Outro
+640;2026-02-05;01_SCS;INTERNET;139,0;Boleto;Fixa;Internet_Telefone
+641;2026-02-05;02_Taguatinga;INTERNET;139,0;Boleto;Fixa;Internet_Telefone
+642;2026-02-05;03_Ed_Prime;INTERNET;139,0;Boleto;Fixa;Internet_Telefone
+643;2026-02-05;11_PF_CEL_;CONDOMINIO LAS VEGAS;1794,6;Boleto;Fixa;Condomínio
+644;2026-02-06;02_Taguatinga;BEBEDOURO;287,91;Pix;Extra;Outro
+645;2026-02-06;02_Taguatinga;EXAME ;50,0;Transferencia;Extra;Outro
+646;2026-02-06;09_Matriz;ARIANE;2818,4;Transferencia;Fixa;Salário
+648;2026-02-06;01_SCS;JEFFERSON;2574,36;Transferencia;Fixa;Salário
+649;2026-02-06;01_SCS;JOSÉ;2784,96;Transferencia;Fixa;Salário
+650;2026-02-06;02_Taguatinga;ANDRE - SUBSTITUTO;2458,18;Transferencia;Fixa;Salário
+651;2026-02-06;10_PF_Ped_;CONDOMINIO VERA CRUZ;510,0;Boleto;Fixa;Condomínio
+652;2026-02-10;04_504;ALUGUEL;1994,97;Boleto;Fixa;Outro
+653;2026-02-10;05_Rio_de_Janeiro;ALUGUEL;1422,66;Boleto;Fixa;Outro
+654;2026-02-10;01_SCS;ALUGUEL;3526,47;Boleto;Fixa;Outro
+655;2026-02-10;02_Taguatinga;ALUGUEL;2285,84;Boleto;Fixa;Outro
+656;2026-02-10;05_Rio_de_Janeiro;ALUGUEL;2504,14;Boleto;Fixa;Outro
+657;2026-02-10;11_PF_CEL_;CONDOMINIO RIVOLI;2816,45;Boleto;Fixa;Condomínio
+659;2026-02-10;03_Ed_Prime;CONDOMINIO PRIME;9171,84;Boleto;Fixa;Condomínio
+660;2026-02-10;09_Matriz;CONDOMINIO VERANO;1142,14;Boleto;Fixa;Condomínio
+661;2026-02-10;10_PF_Ped_;PPLANO DE SAUDE;4079,53;Boleto;Fixa;Outro
+662;2026-02-10;01_SCS;SINDICATO;109,0;Boleto;Fixa;Outro
+663;2026-02-10;10_PF_Ped_;TIM;119,99;Boleto;Fixa;Internet_Telefone
+664;2026-02-10;10_PF_Ped_;INTERNET;119,9;Boleto;Fixa;Internet_Telefone
+665;2026-02-10;01_SCS;FERIAS JOSE ;2150,54;Transferencia;Extra;Operacional
+666;2026-02-13;02_Taguatinga;AGUA;13,0;Transferencia;Extra;Operacional
+667;2026-02-13;09_Matriz;HONORARIOS CONTABEIS;2164,74;Boleto;Fixa;Contabil_Jurídica
+668;2026-02-13;11_PF_CEL_;CLARO;970,41;Boleto;Fixa;Internet_Telefone
+669;2026-02-19;10_PF_Ped_;CEB;791,57;Boleto;Fixa;Energia
+670;2026-02-19;11_PF_CEL_;CEB;448,26;Boleto;Fixa;Energia
+671;2026-02-20;09_Matriz;SIMPLES NACIONAL;3201,26;Boleto;Fixa;Tributo
+672;2026-02-20;09_Matriz;FGTS;472,85;Pix;Fixa;Tributo
+673;2026-02-20;09_Matriz;DARF;502,23;Boleto;Fixa;Tributo
+674;2026-02-20;02_Taguatinga;CLEBIO ;400,0;Boleto;Fixa;Operacional
+675;2026-02-20;01_SCS;CLEBIO ;400,0;Boleto;Fixa;Operacional
+676;2026-02-20;11_PF_CEL_;VADA;740,0;Pix;Extra;Outro
+677;2026-03-02;01_SCS;CHAVEIRO;45,0;Pix;Extra;Outro
+678;2026-03-02;02_Taguatinga;MATO TAGUATINGA;300,0;Transferencia;Extra;Outro
+679;2026-03-02;09_Matriz;SEGURO;1162,19;Boleto;Fixa;Outro
+680;2026-03-05;01_SCS;INTERNET;139,0;Boleto;Fixa;Internet_Telefone
+681;2026-03-05;02_Taguatinga;INTERNET;139,0;Boleto;Fixa;Internet_Telefone
+682;2026-03-05;11_PF_CEL_;CONDOMINIO LAS VEGAS;1794,6;Boleto;Fixa;Condomínio
+683;2026-03-05;10_PF_Ped_;ESCOLA LEONIDAS;1819,0;Boleto;Fixa;Outro
+684;2026-03-05;10_PF_Ped_;ESCOLA VALENTINA;2081,96;Boleto;Fixa;Outro
+685;2026-03-05;03_Ed_Prime;INTERNET;139,0;Boleto;Fixa;Internet_Telefone
+686;2026-03-06;02_Taguatinga;FERIAS MARCOS;2495,73;Transferencia;Extra;Outro
+687;2026-03-06;01_SCS;AGUA;57,0;Pix;Extra;Outro
+688;2026-03-06;09_Matriz;SALARIO ARIANE;2961,2;Transferencia;Fixa;Salário
+689;2026-03-06;01_SCS;SALARIO JEFFERSON;2850,67;Transferencia;Fixa;Salário
+690;2026-03-06;02_Taguatinga;SALARIO MARCOS;2885,28;Transferencia;Fixa;Salário
+691;2026-03-06;01_SCS;SALARIO JOSÉ;2342,11;Transferencia;Fixa;Salário
+692;2026-03-06;10_PF_Ped_;CONDOMINIO VERA CRUZ;510,0;Boleto;Fixa;Condomínio
+693;2026-03-12;04_504;ALUGUEL BRADESCO;1994,96;Boleto;Fixa;Outro
+694;2026-03-12;05_Rio_de_Janeiro;ALUGUEL BRADESCO;1422,66;Boleto;Fixa;Outro
+695;2026-03-12;01_SCS;ALUGUEL BRADESCO;3526,47;Boleto;Fixa;Outro
+696;2026-03-12;02_Taguatinga;ALUGUEL BRADESCO;2285,84;Boleto;Fixa;Outro
+697;2026-03-12;05_Rio_de_Janeiro;ALUGUEL BRADESCO;2504,14;Boleto;Fixa;Outro
+698;2026-03-12;03_Ed_Prime;CONDOMINIO PRIME;9171,84;Boleto;Fixa;Condomínio
+699;2026-03-12;01_SCS;SINDICATO;54,5;Boleto;Fixa;Outro
+700;2026-03-10;10_PF_Ped_;INTERNET;119,9;Boleto;Fixa;Internet_Telefone
+701;2026-03-10;10_PF_Ped_;PLANO DE SAUDE;4079,53;Boleto;Fixa;Outro
+703;2026-03-10;11_PF_CEL_;CONDOMINIO RIVOLI;2398,82;Boleto;Fixa;Condomínio
+704;2026-03-10;09_Matriz;CONDOMINIO VERANO;1142,14;Boleto;Fixa;Condomínio
+705;2026-03-10;10_PF_Ped_;TIM;124,99;Pix;Fixa;Condomínio
+706;2026-03-13;11_PF_CEL_;CLARO;970,41;Boleto;Fixa;Internet_Telefone
+707;2026-03-13;09_Matriz;HONORARIOS CONTABEIS;2164,74;Boleto;Fixa;Outro
+708;2026-03-18;11_PF_CEL_;CEB;492,79;Boleto;Fixa;Energia
+709;2026-03-18;10_PF_Ped_;CEB;556,45;Boleto;Fixa;Energia
+710;2026-03-20;09_Matriz;SIMPLES NACIONAL;2810,94;Boleto;Fixa;Tributo
+711;2026-03-20;09_Matriz;FGTS;2810,94;Boleto;Fixa;Tributo
+712;2026-03-20;09_Matriz;FGTS;642,08;Pix;Fixa;Tributo
+713;2026-03-20;09_Matriz;DARF;533,22;Boleto;Fixa;Tributo
+714;2026-03-27;02_Taguatinga;VENENO;155,0;Pix;Extra;Outro
+715;2026-03-27;02_Taguatinga;CLEBIO;400,0;Boleto;Extra;Operacional
+716;2026-03-27;01_SCS;CLEBIO;400,0;Boleto;Extra;Operacional
+717;2026-03-27;11_PF_CEL_;VADA;400,0;Boleto;Extra;Operacional
+718;2026-03-27;11_PF_CEL_;VADA;740,0;Pix;Extra;Outro
+719;2026-03-30;01_SCS;CESTA JEFFERSON;370,0;Transferencia;Extra;Operacional
+720;2026-03-30;01_SCS;CESTA JOSÉ;370,0;Transferencia;Extra;Operacional
+721;2026-03-30;01_SCS;AGUA;57,0;Pix;Extra;Operacional
+722;2026-04-02;11_PF_CEL_;CONDOMINIO LAS VEGAS;1794,6;Boleto;Fixa;Condomínio
+723;2026-04-02;02_Taguatinga;INTERNET;139,0;Boleto;Fixa;Internet_Telefone
+724;2026-04-02;01_SCS;INTERNET;139,0;Boleto;Fixa;Internet_Telefone
+725;2026-04-02;03_Ed_Prime;INTERNET;139,0;Boleto;Fixa;Internet_Telefone
+726;2026-04-02;10_PF_Ped_;ESCOLA LEONIDAS;1819,0;Boleto;Fixa;Internet_Telefone
+727;2026-04-02;10_PF_Ped_;ESCOLA VALENTINA;2081,96;Boleto;Fixa;Outro
+728;2026-04-07;02_Taguatinga;AGUA ;13,0;Transferencia;Extra;Operacional
+729;2026-04-07;09_Matriz;FERIAS ARIANE;1544,25;Transferencia;Extra;Operacional
+730;2026-04-07;10_PF_Ped_;CONDOMINIO VERA CRUZ;510,0;Boleto;Extra;Condomínio
+731;2026-04-10;11_PF_CEL_;CONDOMINIO RIVOLI;2398,82;Boleto;Extra;Condomínio
+732;2026-04-10;09_Matriz;CONDOMINIO VERANO;1305,82;Boleto;Fixa;Condomínio
+733;2026-04-10;03_Ed_Prime;CONDOMINIO PRIME;9447,75;Boleto;Fixa;Condomínio
+734;2026-04-15;11_PF_CEL_;CLARO;970,41;Boleto;Fixa;Internet_Telefone
+735;2026-04-15;09_Matriz;HONORARIOS CONTABEIS;2164,74;Boleto;Fixa;Contabil_Jurídica
+736;2026-04-17;10_PF_Ped_;CEB;459,66;Boleto;Extra;Energia
+737;2026-04-17;11_PF_CEL_;CEB;416,35;Boleto;Extra;Energia
+738;2026-04-17;09_Matriz;SIMPLES NACIONAL;3918,33;Boleto;Fixa;Tributo
+739;2026-04-17;09_Matriz;DARF;712,19;Boleto;Fixa;Tributo
+740;2026-04-17;09_Matriz;FGTS;681,1;Pix;Fixa;Tributo
