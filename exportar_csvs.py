@@ -51,13 +51,21 @@ def exportar_tabela(tabela):
     return todos
 
 
+def formatar_valor(v):
+    """Converte float para string com vírgula decimal (padrão pt-BR)."""
+    if isinstance(v, float):
+        return str(v).replace('.', ',')
+    return v
+
+
 def salvar_csv(tabela, dados):
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     caminho = os.path.join(OUTPUT_DIR, f'{tabela}.csv')
     with open(caminho, 'w', newline='', encoding='utf-8-sig') as f:
-        writer = csv.DictWriter(f, fieldnames=dados[0].keys())
+        writer = csv.DictWriter(f, fieldnames=dados[0].keys(), delimiter=';')
         writer.writeheader()
-        writer.writerows(dados)
+        for row in dados:
+            writer.writerow({k: formatar_valor(v) for k, v in row.items()})
     return caminho
 
 
