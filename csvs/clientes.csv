@@ -2,16 +2,6 @@
 01T16;Clinica Vilela;01_SCS;;;;;;Ticket_Convenio;Ativo;;;;;;;;;;;;;;False;;manual;2026-05-19T20:54:58.048627+00:00;2026-05-19T20:54:58.048627+00:00;;;;
 01M17;Bruna Ayres Cardoso;01_SCS;a verificar;0;Sem Operador;Boleto;;Mensalista;Desativado;;;;;;;;;;;;;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-09T22:13:16.658504+00:00;;;;
 01M24;Leandro Ribeiro De Lima;01_SCS;a verificar;0;Sem Operador;Boleto;;Mensalista;Desativado;;;;;;;;;;;;;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-09T22:13:16.658504+00:00;;;;
-01MS01;Sergio Henrique Moreira Cunha;01_SCS;a verificar;0;Sem Operador;Boleto;;Mensalista;Desativado;;;;;;;;;;;;;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-09T22:13:16.658504+00:00;;;;
-01MS02;Carolina Silva Lucena Dantas;01_SCS;a verificar;0;Sem Operador;Boleto;;Mensalista;Desativado;;;;;;;;;;;;;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-09T22:13:16.658504+00:00;;;;
-01MS03;Neiane Andreato;01_SCS;a verificar;0;Sem Operador;Boleto;;Mensalista;Desativado;;;;;;;;;;;;;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-09T22:13:16.658504+00:00;;;;
-01MS04;Luana Caixeta Paz;01_SCS;a verificar;0;Sem Operador;Boleto;;Mensalista;Desativado;;;;;;;;;;;;;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-09T22:13:16.658504+00:00;;;;
-01MS05;Larissa Carolina Araujo Vieira;01_SCS;a verificar;0;Sem Operador;Boleto;;Mensalista;Desativado;;;;;;;;;;;;;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-09T22:13:16.658504+00:00;;;;
-01MS06;Nannashara Cotrim Santana De Rez;01_SCS;a verificar;0;Sem Operador;Boleto;;Mensalista;Desativado;;;;;;;;;;;;;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-09T22:13:16.658504+00:00;;;;
-01MS07;Antonio Ferreira Lima Filho;01_SCS;a verificar;0;Sem Operador;Boleto;;Mensalista;Desativado;;;;;;;;;;;;;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-09T22:13:16.658504+00:00;;;;
-01MS08;Mariana Carvalho Pinheiro;01_SCS;a verificar;0;Sem Operador;Boleto;;Mensalista;Desativado;;;;;;;;;;;;;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-09T22:13:16.658504+00:00;;;;
-01MS09;Isaet Gomes Da Silva Morais;01_SCS;a verificar;0;Sem Operador;Boleto;;Mensalista;Desativado;;;;;;;;;;;;;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-09T22:13:16.658504+00:00;;;;
-01MS10;Marcello Novaes Fernandes Espind;01_SCS;a verificar;0;Sem Operador;Boleto;;Mensalista;Desativado;;;;;;;;;;;;;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-09T22:13:16.658504+00:00;;;;
 01R1;Cliente Rotativo Scs;01_SCS;a verificar;0;José Jeferson;Verificar se PIX DIN CARTAO;;Rotativo;Ativo;;;;;;;;;;;;;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-09T22:13:16.658504+00:00;;;;
 01T1;Bradesco Agencia 0606;01_SCS;a verificar;0;Sem Operador;Boleto;;Tickets_Convenio;Ativo;;;;;;;;;;;;;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-09T22:13:16.658504+00:00;;;;
 01T10;N&N Ass. E Cons Empresarial;01_SCS;a verificar;0;Sem Operador;Boleto;;Tickets_Convenio;Ativo;;;;;;;;;;;;;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-09T22:13:16.658504+00:00;;;;
@@ -31,6 +21,8 @@
 03M43;Maria Isabel De Carvalho;03_Ed_Prime;a verificar;0;Sem Operador;Boleto;;Mensalista;Desativado;;;;;;;;;;;;;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-09T22:13:16.658504+00:00;;;;
 03M44;Melissa Fernandes De Barros Carneiro;03_Ed_Prime;a verificar;0;Sem Operador;Boleto;;Mensalista;Desativado;;;;;;;;;;;;;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-09T22:13:16.658504+00:00;;;;
 03M45;Paula Franca Dos Santos;03_Ed_Prime;a verificar;0;Sem Operador;Boleto;;Mensalista;Desativado;;;;;;;;;;;;;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-09T22:13:16.658504+00:00;;;;
+01M01;Sergio Henrique Moreira Cunha;01_SCS;a verificar;0;Sem Operador;Boleto;;Mensalista;Desativado;;;;;;;;;;;;;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-22T14:01:12.841178+00:00;;;;
+01M02;Carolina Silva Lucena Dantas;01_SCS;a verificar;0;Sem Operador;Boleto;;Mensalista;Desativado;;;;;;;;;;;;;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-22T14:01:12.841178+00:00;;;;
 03M31;4Bears Tecnologia;03_Ed_Prime;a verificar;0;Sem Operador;Boleto;;Mensalista;Desativado;;;;;;;;;;;;;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-09T22:13:16.658504+00:00;;;;
 03M34;Bruno Pennacchio Cassar Silva;03_Ed_Prime;a verificar;0;Sem Operador;Boleto;;Mensalista;Desativado;;;;;;;;;;;;;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-09T22:13:16.658504+00:00;;;;
 01M22;Jose Pereira De Araujo;01_SCS;a verificar;0;Sem Operador;Boleto;;Mensalista;Desativado;;;;;;;;;;;;;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-09T22:13:16.658504+00:00;;;;
@@ -46,6 +38,9 @@
 03M42;Maithe Martinez Aragao;03_Ed_Prime;a verificar;0;Sem Operador;Boleto;;Mensalista;Desativado;;;;;;;;;;;;;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-09T22:13:16.658504+00:00;;;;
 01T8;Top Tier;01_SCS;a verificar;0;Sem Operador;Boleto;;Tickets_Convenio;Desativado;;;;;;;;;;;;;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-09T22:13:16.658504+00:00;;;;
 01T5;Centro Auditivo Telex;01_SCS;a verificar;0;Sem Operador;Boleto;;Tickets_Convenio;Desativado;;;;;;;;;;;;;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-09T22:13:16.658504+00:00;;;;
+01M03;Neiane Andreato;01_SCS;a verificar;0;Sem Operador;Boleto;;Mensalista;Desativado;;;;;;;;;;;;;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-22T14:01:12.841178+00:00;;;;
+01M04;Luana Caixeta Paz;01_SCS;a verificar;0;Sem Operador;Boleto;;Mensalista;Desativado;;;;;;;;;;;;;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-22T14:01:12.841178+00:00;;;;
+01M05;Larissa Carolina Araujo Vieira;01_SCS;a verificar;0;Sem Operador;Boleto;;Mensalista;Desativado;;;;;;;;;;;;;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-22T14:01:12.841178+00:00;;;;
 01M14;Alex De Brito Bonifacio;01_SCS;a verificar;0;Sem Operador;Boleto;;Mensalista;Ativo;60199253153;;;"karine.menezes@bradesco.com.br; maria.vieira@bradesco.com.br; alex.bonifacio@bradesco.com.br";;70329900;EDIFICIO BRADESCO BRASILIA;;;ASA SUL;BRASILIA;DF;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-19T19:11:33.888747+00:00;;;;
 03M37;Elisio De Azevedo Freitas;03_Ed_Prime;a verificar;0;Sem Operador;Boleto;;Mensalista;Ativo;78323410178;;;"carolw81@yahoo.com; elisio@elisiofreitas.adv.br; advocacia@elisiofreitas.adv.br";;70070120;SBS QUADRA 2;;;ASA SUL;BRASILIA;DF;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-19T19:11:33.888747+00:00;;;;
 03MS01;Roberto Rosa Da Silveira Junior;03_Ed_Prime;a verificar;0;Sem Operador;Boleto;;Mensalista;Desativado;;;;;;;;;;;;;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-09T22:13:16.658504+00:00;;;;
@@ -136,6 +131,11 @@
 04M65;Kamilla Vitoria Cordeiro De Oliveira;04_504;a verificar;0;Sem Operador;Boleto;;Mensalista;Ativo;05551448100;;;kamilla.oliveira@bradescoseguros.com.br;;71571604;QUADRA 16 CONJUNTO D;;;PARANOA;BRASILIA;DF;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-19T19:11:33.888747+00:00;;;;
 04M62;Marta Ferreira De Nascimento  Rosa;04_504;a verificar;0;Sem Operador;Boleto;;Mensalista;Ativo;52473252149;;;marta.rosa@bradescoseguros.com.br;;70329900;SCS QUADRA, 2 BLOCO A ED BRADESCO;;;ASA SUL;BRASILIA;DF;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-19T19:11:33.888747+00:00;;;;
 04M61;Naikel De Jesus Silva;04_504;a verificar;0;Sem Operador;Boleto;;Mensalista;Ativo;03468856121;;;naikel.silva@bradescoseguros.com.br;;71571513;QUADRA 15 CONJUNTO M;;;PARANOA;BRASILIA;DF;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-19T19:11:33.888747+00:00;;;;
+01M06;Nannashara Cotrim Santana De Rez;01_SCS;a verificar;0;Sem Operador;Boleto;;Mensalista;Desativado;;;;;;;;;;;;;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-22T14:01:12.841178+00:00;;;;
+01M07;Antonio Ferreira Lima Filho;01_SCS;a verificar;0;Sem Operador;Boleto;;Mensalista;Desativado;;;;;;;;;;;;;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-22T14:01:12.841178+00:00;;;;
+01M08;Mariana Carvalho Pinheiro;01_SCS;a verificar;0;Sem Operador;Boleto;;Mensalista;Desativado;;;;;;;;;;;;;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-22T14:01:12.841178+00:00;;;;
+01M09;Isaet Gomes Da Silva Morais;01_SCS;a verificar;0;Sem Operador;Boleto;;Mensalista;Desativado;;;;;;;;;;;;;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-22T14:01:12.841178+00:00;;;;
+01M10;Marcello Novaes Fernandes Espind;01_SCS;a verificar;0;Sem Operador;Boleto;;Mensalista;Desativado;;;;;;;;;;;;;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-22T14:01:12.841178+00:00;;;;
 04M58;Fabio Da Silva Medeiros;04_504;a verificar;0;Sem Operador;Boleto;;Mensalista;Ativo;01596227192;;;fabio.medeiros@bradescoseguros.com.br;;70331515;CRS 504 BLOCO A;;;ASA SUL;BRASILIA;DF;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-19T19:11:33.888747+00:00;;;;
 04M69;Juliane Araujo Soares;04_504;a verificar;0;Sem Operador;Boleto;;Mensalista;Ativo;01224862180;;;juliane.soares@bradescoseguros.com.br;;70331515;CRS 504 BLOCO A;;;ASA SUL;BRASILIA;DF;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-19T19:11:33.888747+00:00;;;;
 04M71;Thaila de Paiva Farias;04_504;0;0;Sem Operador;Boleto;;Mensalista;Ativo;02504145543;;;thaila.farias@bradescoseguros.com.br;;70331515;CRS 504 BLOCO A;;;ASA SUL;BRASILIA;DF;;False;;manual;2026-05-09T22:13:16.658504+00:00;2026-05-19T19:11:33.888747+00:00;;;;
