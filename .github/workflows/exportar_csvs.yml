@@ -1,44 +1,48 @@
-name: Exportar Calendario CSV
+name: Exportar CSVs BSB Park
 
 on:
   schedule:
     - cron: '0 10 * * *'
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
   exportar:
     runs-on: ubuntu-latest
-    
+    permissions:
+      contents: write
+
     steps:
-      - uses: actions/checkout@v4
-      
-      - name: Setup Python 3.11
-        uses: actions/setup-python@v4
+      - name: Checkout repositório
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      
-      - name: Instalar requests
+
+      - name: Instalar dependências
         run: pip install requests
-      
-      - name: Exportar calendario.csv
+
+      - name: Exportar tabelas para CSV
         env:
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
-        run: python exportar_csvs.py
-      
-      - name: Configurar git
         run: |
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git config user.name "github-actions[bot]"
-      
-      - name: Commit e push
-        run: |
-          if ! git diff --quiet csvs/; then
-            git add csvs/calendario.csv
-            git commit -m "calendario.csv atualizado — $(date +'%d/%m/%Y %H:%M')"
-            git push origin main
-          else
-            echo "Sem mudanças para commitar"
+          echo "🔐 Verificando secret..."
+          if [ -z "$SUPABASE_SERVICE_ROLE_KEY" ]; then
+            echo "❌ ERRO: Secret SUPABASE_SERVICE_ROLE_KEY não configurado!"
+            echo "⚠️  Verifique: Settings → Secrets and variables → Actions"
+            exit 1
           fi
+          python exportar_csvs.py
+
+      - name: Commitar e enviar CSVs atualizados
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git add csvs/
+          git diff --staged --quiet || git commit -m "CSVs atualizados — $(date +'%d/%m/%Y %H:%M')"
+          git pull --rebase origin main
+          git push
