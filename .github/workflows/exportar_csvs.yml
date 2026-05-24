@@ -27,7 +27,7 @@ jobs:
 
       - name: Exportar tabelas para CSV
         env:
-          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.supabase_service_role_key }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: python exportar_csvs.py
 
       - name: Commitar e enviar CSVs atualizados
