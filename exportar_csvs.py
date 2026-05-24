@@ -12,11 +12,14 @@ from datetime import datetime
 
 # ── CONFIGURAÇÃO ──────────────────────────────────────────────────
 SUPABASE_URL     = 'https://clxuxrlqbkdadhkpzaly.supabase.co'
-SERVICE_ROLE_KEY = os.environ['SUPABASE_SERVICE_ROLE_KEY']   # vem do GitHub Secret
+SERVICE_ROLE_KEY = os.environ.get('SUPABASE_SERVICE_ROLE_KEY')  # ← CORRIGIDO!
+
+if not SERVICE_ROLE_KEY:
+    raise ValueError("SUPABASE_SERVICE_ROLE_KEY environment variable is not set")
 
 OUTPUT_DIR = 'csvs'
 
-# TABELAS - agora com calendario!
+# TABELAS - com calendario!
 TABELAS = [
     'clientes',
     'entradas',
@@ -24,7 +27,7 @@ TABELAS = [
     'filiais',
     'planos',
     'perfis',
-    'calendario',  # ← NOVO!
+    'calendario',
 ]
 
 HEADERS = {
