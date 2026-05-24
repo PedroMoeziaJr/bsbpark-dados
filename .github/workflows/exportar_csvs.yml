@@ -3,7 +3,7 @@ name: Exportar Calendario CSV
 on:
   schedule:
     - cron: '0 10 * * *'
-  workflow_dispatch
+  workflow_dispatch:
 
 permissions:
   contents: write
