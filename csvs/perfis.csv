@@ -1,4 +1,4 @@
 ﻿id;nome_completo;email;role;ativo;criado_em;atualizado_em
-520e0366-7f22-4d98-a325-f4e7f2c97c36;Pedro Ivo Moézia de Lima Junior;pdroivojr@gmail.com;admin;True;2026-05-09T22:32:46.407888+00:00;2026-05-09T22:32:46.407888+00:00
-c84e866f-8a51-47ea-9035-2009e50bd033;Jeferson;jeferson@jeferson.com;operador_01;True;2026-05-11T17:58:03.801391+00:00;2026-05-11T17:58:03.801391+00:00
-1555e75b-e0f3-44b7-9f3a-2964ae3d80db;Marcus;marcus@marcus.com;operador_02;True;2026-05-11T17:58:03.801391+00:00;2026-05-11T17:58:03.801391+00:00
+520e0366-7f22-4d98-a325-f4e7f2c97c36;Pedro Ivo Moézia de Lima Junior;pdroivojr@gmail.com;admin;Verdadeiro;2026-05-09T22:32:46.407888+00:00;2026-05-09T22:32:46.407888+00:00
+c84e866f-8a51-47ea-9035-2009e50bd033;Jeferson;jeferson@jeferson.com;operador_01;Verdadeiro;2026-05-11T17:58:03.801391+00:00;2026-05-11T17:58:03.801391+00:00
+1555e75b-e0f3-44b7-9f3a-2964ae3d80db;Marcus;marcus@marcus.com;operador_02;Verdadeiro;2026-05-11T17:58:03.801391+00:00;2026-05-11T17:58:03.801391+00:00
