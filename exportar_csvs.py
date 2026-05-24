@@ -2,19 +2,16 @@
 # -*- coding: utf-8 -*-
 
 """
-Script: exportar_csvs.py (VERSÃO 2.1)
-Função: Exportar APENAS tabela calendario do Supabase para CSV
-Data: 21 de Maio de 2026
-Atualizado por: Claude IA
+Script: exportar_csvs.py (VERSÃO 3.0)
+Função: Exportar tabela calendario usando RPC (função SQL)
+Data: 24 de Maio de 2026
 """
 
 import os
 import csv
 import json
 import logging
-from datetime import datetime
 from typing import List, Dict, Any
-
 import requests
 
 SUPABASE_URL = 'https://clxuxrlqbkdadhkpzaly.supabase.co'
@@ -38,8 +35,8 @@ def formatar_valor(v: Any) -> str:
         return ""
     if isinstance(v, float):
         return f"{v:.2f}".replace('.', ',')
-    if isinstance(v, dict):
-        return json.dumps(v, ensure_ascii=False, default=str)
+    if isinstance(v, bool):
+        return "Verdadeiro" if v else "Falso"
     return str(v)
 
 def criar_diretorio():
@@ -47,40 +44,27 @@ def criar_diretorio():
         os.makedirs(OUTPUT_DIR)
         logger.info(f"✅ Diretório criado: {OUTPUT_DIR}")
 
-def obter_tabela(tabela: str) -> List[Dict[str, Any]]:
-    url = f"{SUPABASE_URL}/rest/v1/{tabela}"
+def obter_calendario_rpc() -> List[Dict[str, Any]]:
+    """Busca calendário via RPC (função SQL)"""
+    url = f"{SUPABASE_URL}/rest/v1/rpc/get_calendario_json"
     headers = {
         'Authorization': f'Bearer {SUPABASE_SERVICE_ROLE_KEY}',
         'Content-Type': 'application/json',
     }
     
-    todos_registros = []
-    offset = 0
-    limite = 1000
+    logger.info(f"🔄 Buscando calendario via RPC...")
     
-    logger.info(f"🔄 Buscando tabela: {tabela}")
-    
-    while True:
-        params = {'limit': limite, 'offset': offset, 'select': '*'}
+    try:
+        response = requests.post(url, headers=headers, json={}, timeout=30)
+        response.raise_for_status()
         
-        try:
-            response = requests.get(url, headers=headers, params=params, timeout=30)
-            response.raise_for_status()
-            dados = response.json()
-            
-            if not dados:
-                break
-            
-            todos_registros.extend(dados)
-            offset += limite
-            logger.info(f"   → Carregados {len(dados)} registros (total: {len(todos_registros)})")
-            
-        except requests.exceptions.RequestException as e:
-            logger.error(f"❌ Erro ao buscar {tabela}: {e}")
-            return []
-    
-    logger.info(f"✅ {tabela}: {len(todos_registros)} registros")
-    return todos_registros
+        dados = response.json()
+        logger.info(f"✅ {len(dados)} registros obtidos")
+        return dados
+        
+    except requests.exceptions.RequestException as e:
+        logger.error(f"❌ Erro ao buscar: {e}")
+        return []
 
 def escrever_csv(tabela: str, registros: List[Dict[str, Any]]):
     if not registros:
@@ -106,7 +90,7 @@ def escrever_csv(tabela: str, registros: List[Dict[str, Any]]):
 
 def main():
     logger.info("=" * 70)
-    logger.info("EXPORTAÇÃO DE CSV - CALENDARIO")
+    logger.info("EXPORTAÇÃO DE CSV - CALENDARIO (via RPC)")
     logger.info("=" * 70)
     
     if not SUPABASE_SERVICE_ROLE_KEY:
@@ -114,13 +98,13 @@ def main():
         return False
     
     criar_diretorio()
-    registros = obter_tabela('calendario')
+    registros = obter_calendario_rpc()
     
     if registros:
         escrever_csv('calendario', registros)
         sucesso = True
     else:
-        logger.warning("⚠️  calendario: Sem dados ou erro")
+        logger.warning("⚠️  Sem dados ou erro")
         sucesso = False
     
     logger.info("=" * 70)
@@ -128,7 +112,6 @@ def main():
         logger.info(f"✅ SUCESSO: calendario.csv com {len(registros)} registros")
     else:
         logger.info("❌ ERRO: Não foi possível exportar")
-    logger.info(f"📁 Arquivo: {OUTPUT_DIR}/calendario.csv")
     logger.info("=" * 70)
     
     return sucesso
