@@ -27,15 +27,8 @@ jobs:
 
       - name: Exportar tabelas para CSV
         env:
-          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
-        run: |
-          echo "🔐 Verificando secret..."
-          if [ -z "$SUPABASE_SERVICE_ROLE_KEY" ]; then
-            echo "❌ ERRO: Secret SUPABASE_SERVICE_ROLE_KEY não configurado!"
-            echo "⚠️  Verifique: Settings → Secrets and variables → Actions"
-            exit 1
-          fi
-          python exportar_csvs.py
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.supabase_service_role_key }}
+        run: python exportar_csvs.py
 
       - name: Commitar e enviar CSVs atualizados
         run: |
