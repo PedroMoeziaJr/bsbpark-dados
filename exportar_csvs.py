@@ -1,8 +1,5 @@
 """
 BSB Park — Exportação de tabelas do Supabase para CSV
-Roda diariamente via GitHub Actions (sem precisar de computador ligado)
-
-Baseado no guia técnico comprovado do Claude Code
 """
 
 import requests
@@ -11,15 +8,27 @@ import os
 from datetime import datetime
 
 # ── CONFIGURAÇÃO ──────────────────────────────────────────────────
-SUPABASE_URL     = 'https://clxuxrlqbkdadhkpzaly.supabase.co'
-SERVICE_ROLE_KEY = os.environ.get('SUPABASE_SERVICE_ROLE_KEY')  # ← CORRIGIDO!
+SUPABASE_URL = 'https://clxuxrlqbkdadhkpzaly.supabase.co'
+
+# Tentar diferentes formas de ler a chave
+SERVICE_ROLE_KEY = (
+    os.environ.get('SUPABASE_SERVICE_ROLE_KEY') or
+    os.environ.get('supabase_service_role_key') or
+    None
+)
+
+print(f"DEBUG: Variáveis disponíveis: {list(os.environ.keys())}")
+print(f"DEBUG: SUPABASE_SERVICE_ROLE_KEY = {SERVICE_ROLE_KEY}")
 
 if not SERVICE_ROLE_KEY:
-    raise ValueError("SUPABASE_SERVICE_ROLE_KEY environment variable is not set")
+    print("❌ ERRO: Nenhuma chave encontrada!")
+    print("Variáveis esperadas:")
+    print("  - SUPABASE_SERVICE_ROLE_KEY")
+    print("  - supabase_service_role_key")
+    exit(1)
 
 OUTPUT_DIR = 'csvs'
 
-# TABELAS - com calendario!
 TABELAS = [
     'clientes',
     'entradas',
@@ -31,23 +40,20 @@ TABELAS = [
 ]
 
 HEADERS = {
-    'apikey':        SERVICE_ROLE_KEY,
+    'apikey': SERVICE_ROLE_KEY,
     'Authorization': f'Bearer {SERVICE_ROLE_KEY}',
 }
 
-# ── FUNÇÕES ───────────────────────────────────────────────────────
 def formatar_valor(v):
-    """Converte float para string com vírgula decimal (padrão pt-BR)."""
     if isinstance(v, float):
         return f'{v:.2f}'.replace('.', ',')
     if isinstance(v, bool):
         return 'Verdadeiro' if v else 'Falso'
     return v if v is not None else ''
 
-
 def exportar_tabela(tabela):
-    todos  = []
-    limit  = 1000
+    todos = []
+    limit = 1000
     offset = 0
     while True:
         resp = requests.get(
@@ -66,7 +72,6 @@ def exportar_tabela(tabela):
         offset += limit
     return todos
 
-
 def salvar_csv(tabela, dados):
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     caminho = os.path.join(OUTPUT_DIR, f'{tabela}.csv')
@@ -77,8 +82,6 @@ def salvar_csv(tabela, dados):
             writer.writerow({k: formatar_valor(v) for k, v in row.items()})
     return caminho
 
-
-# ── EXECUÇÃO ──────────────────────────────────────────────────────
 if __name__ == '__main__':
     inicio = datetime.utcnow().strftime('%d/%m/%Y %H:%M UTC')
     print(f'=== BSB Park — Exportação {inicio} ===')
