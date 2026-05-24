@@ -1,41 +1,44 @@
-name: Exportar CSVs BSB Park
+name: Exportar Calendario CSV
 
 on:
   schedule:
-    - cron: '0 10 * * *'   # Todo dia às 07:00 horário de Brasília (10:00 UTC)
-  workflow_dispatch:         # Permite rodar manualmente pelo GitHub
+    - cron: '0 10 * * *'
+  workflow_dispatch
+
+permissions:
+  contents: write
 
 jobs:
   exportar:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
+    
     steps:
-      - name: Checkout repositório
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Configurar Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v4
         with:
           python-version: '3.11'
-
-      - name: Instalar dependências
+      
+      - name: Instalar requests
         run: pip install requests
-
-      - name: Exportar tabelas para CSV
+      
+      - name: Exportar calendario.csv
         env:
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: python exportar_csvs.py
-
-      - name: Commitar e enviar CSVs atualizados
+      
+      - name: Configurar git
         run: |
-          git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-          git add csvs/
-          git diff --staged --quiet || git commit -m "CSVs atualizados — $(date +'%d/%m/%Y %H:%M')"
-          git pull --rebase origin main
-          git push
+          git config user.name "github-actions[bot]"
+      
+      - name: Commit e push
+        run: |
+          if ! git diff --quiet csvs/; then
+            git add csvs/calendario.csv
+            git commit -m "calendario.csv atualizado — $(date +'%d/%m/%Y %H:%M')"
+            git push origin main
+          else
+            echo "Sem mudanças para commitar"
+          fi
