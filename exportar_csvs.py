@@ -2,120 +2,97 @@
 # -*- coding: utf-8 -*-
 
 """
-Script: exportar_csvs.py (VERSÃO 3.0)
-Função: Exportar tabela calendario usando RPC (função SQL)
-Data: 24 de Maio de 2026
+BSB Park — Exportação de tabelas do Supabase para CSV
+Baseado no guia técnico do Claude Code
 """
 
-import os
-import csv
-import json
-import logging
-from typing import List, Dict, Any
 import requests
+import csv
+import os
+from datetime import datetime
 
+# CONFIGURAÇÃO
 SUPABASE_URL = 'https://clxuxrlqbkdadhkpzaly.supabase.co'
-SUPABASE_SERVICE_ROLE_KEY = os.environ.get('SUPABASE_SERVICE_ROLE_KEY')
+SERVICE_ROLE_KEY = os.environ.get('SUPABASE_SERVICE_ROLE_KEY')
 
 OUTPUT_DIR = 'csvs'
-LOG_FILE = '_log.txt'
 
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s [%(levelname)s] %(message)s',
-    handlers=[
-        logging.FileHandler(LOG_FILE, encoding='utf-8'),
-        logging.StreamHandler()
-    ]
-)
-logger = logging.getLogger(__name__)
+# Apenas a tabela calendario por enquanto
+TABELAS = ['calendario']
 
-def formatar_valor(v: Any) -> str:
-    if v is None:
-        return ""
+# Headers CORRETOS - com apikey!
+HEADERS = {
+    'apikey': SERVICE_ROLE_KEY,
+    'Authorization': f'Bearer {SERVICE_ROLE_KEY}',
+}
+
+def formatar_valor(v):
+    """Converte valores para padrão pt-BR"""
     if isinstance(v, float):
-        return f"{v:.2f}".replace('.', ',')
+        return f'{v:.2f}'.replace('.', ',')
     if isinstance(v, bool):
-        return "Verdadeiro" if v else "Falso"
-    return str(v)
+        return 'Verdadeiro' if v else 'Falso'
+    return str(v) if v is not None else ''
 
-def criar_diretorio():
-    if not os.path.exists(OUTPUT_DIR):
-        os.makedirs(OUTPUT_DIR)
-        logger.info(f"✅ Diretório criado: {OUTPUT_DIR}")
-
-def obter_calendario_rpc() -> List[Dict[str, Any]]:
-    """Busca calendário via RPC (função SQL)"""
-    url = f"{SUPABASE_URL}/rest/v1/rpc/get_calendario_json"
-    headers = {
-        'Authorization': f'Bearer {SUPABASE_SERVICE_ROLE_KEY}',
-        'Content-Type': 'application/json',
-    }
+def exportar_tabela(tabela):
+    """Exporta tabela com paginação"""
+    todos = []
+    limit = 1000
+    offset = 0
     
-    logger.info(f"🔄 Buscando calendario via RPC...")
-    
-    try:
-        response = requests.post(url, headers=headers, json={}, timeout=30)
-        response.raise_for_status()
+    while True:
+        resp = requests.get(
+            f'{SUPABASE_URL}/rest/v1/{tabela}',
+            headers=HEADERS,
+            params={'select': '*', 'limit': limit, 'offset': offset},
+            timeout=30,
+        )
+        resp.raise_for_status()
+        dados = resp.json()
         
-        dados = response.json()
-        logger.info(f"✅ {len(dados)} registros obtidos")
-        return dados
+        if not dados:
+            break
         
-    except requests.exceptions.RequestException as e:
-        logger.error(f"❌ Erro ao buscar: {e}")
-        return []
-
-def escrever_csv(tabela: str, registros: List[Dict[str, Any]]):
-    if not registros:
-        logger.warning(f"⚠️  Tabela vazia: {tabela}")
-        return
-    
-    arquivo = os.path.join(OUTPUT_DIR, f"{tabela}.csv")
-    
-    try:
-        with open(arquivo, 'w', newline='', encoding='utf-8-sig') as f:
-            fieldnames = registros[0].keys()
-            writer = csv.DictWriter(f, fieldnames=fieldnames, delimiter=';')
-            writer.writeheader()
-            
-            for registro in registros:
-                registro_formatado = {k: formatar_valor(v) for k, v in registro.items()}
-                writer.writerow(registro_formatado)
+        todos.extend(dados)
         
-        logger.info(f"📄 Arquivo criado: {arquivo} ({len(registros)} linhas)")
+        if len(dados) < limit:
+            break
         
-    except Exception as e:
-        logger.error(f"❌ Erro ao escrever {arquivo}: {e}")
+        offset += limit
+    
+    return todos
 
-def main():
-    logger.info("=" * 70)
-    logger.info("EXPORTAÇÃO DE CSV - CALENDARIO (via RPC)")
-    logger.info("=" * 70)
+def salvar_csv(tabela, dados):
+    """Salva dados em CSV com padrão pt-BR"""
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    caminho = os.path.join(OUTPUT_DIR, f'{tabela}.csv')
     
-    if not SUPABASE_SERVICE_ROLE_KEY:
-        logger.error("❌ SUPABASE_SERVICE_ROLE_KEY não configurada!")
-        return False
+    with open(caminho, 'w', newline='', encoding='utf-8-sig') as f:
+        writer = csv.DictWriter(f, fieldnames=dados[0].keys(), delimiter=';')
+        writer.writeheader()
+        for row in dados:
+            writer.writerow({k: formatar_valor(v) for k, v in row.items()})
     
-    criar_diretorio()
-    registros = obter_calendario_rpc()
-    
-    if registros:
-        escrever_csv('calendario', registros)
-        sucesso = True
-    else:
-        logger.warning("⚠️  Sem dados ou erro")
-        sucesso = False
-    
-    logger.info("=" * 70)
-    if sucesso:
-        logger.info(f"✅ SUCESSO: calendario.csv com {len(registros)} registros")
-    else:
-        logger.info("❌ ERRO: Não foi possível exportar")
-    logger.info("=" * 70)
-    
-    return sucesso
+    return caminho
 
+# EXECUÇÃO
 if __name__ == '__main__':
-    sucesso = main()
-    exit(0 if sucesso else 1)
+    inicio = datetime.utcnow().strftime('%d/%m/%Y %H:%M UTC')
+    print(f'=== BSB Park — Exportação {inicio} ===')
+    erros = 0
+    
+    for tabela in TABELAS:
+        try:
+            dados = exportar_tabela(tabela)
+            if not dados:
+                print(f'[AVISO] {tabela}: sem registros.')
+                continue
+            caminho = salvar_csv(tabela, dados)
+            print(f'[OK] {tabela}: {len(dados)} registros → {caminho}')
+        except Exception as e:
+            print(f'[ERRO] {tabela}: {e}')
+            erros += 1
+    
+    print(f'=== Concluído. Erros: {erros} ===')
+    if erros:
+        exit(1)
