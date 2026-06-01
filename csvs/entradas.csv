@@ -1,4 +1,8 @@
 ﻿id_entrada;data_entrada;cod_cliente;tipo_cliente;forma_pagamento;valor_entrada;qtd_entradas;seu_numero;criado_em;atualizado_em;criado_por;atualizado_por;nome_criado_por;nome_atualizado_por;data_apenas
+25466;2026-05-29T00:00:00;02R5;Cliente Rotativo Taguatinga;Dinheiro;186;25;;2026-06-01T11:43:24.353543+00:00;2026-06-01T11:43:24.353543+00:00;1555e75b-e0f3-44b7-9f3a-2964ae3d80db;1555e75b-e0f3-44b7-9f3a-2964ae3d80db;Marcus;Marcus;
+25467;2026-05-29T00:00:00;02R5;Cliente Rotativo Taguatinga;Cartão;268;26;;2026-06-01T11:43:52.300393+00:00;2026-06-01T11:43:52.300393+00:00;1555e75b-e0f3-44b7-9f3a-2964ae3d80db;1555e75b-e0f3-44b7-9f3a-2964ae3d80db;Marcus;Marcus;
+25468;2026-05-29T00:00:00;02T3;Banco Bradesco Sa - Agencia Taguatinga;Apurado;110;15;;2026-06-01T11:44:21.317512+00:00;2026-06-01T11:44:21.317512+00:00;1555e75b-e0f3-44b7-9f3a-2964ae3d80db;1555e75b-e0f3-44b7-9f3a-2964ae3d80db;Marcus;Marcus;
+25469;2026-05-29T00:00:00;02T5;Agencia 3309-0 Ag Empresas Brasilia Ii;Apurado;35,88;5;;2026-06-01T11:44:43.72717+00:00;2026-06-01T11:44:43.72717+00:00;1555e75b-e0f3-44b7-9f3a-2964ae3d80db;1555e75b-e0f3-44b7-9f3a-2964ae3d80db;Marcus;Marcus;
 25418;2026-05-22T00:00:00;02T3;Banco Bradesco Sa - Agencia Taguatinga;Apurado;56;8;;2026-05-25T11:48:54.797519+00:00;2026-05-30T21:18:53.91912+00:00;1555e75b-e0f3-44b7-9f3a-2964ae3d80db;;Marcus;;
 25419;2026-05-22T00:00:00;02T5;Agencia 3309-0 Ag Empresas Brasilia Ii;Apurado;28;4;;2026-05-25T11:49:14.656645+00:00;2026-05-30T21:18:53.91912+00:00;1555e75b-e0f3-44b7-9f3a-2964ae3d80db;;Marcus;;
 1137;2024-08-14T00:00:00;02T5;Empresa;Apurado;6;0;;2026-05-09T22:13:16.658504+00:00;2026-05-30T21:18:53.91912+00:00;;;;;2024-08-14
